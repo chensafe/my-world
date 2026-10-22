@@ -1,0 +1,258 @@
+# Meal Mastery - server settings
+#
+# Authoritative on the server. In multiplayer only the server's copy
+# matters; a client's file cannot change progression.
+#
+# Values outside a supported range are clamped, not rejected - a typo
+# must never cost anyone their world. Corrections are written back and
+# named in the log. A file that cannot be parsed at all is renamed to
+# *.invalid and replaced with defaults, so the original is recoverable.
+#
+# Apply changes without a restart:  /mealmastery reload
+
+# Cooking XP and the level curve.
+# xpForLevel(n) = base + linear*(n-1) + quadratic*(n-1)^2
+[progression]
+# Set false to stop awarding Cooking XP entirely.
+enabled = true
+# Multiplies all Cooking XP. Range 0.0 - 100.0.
+xpMultiplier = 1.0
+# Cooking XP for preparing a dish that has been made before.
+baseXpPerPreparation = 6
+# Extra XP the first time a dish is ever prepared.
+# Deliberately far larger than a repeat: exploring should beat grinding.
+discoveryBonusXp = 75
+# Extra XP the first time an ingredient is ever used.
+ingredientDiscoveryXp = 10
+# Extra XP the first time a cooking method is ever used.
+methodDiscoveryXp = 25
+# Extra XP for an ingredient variant never used in that dish before.
+experimentationXp = 8
+# Cap on experimentation XP per Minecraft day, so variants cannot be farmed.
+experimentationDailyCap = 60
+# XP for personally eating a dish. Kept far below preparing it.
+baseXpPerMeal = 1
+# Level curve. With the defaults, level 27 costs 1,738 XP.
+levelCurveBase = 100
+levelCurveLinear = 63
+levelCurveQuadratic = 0
+# Levelling stops here. Earned XP past it is kept, not discarded.
+maxLevel = 100
+
+# Diminishing returns for repeating the same dish.
+# Repetition should be worth less, never worthless.
+[antiFarming]
+# Set false to remove the curve entirely; every preparation pays full XP.
+enabled = true
+# Track counts per dish rather than globally, so variety is what resets them.
+perRecipe = true
+# How many Minecraft days one tracking period covers. Range 1 - 365.
+trackingPeriodDays = 1
+# Preparations per period that still earn full XP.
+fullXpPreparations = 1
+# Never drop below this multiplier, however often a dish is repeated.
+minimumMultiplier = 0.2
+
+# Multiplier tiers applied once the full-XP preparations are used up.
+# Each entry applies while the period count is at most upToPreparations.
+# Add or remove [[antiFarming.tiers]] blocks to reshape the curve.
+[[antiFarming.tiers]]
+# Applies while the period count is at most this many.
+upToPreparations = 5
+# XP multiplier while this tier applies.
+multiplier = 0.75
+
+[[antiFarming.tiers]]
+upToPreparations = 15
+multiplier = 0.5
+
+# Per-dish mastery: the ranks, and what reaching them is worth.
+[mastery]
+# Set false to stop tracking mastery at all.
+enabled = true
+# What mastery attaches to. ITEM or RECIPE.
+target = "ITEM"
+# How mastery shapes Cooking XP. This is separate from mastery.bonuses,
+# which is what mastery does to the food itself.
+# COSMETIC_ONLY, LIGHT, STANDARD or CUSTOM.
+rewards = "COSMETIC_ONLY"
+# Preparations needed for Novice, Familiar, Skilled, Expert, Mastered.
+# One entry per rank above Unfamiliar.
+# Changing these never destroys earned points; only the shown rank moves.
+thresholds = [2, 20, 60, 150, 300]
+# Mastery points granted per preparation.
+pointsPerPreparation = 1
+# Points for personally eating the dish. Off by default.
+pointsPerMeal = 0
+# Points for serving a portion to someone else.
+pointsPerServing = 1
+# Extra points when the dish is made with its primary method.
+intendedMethodBonus = 0
+# Cooking XP bonus per mastered dish, as a fraction, and its ceiling.
+# The safest reward shape: mastery improves progression, not the food.
+xpBonusPerMasteredDish = 0.005
+xpBonusCap = 0.25
+
+# What mastery does in play. These are real mechanical effects.
+# Every chance scales linearly from zero at Unfamiliar to the value
+# here at Mastered, so none of it applies to a first attempt.
+# The real odds for a dish are printed on its tooltip.
+[mastery.bonuses]
+# Set false for a statistics-only mod: no effect on food or cooking.
+enabled = true
+# Extra workstation ticks at full mastery, as a fraction.
+# 1.0 means a mastered dish cooks twice as fast. Range 0.0 - 20.0.
+# Applies to the cooking pot, skillet and stove, plus the smoker below.
+cookingSpeedAtMaxRank = 1.0
+# Whether the speed bonus reaches the vanilla smoker.
+# Separate because it is the one accelerated station that is not
+# Farmer's Delight's; a pack balanced around furnace timings may
+# want it left alone.
+accelerateSmokers = true
+# Stars shown under food names, one per mastery rank.
+starsEnabled = true
+# Chance of a bonus effect when eating a mastered dish. Range 0.0 - 1.0.
+effectChanceAtMaxRank = 0.25
+# How long that effect lasts. Range 1 - 3600.
+effectDurationSeconds = 20
+# Effects rolled from. Vanilla ids only; this mod registers none.
+#
+# minecraft:saturation is deliberately absent. It is not a buff: it
+# refills food and saturation every tick it runs, so even a short one
+# turns any dish into several full meals. Add it back if you want
+# that, but it should be a choice.
+effects = ["minecraft:regeneration", "minecraft:speed", "minecraft:dig_speed"]
+# Amplifier at full mastery, scaled down by rank. 0 is level I. Range 0 - 9.
+effectAmplifierAtMaxRank = 0
+# Extra saturation per star when eating a dish you have mastered.
+# Hunger itself is never touched.
+saturationPerRank = 0.2
+# Chance a preparation comes out perfect. Range 0.0 - 1.0.
+perfectChanceAtMaxRank = 0.08
+# How much stronger a perfect dish is than its star rating alone.
+perfectEffectMultiplier = 2.0
+# Chance of a free extra portion from the same ingredients.
+extraPortionChanceAtMaxRank = 0.12
+# Chance a cutting-board cook refunds a point of knife durability.
+toolRefundChanceAtMaxTier = 0.25
+# Mastery points the cook earns when someone else eats their cooking.
+masteryPerMealServedToOthers = 2
+
+# When a dish stops being a mystery in the journal.
+[discovery]
+# COOK_RECIPE, EAT_OUTPUT, OBTAIN_OUTPUT, VIEW_RECIPE or ALWAYS_VISIBLE.
+mode = "COOK_RECIPE"
+# Whether merely obtaining a dish counts as discovering it.
+countObtainingAsDiscovery = false
+# Who shares a discovery. PERSONAL, TEAM or SERVER.
+shared = "PERSONAL"
+
+# Cooking streaks.
+[streaks]
+# MINECRAFT_DAYS, REAL_DAYS or DISABLED.
+clock = "MINECRAFT_DAYS"
+# Idle days forgiven before a streak resets. Range 1 - 365.
+graceDays = 1
+# Track a separate streak for cooking something different each day.
+varietyStreakEnabled = true
+
+# Challenges. Objectives are generated from what is installed,
+# so a challenge is never impossible to complete.
+[challenges]
+enabled = true
+dailyEnabled = true
+weeklyEnabled = false
+# Schedule against the real-world clock instead of Minecraft days.
+useRealTimeSchedule = false
+# How many are offered at once. Range 0 - 20.
+dailyChallengeCount = 3
+weeklyChallengeCount = 3
+# Rotate a bonus dish each Minecraft day.
+recipeOfTheDayEnabled = true
+recipeOfTheDayBonusXp = 50
+challengeXpMultiplier = 1.0
+# Datapack rewards may run commands. Off unless a pack is trusted:
+# a reward command runs with server authority.
+allowCommandRewards = false
+
+# Leaderboards and the permission levels for the admin commands.
+[multiplayer]
+# Off by default: the mod is not competitive unless a server wants it.
+leaderboardsEnabled = false
+# Players appear only after opting in, by carrying the scoreboard tag:
+#   tag @s add mealmastery_leaderboard
+leaderboardsOptInOnly = true
+# How many places a leaderboard shows. Range 1 - 100.
+leaderboardSize = 10
+teamStatisticsEnabled = false
+# Permission level to inspect another player's profile. Range 0 - 4.
+inspectPermissionLevel = 2
+# Permission level for /mealmastery reload and the admin commands.
+adminPermissionLevel = 2
+
+# Who gets the credit when a machine does the cooking.
+[automation]
+# NO_CREDIT, OWNER_CREDIT, REDUCED_CREDIT or FULL_CREDIT.
+credit = "NO_CREDIT"
+# Multiplier used by REDUCED_CREDIT.
+reducedCreditMultiplier = 0.25
+# How long after using a workstation a gain is still credited, in ticks.
+# Short on purpose: longer windows start crediting coincidences.
+# Range 1 - 200.
+attributionWindowTicks = 20
+# How close to the workstation a dropped item still counts, in blocks.
+attributionRadius = 3.0
+# The same, for a workstation that cooks unattended - currently the
+# campfire, which takes thirty seconds and drops its result at the
+# block. Only items appearing at the workstation are credited during
+# this window, never a change in the player's inventory.
+# Range 1 - 12000.
+unattendedWindowTicks = 1200
+
+# Which recipes become journal entries.
+# The default rule is structural - a recipe counts when it produces
+# something edible, whichever mod defines it. These narrow or widen it.
+[compatibility]
+# Extra blocks treated as cooking workstations, for addons with their own.
+# "modid:block" or "modid:block=modid:method".
+extraWorkstationBlocks = []
+# Menu classes never treated as culinary, on top of the built-in list.
+excludedMenuClasses = []
+# Recipe type ids to ignore, e.g. "farmersdelight:cutting".
+excludedRecipeTypes = []
+# Dish item ids to ignore.
+excludedItems = []
+# Mod ids to ignore entirely.
+excludedMods = []
+# When not empty, only these mods contribute dishes.
+includedOnlyMods = []
+# A dish must carry one of these item tags to count.
+requiredItemTags = []
+# Set false to accept recipes whose output is not food.
+requireEdibleOutput = true
+# Ignore storage blocks being unpacked back into food.
+# A crate of potatoes crafted back into potatoes is one ingredient
+# in and nine of the same food out - not cooking, but otherwise
+# indistinguishable from it. Only vanilla crafting is affected, so
+# a cutting board turning one input into several portions still
+# counts.
+ignoreUnpackingRecipes = true
+# Whether vanilla recipes earn mastery.
+# On by default: bread and a baked potato are cooking too. Set false
+# to turn the whole minecraft namespace off in one go, for a pack
+# that wants the journal to be about its food addons.
+trackVanillaRecipes = true
+
+# Knobs you should not need. Change them if a profile is misbehaving.
+[advanced]
+# Verbose logging for tracking and attribution.
+debugLogging = false
+# Milliseconds between profile autosaves. Range 5000 - 3600000.
+autosaveIntervalMillis = 60000
+# Recent-activity entries retained per profile. Range 1 - 64.
+activityHistorySize = 32
+# How many dishes a player may pin at once. Range 1 - 16.
+maxPinnedRecipes = 3
+# Journal entries sent per network packet. Range 8 - 256.
+# Lower this only if a very large modpack trips the packet size limit.
+journalPageSize = 64

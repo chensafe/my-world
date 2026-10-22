@@ -1,0 +1,411 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "6953934fe305ffe7"
+	group: "260D8BCC312E1074"
+	icon: {
+		id: "spawn:ant_spawn_egg"
+	}
+	id: "6953934FE305FFE7"
+	images: [
+		{
+			height: 4.5d
+			id: "530D74D02892333F"
+			image: "quest_enhance:textures/ftb/chapter_accent_6953934fe305ffe7_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.6d
+			id: "0B6B6E68A29B2CF2"
+			image: "quest_enhance:textures/ftb/unique_node_v1_wild_seal.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "52C784A25A679B62"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "45FD14D5E6200B25"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "spawn:ant_spawn_egg"
+			}
+			id: "2F372324294267B7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/ant"
+				criterion: ""
+				id: "5ADA490953D69401"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "1478FF92A555F6D6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5FE6604CA0281161"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "spawn:snail_spawn_egg"
+			}
+			id: "0CEB6D8F49294F6B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/snail"
+				criterion: ""
+				id: "52E0BD6FD37AE7BF"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "spawn:stickbug_spawn_egg"
+			}
+			id: "485696D0400BDBC2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/stickbug"
+				criterion: ""
+				id: "0467B7942AC0FB0B"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "spawn:angler_fish_spawn_egg"
+			}
+			id: "42E3BF1708453246"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/angler_fish"
+				criterion: ""
+				id: "75446399EA2F2955"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "spawn:tuna_spawn_egg"
+			}
+			id: "6FEE641CB005666C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/tuna"
+				criterion: ""
+				id: "6B600499089807A4"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "spawn:seahorse_spawn_egg"
+			}
+			id: "091D02C35270CAF3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/seahorse"
+				criterion: ""
+				id: "11966E894B2EA0FA"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "spawn:clam_spawn_egg"
+			}
+			id: "0C302DA748D7352E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/clam"
+				criterion: ""
+				id: "0429E49428B15902"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "spawn:sea_cow_spawn_egg"
+			}
+			id: "176F54A05D7F58C5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/sea_cow"
+				criterion: ""
+				id: "230A5E919C5124EE"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "spawn:flukeshroom_spawn_egg"
+			}
+			id: "36030D924856A7AF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/flukeshroom"
+				criterion: ""
+				id: "7D2889D3E3E5104D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "spawn:octopus_spawn_egg"
+			}
+			id: "436644EDDD02DBA5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/octopus"
+				criterion: ""
+				id: "32F25F802D2AD534"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "spawn:herring_spawn_egg"
+			}
+			id: "5E30445AE7283FEF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/herring"
+				criterion: ""
+				id: "1C189E38B0D8476F"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "spawn:pilot_fish_spawn_egg"
+			}
+			id: "53A4583C0209F7BE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/pilot_fish"
+				criterion: ""
+				id: "777D460675769A7B"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "spawn:blenny_spawn_egg"
+			}
+			id: "3EA4F840E9EF6534"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/blenny"
+				criterion: ""
+				id: "506E8355013EF1F5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "spawn:bluefish_spawn_egg"
+			}
+			id: "7C65FD096DFFBBE7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/bluefish"
+				criterion: ""
+				id: "5881288EE3D64E2D"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "spawn:sunfish_spawn_egg"
+			}
+			id: "1E2FF6FF2675D61E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/sunfish"
+				criterion: ""
+				id: "62345FBF5611EDF1"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "spawn:barracuda_spawn_egg"
+			}
+			id: "42CE0EB3966C8E75"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/barracuda"
+				criterion: ""
+				id: "63685199341A4A35"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "spawn:coastal_crab_spawn_egg"
+			}
+			id: "6E666BB64177AEAE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/coastal_crab"
+				criterion: ""
+				id: "30D0DC11372ECB47"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				id: "spawn:spider_crab_spawn_egg"
+			}
+			id: "4EB5D68C403D3896"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/spider_crab"
+				criterion: ""
+				id: "48651F0E5ED5175A"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			icon: {
+				id: "spawn:iguana_spawn_egg"
+			}
+			id: "7DB813668CE6795A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/iguana"
+				criterion: ""
+				id: "144B63FF8CA23559"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				id: "spawn:marine_iguana_spawn_egg"
+			}
+			id: "5916452A394034DB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/marine_iguana"
+				criterion: ""
+				id: "0059B28F418261AC"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "spawn:seal_spawn_egg"
+			}
+			id: "6245A611A4939D44"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/seal"
+				criterion: ""
+				id: "77E0471CEA07D100"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "spawn:booby_spawn_egg"
+			}
+			id: "6EB72D7A3374E9D5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/booby"
+				criterion: ""
+				id: "24ABBDC5FBFB9367"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "spawn:dodo_spawn_egg"
+			}
+			id: "5A22F285C940CC49"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/spawn/dodo"
+				criterion: ""
+				id: "314C251DC82AC811"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+	]
+}

@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79a151555c2fccb7"
+	group: "5C5B541F10D098F1"
+	icon: {
+		id: "brainlayers:bead_bag"
+	}
+	id: "79A151555C2FCCB7"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:bead_bag"
+			}
+			id: "03845680838FB2D4"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4A4CEBC096FE901F"
+				item: {
+					count: 1
+					id: "brainlayers:bead_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "73D07F360BC341AD"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:mystery_bead_bag"
+			}
+			id: "4BEF528F95DACF01"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4047AAC8353BC336"
+				item: {
+					count: 1
+					id: "brainlayers:mystery_bead_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "7F73E4BF43DFBD2B"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:ironing_paper"
+			}
+			id: "69B30B7995EFAF2C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "50077CEEE3BF3FD5"
+				item: {
+					count: 1
+					id: "brainlayers:ironing_paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "072FE7CE6FB8B3E3"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:bead_iron"
+			}
+			id: "5367A6375D9D8CF3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3836F6289EB937A7"
+				item: {
+					count: 1
+					id: "brainlayers:bead_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "20DB2A474F810FDB"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "54CDBCB54C4E9863"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2DC08BC7A3BB58BF"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:monster_energy"
+			}
+			id: "1018D991EDA0160B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4410767029CA4BD6"
+				item: {
+					count: 1
+					id: "brainlayers:monster_energy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "26AFF562794E0010"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:chalk_box"
+			}
+			id: "5162E3885D2F59F9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "124A8F52A2601873"
+				item: {
+					count: 1
+					id: "brainlayers:chalk_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1ABC5A14E1CE5031"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:urea_bag"
+			}
+			id: "5F10D093A80982D9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "33BF40D365D6BE4F"
+				item: {
+					count: 1
+					id: "brainlayers:urea_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1B9CDC6F1A9521FD"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"brainlayers:flip_flop_dirt": 689
+					"minecraft:custom_model_data": 0
+				}
+				id: "brainlayers:flip_flop"
+			}
+			id: "65686ACBE79CEBE0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3816CB47FB5FD363"
+				item: {
+					components: {
+						"brainlayers:flip_flop_dirt": 678
+						"minecraft:custom_model_data": 0
+					}
+					count: 1
+					id: "brainlayers:flip_flop"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1B3AB10EC34C597D"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:hanger"
+			}
+			id: "48FA96849999E2BC"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "77AD8130DBCEC797"
+				item: {
+					count: 1
+					id: "brainlayers:hanger"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "65ECA6646C264A26"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:melodica"
+			}
+			id: "5C41120121C018BA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "73A2FB94FF6966FC"
+				item: {
+					count: 1
+					id: "brainlayers:melodica"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "47BDADDE7A8DB852"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:advanced_composter"
+			}
+			id: "456ED6BD6823B45A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0F97782A94E238B0"
+				item: {
+					count: 1
+					id: "brainlayers:advanced_composter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6650436ACE532157"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:toy_top"
+			}
+			id: "7F71FE5958943D47"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "65C80E01FFF93AF2"
+				item: {
+					count: 1
+					id: "brainlayers:toy_top"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5DF7B1792BCAF821"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:leather_whip"
+			}
+			id: "6BA239B5ACE7A842"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1BEBD7A4FA569460"
+				item: {
+					count: 1
+					id: "brainlayers:leather_whip"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "46B74D37357D6582"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "brainlayers:copper_belt"
+			}
+			id: "4A4FE4F06E5D5227"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "72711257459E6BB6"
+				item: {
+					count: 1
+					id: "brainlayers:copper_belt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "2D0675A3DA8B748F"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+	]
+}

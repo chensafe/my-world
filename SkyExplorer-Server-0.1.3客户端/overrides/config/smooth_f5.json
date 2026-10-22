@@ -1,0 +1,8 @@
+{
+  "smoothingMode": "ALWAYS",
+  "enablePosSmoothing": true,
+  "enableRotSmoothing": true,
+  "posStiffness": 0.3,
+  "rotStiffness": 0.7,
+  "returnDuration": 10
+}

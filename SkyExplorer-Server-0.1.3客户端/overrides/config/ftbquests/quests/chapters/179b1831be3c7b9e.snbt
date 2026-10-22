@@ -1,0 +1,800 @@
+{
+	autofocus_id: "3A76E00278F196AB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "179b1831be3c7b9e"
+	group: "5EC52CF4B56035D7"
+	icon: {
+		id: "fxntstorage:storage_box_capacity_upgrade"
+	}
+	id: "179B1831BE3C7B9E"
+	images: [
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "13F3274D1FBEC7D5"
+			image: "quest_enhance:textures/ftb/chapter_accent_179b1831be3c7b9e_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 3.7d
+			id: "3296BEBE81AF8810"
+			image: "quest_enhance:textures/ftb/unique_node_v1_storage_sorting.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.7d
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3A76E00278F196AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "44D282412EFC5D73"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "623D0940D11B01E9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3590ACAF06284C27"
+				item: { count: 1, id: "fxntstorage:andesite_storage_box" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "6667CD486A29A2C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7EE5B2B95DE352E7"
+				item: { count: 1, id: "fxntstorage:copper_storage_box" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "2DB365035DB7A4CC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "61E37DF51C81C999"
+				item: { count: 1, id: "fxntstorage:brass_storage_box" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "16CF6C8C4B4FF715"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3F028D3B8369175B"
+				item: { count: 1, id: "fxntstorage:hardened_storage_box" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "5692FE6627B1B1DB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "62E6F482DACB75AA"
+				item: { count: 1, id: "fxntstorage:weathered_storage_box" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "20153D98BCE54891"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "497A2DE53A5D4983"
+				item: { count: 1, id: "fxntstorage:storage_box" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "368DC2987C4E5572"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "749D446912705156"
+				item: { count: 1, id: "fxntstorage:cardboard_storage_box" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "2F3A1AEC1B0F3C85"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B59191C437E8178"
+				item: { count: 1, id: "fxntstorage:reserve_storage_box" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "24EE7F8A8B13AD67"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "05DC51CD4CE826D7"
+				item: { count: 1, id: "fxntstorage:oak_simple_storage_box" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "5D329F47EAE1B165"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4418C1DF0CEC45C5"
+				item: { count: 1, id: "fxntstorage:spruce_simple_storage_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "52E1A1726F28676B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6E65D12E3A17A6D2"
+				item: { count: 1, id: "fxntstorage:birch_simple_storage_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "6FA42C54DDECB3DB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "57733A6F5B541FF9"
+				item: { count: 1, id: "fxntstorage:jungle_simple_storage_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "743A3C5D9E58FC0E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "704E203965C7D30E"
+				item: { count: 1, id: "fxntstorage:acacia_simple_storage_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "65E456B70538C08E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4C658C39CC60C42C"
+				item: { count: 1, id: "fxntstorage:warped_simple_storage_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "4B5C12CE409FA846"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75585CA68A881E5F"
+				item: { count: 1, id: "fxntstorage:dark_oak_simple_storage_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "4947D1B07DF973ED"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "060606163A38CF80"
+				item: { count: 1, id: "fxntstorage:mangrove_simple_storage_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "4FDB5D7989D83966"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B09C8DB4D2B5A23"
+				item: { count: 1, id: "fxntstorage:crimson_simple_storage_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "1AEE359E9CDD8409"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5994C1DE28D1A260"
+				item: { count: 1, id: "fxntstorage:bamboo_simple_storage_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "4A7F7940F1465470"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6129AE132BA631E2"
+				item: { count: 1, id: "fxntstorage:cherry_simple_storage_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "1967888D9815627A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6597341116DFFAB8"
+				item: { components: { "minecraft:custom_data": { BackpackSideGuiUtilityId: [I; -140471600, 572279094, -1104511895, 1653804206 ] } }, count: 1, id: "fxntstorage:backpack_blank_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "1A115469EE3AAEAB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2DCE3454909DBFC1"
+				item: { count: 1, id: "fxntstorage:storage_box_capacity_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "7B3A8E5BE4E75654"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6648EF0EC4F8E82F"
+				item: { count: 1, id: "fxntstorage:storage_box_compacting_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "1EC884251D9F234C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "58983756AC7C3815"
+				item: { count: 1, id: "fxntstorage:storage_box_void_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "273957F6E7DA34FA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "34171E31949205B4"
+				item: { count: 1, id: "fxntstorage:passer_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0C4D9508FFCAFBCD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "159CD14291ACF785"
+				item: { count: 1, id: "fxntstorage:smart_passer_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "25D53C34BAD1C9F4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "57EF3A372849E2F2"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 108, "sophisticatedcore:number_of_upgrade_slots": 5 }, count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "3B1A34A7E24F5CA2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "64070075D8517982"
+				item: { count: 1, id: "fxntstorage:backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "5CB00DFAE814BA45"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B823152E482A5AD"
+				item: { count: 1, id: "fxntstorage:andesite_backpack" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "2437B1159F9D0DA3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "61D7684ECF4F77A5"
+				item: { count: 1, id: "fxntstorage:copper_backpack" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "2AD7B3053F4A19CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "032FC48B59D0F3B9"
+				item: { count: 1, id: "fxntstorage:brass_backpack" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "34EF3CD8ED81F08A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "73656E461E341BB9"
+				item: { count: 1, id: "fxntstorage:hardened_backpack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "327C0705687AEFAE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4D2BDABFBAA4A195"
+				item: { count: 1, id: "fxntstorage:backpack_falldamage_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "0E843045ECD980E3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "319F0295712702E1"
+				item: { count: 1, id: "fxntstorage:backpack_toolswap_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "4AD0446FA5D69668"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0BF07890C64C334A"
+				item: { count: 1, id: "fxntstorage:backpack_feeder_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "677A82423129DF4E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1DD854201FA63080"
+				item: { count: 1, id: "fxntstorage:backpack_refill_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "3AD10E0FD80FA119"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7FCC43BB8ED93163"
+				item: { count: 1, id: "fxntstorage:backpack_flight_upgrade" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			id: "7205BD59CADD305A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0300BB7DD65E0247"
+				item: { count: 1, id: "fxntstorage:backpack_pickblock_upgrade" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			id: "43E0C971E9CD1B26"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "248D7EEAFAF1B137"
+				item: { count: 1, id: "fxntstorage:backpack_pickblock_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "4F1B4290FC38111A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "70CCDDC8262E4C15"
+				item: { count: 1, id: "fxntstorage:backpack_oremining_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "10A9D3A13C9D4200"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "390BBEE84E7429A3"
+				item: { count: 1, id: "fxntstorage:backpack_magnet_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "640EDBD08F024F68"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "377FCEB8F0A1E635"
+				item: { count: 1, id: "fxntstorage:backpack_health_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "744CEEF9FDC5BD4B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4AF350BF91BD9A69"
+				item: { count: 1, id: "fxntstorage:backpack_jukebox_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "03018A3DAF2C9A50"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7BC2632E0F1B527C"
+				item: { count: 1, id: "fxntstorage:backpack_torchdeployer_upgrade" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "5FC5C7FDE8D1E561"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75BF76D9ECB463DE"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 120, "sophisticatedcore:number_of_upgrade_slots": 7 }, count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "0F66270DA59A50B2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0419C6384200F048"
+				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "451A6B8C41D82B1E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "414C6B10D2A0D947"
+				item: { count: 1, id: "sophisticatedbackpacks:smoking_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			id: "7082444F7888485D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "16D7C4FEFDD8EA78"
+				item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "756544C8E5550810"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7CBDD99609C1A7EE"
+				item: { count: 1, id: "sophisticatedbackpacks:blasting_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "3FF25380C4F7B104"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "468975D5783EFCA3"
+				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "58D7D25DB5D0DCFA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "26751A46F859962B"
+				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "52AE5A6B9EE9C2F6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6AE35A15E8736D75"
+				item: { count: 1, id: "sophisticatedbackpacks:mob_catcher_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "74D012F8787A2451"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7006F19A2CE24954"
+				item: { count: 1, id: "sophisticatedbackpacks:alchemy_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			id: "4C54B0B29E12D6F4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "47C38EFBF7758C6F"
+				item: { count: 1, id: "sophisticatedbackpacks:smithing_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "4E80FE38291C8B3E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2304EF9F38F3BCA8"
+				item: { count: 1, id: "sophisticatedbackpacks:anvil_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			id: "321BED31041A1A47"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7BE54DA076EB9007"
+				item: { count: 1, id: "sophisticatedbackpacks:pump_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			id: "3A322303788F53AA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5519D32E7A6AD620"
+				item: { count: 1, id: "sophisticatedbackpacks:battery_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "6B32EE7F86CCEBB7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "62884F7402E6D640"
+				item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			id: "1C6DDF9CEDCC2864"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "589A7E9F222C72A0"
+				item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			id: "2487A57381525BDB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56946F708A81813B"
+				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			id: "5B6875A45BE01ADF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5F97EEE1261C8FA0"
+				item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "039DC29F10337CEE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6476779506EC2DF7"
+				item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			id: "7A41D2F7E5928213"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1AF59C011B2E2F6B"
+				item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			id: "49960FCCF3260DFD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "51AAD06530ABC1B1"
+				item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			id: "5365ABD3CBE6B9F6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5645A15D06AE6F1F"
+				item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			id: "04DE53788FA80A71"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "59BDE2E528D61139"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			id: "0E418ED111CEC35B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "554B7D3F31F4548B"
+				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			id: "47940C927C12DFB8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "003C246CD6E08DBF"
+				item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			id: "70256935588E83CD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "35EF1FBE134D1CAF"
+				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+	]
+}

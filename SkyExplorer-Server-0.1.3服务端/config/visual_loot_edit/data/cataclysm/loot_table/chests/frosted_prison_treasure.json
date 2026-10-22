@@ -1,0 +1,742 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cataclysm:black_steel_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "cataclysm:black_steel_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "cataclysm:black_steel_axe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_shovel",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 6.0,
+        "min": 2.0
+      }
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:anshanbox",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:tongbox",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:huangtongbox",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:hongshibox",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:0,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:1,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:2,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:3,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:4,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:5,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:6,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:7,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:8,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:9,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:10,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:11,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:12,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:13,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:14,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:15,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fire_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fall_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:drown_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:projectile_protect_bauble",
+          "weight": 60
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    }
+  ],
+  "random_sequence": "cataclysm:chests/frosted_prison_treasure"
+}

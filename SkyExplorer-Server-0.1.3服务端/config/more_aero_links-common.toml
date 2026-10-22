@@ -1,0 +1,13 @@
+[pioneerLaser]
+	#Damage per redstone-dust pulse. Each shot consumes one dust and completes a six-tick pulse. Held redstone repeats shots.
+	# Default: 12.0
+	# Range: 0.0 ~ 100000.0
+	powderDamage = 200.0
+	#Damage per heavy-beam hit, every 5 ticks. One block buys a 20-tick beam after 20-tick charge.
+	# Default: 30.0
+	# Range: 0.0 ~ 100000.0
+	beamDamage = 500.0
+	#Maximum laser range; the ray stops at solid blocks and unloaded terrain.
+	# Default: 128
+	# Range: 8 ~ 256
+	range = 128

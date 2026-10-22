@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "041bf91885b4ea5e"
+	group: "5EC52CF4B56035D7"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "041BF91885B4EA5E"
+	images: [{
+		click_action: "none:"
+		height: 6.0d
+		id: "5E0B9C70EA9E6FE0"
+		image: "quest_enhance:textures/ftb/chapter_accent_041bf91885b4ea5e_v1.png"
+		order: -10
+		quest_enhance_exclude_from_box_selection: 0b
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -3.0d
+	}]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "77859F9823B52C54"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "4264F509F4540FA1"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "34E3158AA560F748"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39A0124230A863F8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77859F9823B52C54"]
+			id: "38AAEFA6FC20F3A7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5CA11FAA4F6A1A1B"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38AAEFA6FC20F3A7"]
+			id: "4E934536DAAF23B0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "567F373382D3FCC3"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E934536DAAF23B0"]
+			id: "554FDC81EBCDC535"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5A0A877F96EB4834"
+				item: { count: 1, id: "waystones:mossy_waystone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E934536DAAF23B0"]
+			id: "691F1CAB791BC5C8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6354FFB08810475C"
+				item: { count: 1, id: "waystones:sandy_waystone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E934536DAAF23B0"]
+			id: "5560CA7459AFFC3A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2C5D71CA53DE5115"
+				item: { count: 1, id: "waystones:deepslate_waystone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E934536DAAF23B0"]
+			id: "33805C2439F179DC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4C4D09517B586303"
+				item: { count: 1, id: "waystones:blackstone_waystone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E934536DAAF23B0"]
+			id: "6BA3F050EC4A7285"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0D9817AE91674893"
+				item: { count: 1, id: "waystones:end_stone_waystone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+}

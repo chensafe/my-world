@@ -1,0 +1,957 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "680d0fcbc7ebd0eb"
+	group: "547988EB708FD599"
+	icon: {
+		id: "minecraft:brush"
+	}
+	id: "680D0FCBC7EBD0EB"
+	images: [
+		{
+			height: 20.7d
+			id: "112146596B70B19B"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_ancient.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: 4.75d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "34E5F22C216A0A10"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_ancient.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 4.5d
+			id: "6DEA0B0A605A5170"
+			image: "quest_enhance:textures/ftb/chapter_accent_680d0fcbc7ebd0eb_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "30B04ED34E1E60AC"
+			image: "quest_enhance:textures/ftb/unique_node_v1_ancient_shards.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.5d
+			y: 5.5d
+		}
+	]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "57575A15FEF1844E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "68E495DDBE1F4EEA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chiseled_sandstone"
+			}
+			id: "0D5DE8B0BEF6172F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "2A4C4573FFB92916"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C322E617D4385A"
+				structure: "minecraft:desert_pyramid"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "52AE9AE9B1F19CC7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "5B86F2AEA56A3803"
+				item: {
+					count: 1
+					id: "vinery:jungle_grape_seeds_red"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E364A496737CC0A"
+				structure: "minecraft:jungle_pyramid"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "394CADB7620E997E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "34B11CE3DA29AAD7"
+				item: {
+					count: 1
+					id: "minecraft:brush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A2B12A53A036E8E"
+				structure: "minecraft:trail_ruins"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:sandstone_slab"
+			}
+			id: "08192F5A8560C4C1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "1E09099225E46A78"
+				item: {
+					count: 1
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24D81AA2F7DD3EDA"
+				structure: "terralith:rubble_desert"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_cobblestone_slab"
+			}
+			id: "53BFF6D22BD2E8B1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "2A64B3362DD0CEEE"
+				item: {
+					count: 1
+					id: "minecraft:moss_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFE27C874237BC3"
+				structure: "terralith:rubble_forest"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_stone_brick_slab"
+			}
+			id: "2A77A39A87258386"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "12E284793752F8B5"
+				item: {
+					count: 1
+					id: "minecraft:cocoa_beans"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "122216A18E882007"
+				structure: "terralith:rubble_jungle"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:red_sandstone"
+			}
+			id: "31D1EDE7117459E1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "355D573A302A0516"
+				item: {
+					count: 1
+					id: "minecraft:red_sand"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7677D7CF017E97C9"
+				structure: "terralith:rubble_mesa"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cobblestone_wall"
+			}
+			id: "001E9ACA9B4F286B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "3D7E0CEA0110528C"
+				item: {
+					count: 1
+					id: "minecraft:stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DBD36550C456149"
+				structure: "terralith:rubble_mountain"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_cobblestone_wall"
+			}
+			id: "48B73721132B0790"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "39609929CEDD02FF"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AED6B25B6CA3669"
+				structure: "terralith:rubble_taiga"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:quartz_pillar"
+			}
+			id: "71AB092320FD2ED6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "73CDAEC2DE6A12C7"
+				item: {
+					count: 1
+					id: "create:rose_quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56DE200201E17F5F"
+				structure: "trek:overworld/common/elven_pillars"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cracked_stone_bricks"
+			}
+			id: "68CC063A8209F381"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "20E104FD4BCFFAC4"
+				item: {
+					count: 1
+					id: "minecraft:stone_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "454FD66B063EC626"
+				structure: "trek:overworld/common/ruins"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cut_sandstone_slab"
+			}
+			id: "7952D6D0C799F519"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "09C448BCE0D8AED5"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13261C47651D9C82"
+				structure: "trek:overworld/common/small_desert_ruins"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "4918D88B84116A7D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6142208C0D2930D4"
+				item: {
+					count: 1
+					id: "minecraft:cauldron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "191FDF63846A4213"
+				structure: "trek:overworld/common/small_swamp_ruins"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:dead_bush"
+			}
+			id: "76A5DF57E27A040E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "16965BE4D5D0DAEE"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A027438DCE7383"
+				structure: "trek:overworld/medium/all_abandoned"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_stairs"
+			}
+			id: "49CBBC159B083451"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "4B62261431EDD83E"
+					item: {
+						count: 1
+						id: "minecraft:cobweb"
+					}
+					type: "item"
+				}
+				{
+					id: "03010D501DED29B8"
+					item: {
+						count: 1
+						id: "dungeonsdelight:spider_donut"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "258CE6C3FDE9503A"
+				structure: "trek:overworld/medium/destroyed_house"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:emerald_block"
+			}
+			id: "14DD3DF6A6DDFD1D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "3162E4A83A9A5899"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01EEC8634AF2E87B"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48E94BB6BD3A73A9"
+				structure: "trek:overworld/medium/orbital"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "52552A8FFBF33E6F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "2CE345395300F68C"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A699CCC6B000B49"
+				structure: "trek:overworld/medium/ruine_tour"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:sandstone_stairs"
+			}
+			id: "3FB61F25F889093D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "581020CF66D9C73E"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFBAE01FDED1134"
+				structure: "trek:overworld/medium/small_pyramide"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:smooth_stone"
+			}
+			id: "20260DF14AD770B9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "17562E63A4B2B1F8"
+				item: {
+					count: 1
+					id: "minecraft:stone_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D52576439286C1E"
+				structure: "trek:overworld/medium/stonehedge"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_stone_brick_stairs"
+			}
+			id: "41C157333877D591"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 5
+				id: "0BDD8E37BD38A71C"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B3763B6327AC7F1"
+				structure: "trek:overworld/rare/maya"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "minecraft:chiseled_red_sandstone"
+			}
+			id: "7BEF23CBD6773F51"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "25BD7625177760BB"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6AAD7D952A4556"
+				structure: "trek:overworld/rare/pyramide_of_anubis"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cactus"
+			}
+			id: "693C0A13AA2F2DBF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 16
+					id: "0E9A8991C69FBF2E"
+					item: {
+						count: 1
+						id: "minecraft:cactus"
+					}
+					type: "item"
+				}
+				{
+					id: "475A4557F0050956"
+					item: {
+						count: 1
+						id: "ends_delight:chorus_fruit_wine"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CB853D277683210"
+				structure: "trek:overworld/medium/oasis"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "minecraft:tripwire_hook"
+			}
+			id: "5259A54674E6D985"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "4FDB9D1E55D8B89C"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBD8DDDDF858EE8"
+				structure: "trek:overworld/common/well_pillager_small"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "44217EAB6BAAB874"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "3387B6B7BE25CD78"
+				item: {
+					count: 1
+					id: "minecraft:blue_ice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C3EC1711A035CBE"
+				structure: "terralith:spire"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "3D9CF7E2478AE464"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 36
+					id: "6EFEE01A8A12F005"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "029FCC696F0AE98B"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6633D3E34E224486"
+				structure: "trek:overworld/medium/square_tower"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ladder"
+			}
+			id: "37FA00980862E32A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2B028E9B08B1C8B7"
+				item: {
+					count: 1
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B55E581E5BDAB6F"
+				structure: "trek:overworld/medium/tower"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:flowering_azalea"
+			}
+			id: "639A6171730140BC"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "30FA88E910212E3B"
+				item: {
+					count: 1
+					id: "minecraft:allay_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "315493923C3E563F"
+				structure: "trek:overworld/rare/elven_tree"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "4FEFD3E8DD7F723C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "51C4E0516F8E4DB9"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF2C1CCD82B4CB4"
+				structure: "trek:overworld/medium/railroad"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "31FA20344142FECB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "590EF8EFF3A742CC"
+				item: {
+					count: 1
+					id: "minecraft:bone_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E196ACA08101D5"
+				structure: "dungeons_arise:ceryneian_hind"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "5B457498A6B295D5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "3B6F0CA3896DFC74"
+				item: {
+					count: 1
+					id: "minecraft:bone_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "281E6042DFD7130A"
+				structure: "dungeons_arise:typhon"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "6F12FA7F0D066C1D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "391714B6DE0C7DE0"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B598C2FBFA8E9CB"
+				structure: "minecraft:ruined_portal"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cut_sandstone"
+			}
+			id: "2968C18B00CC7712"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1746F9D79F04CFFF"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4309BFD3CD83CBE6"
+				structure: "minecraft:ruined_portal_desert"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "minecraft:vine"
+			}
+			id: "200A1C2C2ACBDBC1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "51D38EEFFAC6F537"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30E9A33BBB6C44CC"
+				structure: "minecraft:ruined_portal_jungle"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "5E296EE011DB7D1F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "58CC57C1FF9AF10E"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE4F81A84B50D1A"
+				structure: "minecraft:ruined_portal_mountain"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "2A0520A70BFC001A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "2E5C6BE61F053FD7"
+				item: {
+					count: 1
+					id: "minecraft:ink_sac"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "385BC8ED362B2E3B"
+				structure: "minecraft:ruined_portal_ocean"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "4C7DDA4E9DD43529"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "74857EDA5D327F95"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB07698EC087B33"
+				structure: "minecraft:ruined_portal_swamp"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "56D8804BD3C77C1C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "1DCAE6B0B97D81A1"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1748848A9F56F34C"
+				structure: "trek:overworld/rare/portal_sword"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

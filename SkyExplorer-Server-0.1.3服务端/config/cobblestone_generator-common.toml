@@ -1,0 +1,171 @@
+["全局配置"]
+	#输出方向 (默认: UP)
+	#Allowed Values: DOWN, UP, NORTH, SOUTH, WEST, EAST
+	outputDirection = "UP"
+	#是否启用自动输出功能 (默认: true)
+	autoOutputEnabled = true
+	#全局速度倍数 (0.1-10.0, 默认: 1.0)
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	speedMultiplier = 1.0
+
+	["圆石生成器配置"."紫水晶圆石生成器功能配置"]
+		#紫水晶母岩生长速度倍数 (默认: 2.0)
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		amethystGrowthSpeedMultiplier = 2.0
+
+	["圆石生成器配置"."红石圆石生成器功能配置"]
+		#红石信号模式 (CONTINUOUS: 持续15级信号, INTERVAL: 按间隔持续15级信号)
+		#Allowed Values: CONTINUOUS, INTERVAL
+		redstoneSignalMode = "CONTINUOUS"
+		#红石信号间隔ticks (仅在INTERVAL模式下有效, 默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		redstoneSignalInterval = 20
+
+	["圆石生成器配置"."干草块圆石生成器功能配置"]
+		#治疗范围(距方块几格) (默认: 1.0)
+		# Default: 1.0
+		# Range: 1.0 ~ 32.0
+		hayblockHealRange = 1.0
+		#生命恢复药水等级 (默认: 0 表示I级)
+		# Default: 0
+		# Range: 0 ~ 255
+		hayblockRegenerationLevel = 0
+		#生命恢复药水持续时间(ticks) (默认: 60 = 3秒)
+		# Default: 60
+		# Range: 20 ~ 1200
+		hayblockRegenerationDuration = 60
+
+	["圆石生成器配置"."幽匿圆石生成器功能配置"]
+		#可转换为目标方块的列表，用逗号分隔 (支持方块ID和tag)
+		sculkTargetBlocks = "minecraft:moss_block"
+		#转换半径 (默认: 3)
+		# Default: 3
+		# Range: 1 ~ 8
+		sculkConversionRadius = 3
+		#转换概率 (1-100, 默认: 10)
+		# Default: 10
+		# Range: 1 ~ 100
+		sculkConversionChance = 10
+
+	["圆石生成器配置".stone]
+		#每次输出数量 (默认: 4)
+		# Default: 4
+		# Range: 1 ~ 10240
+		outputCount = 4
+		#生成间隔ticks (默认: 60)
+		# Default: 60
+		# Range: 1 ~ 1200
+		generationTicks = 60
+
+	["圆石生成器配置".copper]
+		#每次输出数量 (默认: 8)
+		# Default: 8
+		# Range: 1 ~ 10240
+		outputCount = 8
+		#生成间隔ticks (默认: 40)
+		# Default: 40
+		# Range: 1 ~ 1200
+		generationTicks = 40
+
+	["圆石生成器配置".iron]
+		#每次输出数量 (默认: 16)
+		# Default: 16
+		# Range: 1 ~ 10240
+		outputCount = 16
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20
+
+	["圆石生成器配置".gold]
+		#每次输出数量 (默认: 32)
+		# Default: 32
+		# Range: 1 ~ 10240
+		outputCount = 32
+		#生成间隔ticks (默认: 15)
+		# Default: 15
+		# Range: 1 ~ 1200
+		generationTicks = 15
+
+	["圆石生成器配置".diamond]
+		#每次输出数量 (默认: 64)
+		# Default: 64
+		# Range: 1 ~ 10240
+		outputCount = 64
+		#生成间隔ticks (默认: 10)
+		# Default: 10
+		# Range: 1 ~ 1200
+		generationTicks = 10
+
+	["圆石生成器配置".emerald]
+		#每次输出数量 (默认: 128)
+		# Default: 128
+		# Range: 1 ~ 10240
+		outputCount = 128
+		#生成间隔ticks (默认: 5)
+		# Default: 5
+		# Range: 1 ~ 1200
+		generationTicks = 5
+
+	["圆石生成器配置".netherite]
+		#每次输出数量 (默认: 256)
+		# Default: 256
+		# Range: 1 ~ 10240
+		outputCount = 256
+		#生成间隔ticks (默认: 1)
+		# Default: 1
+		# Range: 1 ~ 1200
+		generationTicks = 1
+
+	["圆石生成器配置".amethyst]
+		#每次输出数量 (默认: 256)
+		# Default: 256
+		# Range: 1 ~ 10240
+		outputCount = 256
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20
+
+	["圆石生成器配置".redstone]
+		#每次输出数量 (默认: 64)
+		# Default: 64
+		# Range: 1 ~ 10240
+		outputCount = 64
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20
+
+	["圆石生成器配置".glowstone]
+		#每次输出数量 (默认: 64)
+		# Default: 64
+		# Range: 1 ~ 10240
+		outputCount = 64
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20
+
+	["圆石生成器配置".hayblock]
+		#每次输出数量 (默认: 64)
+		# Default: 64
+		# Range: 1 ~ 10240
+		outputCount = 64
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20
+
+	["圆石生成器配置".sculk]
+		#每次输出数量 (默认: 128)
+		# Default: 128
+		# Range: 1 ~ 10240
+		outputCount = 128
+		#生成间隔ticks (默认: 20)
+		# Default: 20
+		# Range: 1 ~ 1200
+		generationTicks = 20

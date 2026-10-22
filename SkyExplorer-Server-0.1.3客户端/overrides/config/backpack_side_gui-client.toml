@@ -1,0 +1,13 @@
+["Backpack Side GUI"]
+	#true = inventory/container right side, false = left side
+	panelRightSide = false
+	# Default: 4
+	# Range: -1000 ~ 1000
+	panelXOffset = 96
+	# Default: 0
+	# Range: -1000 ~ 1000
+	panelYOffset = -136
+	panelHidden = false
+	# Default: 6
+	# Range: 1 ~ 18
+	visibleRows = 6

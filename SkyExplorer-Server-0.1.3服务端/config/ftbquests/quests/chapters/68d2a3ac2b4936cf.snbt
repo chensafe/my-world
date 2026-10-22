@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "68d2a3ac2b4936cf"
+	group: "547988EB708FD599"
+	icon: {
+		id: "castle_in_the_sky:laputa_miniature"
+	}
+	id: "68D2A3AC2B4936CF"
+	images: [
+		{
+			height: 14.1d
+			id: "719FD2A10B1D512F"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_mega.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: -1.9500000000000002d
+		}
+		{
+			height: 4.0d
+			id: "120120F74AC79497"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_mega.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -5.4d
+		}
+		{
+			click_action: "none:"
+			height: 5.5d
+			id: "3872B9A89B6C2240"
+			image: "quest_enhance:textures/ftb/chapter_accent_68d2a3ac2b4936cf_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.5d
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	order_index: 11
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D0B3C596C93898A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "71E59E7EECA53D6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "69C99DE6E7377911"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "40FFA105B85C21DF"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "346B1BC8C2723365"
+					item: {
+						count: 1
+						id: "minecraft:chorus_flower"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0939CA7255C5D8B7"
+				structure: "dungeons_arise:aviary"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:lime_concrete"
+			}
+			id: "658B8C89995EB16F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "5D319FAFA4868F5C"
+					item: {
+						count: 1
+						id: "minecraft:green_wool"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C70941958481930"
+					item: {
+						count: 1
+						id: "create:experience_block"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7A95D23A5D525941"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61759871DE788572"
+				structure: "dungeons_arise:keep_kayra"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "5C32F32FBCD05B73"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "178FA3178436E86A"
+				structure: "dungeons_arise:shiraz_palace"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:vine"
+			}
+			id: "205F2AA0CFC75664"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "28FA2C2A6F926C72"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74C127DA86EDD4AE"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "215C1F7824EB2994"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52711558278A8140"
+				structure: "dungeons_arise:thornborn_towers"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "32012BA291A1E439"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "51E5E4CFE34DC6DC"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F389DFB61BB26A7"
+				structure: "dungeons_arise:bandit_towers"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cobweb"
+			}
+			id: "6653D2A32D70169C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 64
+					id: "6B2BB973EA2E8F46"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27E3C5222A3B64DA"
+					item: {
+						count: 1
+						id: "rainbowcompound:enchanted_golden_apple_stew"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D1E7651FFB743F3"
+				structure: "dungeons_arise:infested_temple"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:quartz_pillar"
+			}
+			id: "139F94861A89F364"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "61680C2DA1F4EC7E"
+					item: {
+						count: 1
+						id: "minecraft:diamond_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "75EC4CB1190E06C1"
+					item: {
+						count: 1
+						id: "minecraft:diamond_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "12E3FAC3B838449A"
+					item: {
+						count: 1
+						id: "minecraft:diamond_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "52B1B9E98BD57B6E"
+					item: {
+						count: 1
+						id: "minecraft:diamond_helmet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133CFC1BB89A38B4"
+				structure: "dungeons_arise:kisegi_sanctuary"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "6845196702269C71"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 64
+					id: "04231E603CB264E6"
+					item: {
+						count: 1
+						id: "minecraft:tuff"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0BEE55F3EB0F050C"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "29C0D3A4F55D1F6C"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "23E97D32A41F520E"
+					item: {
+						count: 1
+						id: "create:raw_zinc"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79C6E778F79E7BB6"
+				structure: "dungeons_arise:mining_complex"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "0ADB1DFDF49DEB64"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 64
+					id: "2D48DE255F7B0227"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "51D863C622C6DCAD"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "62B729C2FD3E4B9E"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30F1895088D7E481"
+				structure: "dungeons_arise:foundry"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "castle_in_the_sky:laputa_miniature"
+			}
+			id: "3AD82A180813C672"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "52C8A484BB82AE23"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3B3A5312F273AEED"
+				structure: "castle_in_the_sky:castle_in_the_sky"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:copper_block"
+			}
+			id: "1070F36630AE281C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "0CF6A042BDEA295A"
+				item: {
+					count: 1
+					id: "minecraft:copper_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "030160654A53911F"
+				structure: "dungeons_arise:mechanical_nest"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}

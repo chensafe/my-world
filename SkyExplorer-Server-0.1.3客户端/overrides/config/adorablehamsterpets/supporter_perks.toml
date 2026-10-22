@@ -1,0 +1,24 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Master switch. Turn this off if you hate fun. Disables all crowns, even those worn by others.
+enableSupporterCrown = true
+# Turns off the sparkling sound effects the emanate from the crown. Affects all crowns, even those worn by others.
+enableCrownAudio = true
+# How loud the crown sparkles are. Crank it up if your 50 sound physics mods made it inaudible, or turn it down if the majestic twinkling is eroding your sanity.
+crownAudioVolume = 1.0
+# Toggle this off if you want to hide your own crown from yourself and everyone else. Only affects your own crown.
+showMyCrown = true
+# Should your own crown decorate your vision while you're trying to mine? Turn it off if you are tired of flexing on yourself. Only affects your own crown.
+showCrownInFirstPerson = true
+# Pick your own crown's specific color. Other players will instantly see this color change above your head. Only affects your own crown.
+crownTheme = "GOLD"
+# How many sparkly particles to spawn per tick (20 ticks per second). Makes the crown thicker or thinner. Affects all crowns.
+crownParticleCount = 10
+# How wide (in blocks) the halo of superiority extends around your head. Affects all crowns.
+crownRadius = 0.3
+# How thick the crown is from the inner edge (the inside rim around your head) to the outer edge. Affects all crowns.
+crownHorizontalThickness = 0.02
+# How tall the crown is from the bottom edge to the top edge. Increase this to make the crown less of a hula-hoop and more of a cylinder. Affects all crowns.
+crownVerticalThickness = 0.2
+# Nudge the crown up or down. Move it high enough and you'll have a halo. Vanity for the win. Affects all crowns.
+crownYOffset = 0.25

@@ -1,0 +1,721 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:zinc_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:rose_quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:sand_paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:large_cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:shaft",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:gearbox",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:minecart_coupling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "create:crushed_raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crushed_raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crushed_raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crushed_raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:0,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:1,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:2,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:3,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:4,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:5,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:6,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:7,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:8,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:9,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:10,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:11,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:12,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:13,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:14,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:15,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fire_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fall_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:drown_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:projectile_protect_bauble",
+          "weight": 60
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "structures": "#skyexplorer_loot:cat_accessory_villages"
+          }
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "skyexplorer_loot:village_cat_accessories"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "0f369ad41392c2ad"
+	group: "260D8BCC312E1074"
+	icon: {
+		id: "primal:bear_spawn_egg"
+	}
+	id: "0F369AD41392C2AD"
+	images: [
+		{
+			height: 4.5d
+			id: "1D1522C127712106"
+			image: "quest_enhance:textures/ftb/chapter_accent_0f369ad41392c2ad_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 3.5d
+			id: "3DA96A89F0A3E934"
+			image: "quest_enhance:textures/ftb/unique_node_v1_wild_deer.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.5d
+			x: 6.0d
+			y: 6.25d
+		}
+	]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "4A441AA001B7BF06"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "61C55E2130C9D96D"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "primal:bear_spawn_egg"
+			}
+			id: "28F87B27E137F772"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/bear"
+				criterion: ""
+				id: "69C089AD2A757C0E"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:eagle_spawn_egg"
+			}
+			id: "507F0883252237EF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/eagle"
+				criterion: ""
+				id: "37D14C37006F0198"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:lion_spawn_egg"
+			}
+			id: "429E3A63ED04047D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/lion"
+				criterion: ""
+				id: "2E486C776F680B33"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:snake_spawn_egg"
+			}
+			id: "6A5584EA1A3D68A0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/snake"
+				criterion: ""
+				id: "78CE8A1D8C5E1ACC"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "primal:walrus_spawn_egg"
+			}
+			id: "5BEBAE4130AAFB4D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/walrus"
+				criterion: ""
+				id: "6FFF6FD004B33116"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "13CB5176BCC79F08"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "558F58F59C295747"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "primal:cassowary_spawn_egg"
+			}
+			id: "2EE6525BEA16212E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/cassowary"
+				criterion: ""
+				id: "7E95AD6313635965"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:crocodile_spawn_egg"
+			}
+			id: "23053BB425D20D59"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/crocodile"
+				criterion: ""
+				id: "586D2E4614C44F32"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:deer_spawn_egg"
+			}
+			id: "2365537101EF0F26"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/deer"
+				criterion: ""
+				id: "283807AD30FA79A5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "primal:shark_spawn_egg"
+			}
+			id: "6FA5DBBD632F7B5E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/primal/shark"
+				criterion: ""
+				id: "707698EDA1B22228"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+	]
+}

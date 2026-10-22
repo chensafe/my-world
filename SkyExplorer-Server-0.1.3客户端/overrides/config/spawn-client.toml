@@ -1,0 +1,13 @@
+[spawn_general]
+	#config.spawn.first_person_fly_opacity.tooltip
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	first_person_fly_opacity = 1.0
+	#config.spawn.lighter_inland_water_for_tagged_biomes.tooltip
+	lighter_inland_water_for_tagged_biomes = true
+
+[vanilla_changes]
+	#config.spawn.tinted_lily_pads.tooltip
+	tinted_lily_pads = true
+	#config.spawn.bucket_tooltip.tooltip
+	bucket_tooltip = true

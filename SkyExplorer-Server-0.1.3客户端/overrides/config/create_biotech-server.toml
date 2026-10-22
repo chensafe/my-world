@@ -1,0 +1,507 @@
+[experience]
+	# Default: 3
+	# Range: > 1
+	xpPerNugget = 3
+	# Default: 128
+	# Range: > 1
+	clusterXpValue = 128
+	# Default: 64
+	# Range: > 1
+	largeBudXpValue = 64
+	# Default: 32
+	# Range: > 1
+	mediumBudXpValue = 32
+	# Default: 16
+	# Range: > 1
+	smallBudXpValue = 16
+	# Default: 20
+	# Range: > 1
+	buddingGrowthChance = 20
+	# Default: 5
+	# Range: 1 ~ 64
+	clusterMaxOrbsPerPinch = 5
+	# Default: 37
+	# Range: > 1
+	clusterMinXpPerSplitOrb = 37
+
+[creeperBlastChamber]
+	# Default: 3
+	# Range: 1 ~ 16
+	minSize = 3
+	# Default: 5
+	# Range: 1 ~ 32
+	maxSize = 5
+	# Default: 128
+	# Range: > 1
+	overloadThresholdRpm = 128
+	# Default: 8192
+	# Range: > 1
+	overloadPointsCap = 8192
+	# Default: 128
+	# Range: > 0
+	overloadDecayPointsPerSecond = 128
+	# Default: 2
+	# Range: > 0
+	overloadTntEquivalentPerCreeper = 2
+	# Default: 2
+	# Range: > 1
+	chargedCreeperEquivalentMultiplier = 2
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	tntExplosionPower = 4.0
+	# Default: 100
+	# Range: > 1
+	readyOutputTimeout = 100
+	enableOverloadExplosions = true
+
+[powerBelt]
+	# Default: 24.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	surfaceMetersPerSecondToRpm = 24.0
+	# Default: 256.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxGeneratedRpm = 256.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stressCapacityPerRpm = 4.0
+	# Default: 1024.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxStressCapacityPerSegment = 1024.0
+	# Default: 10
+	# Range: 1 ~ 1200
+	surfaceSpeedDetectionInterval = 10
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxPlayerSurfaceSpeed = 1.0
+
+[petriDish]
+	# Default: 20
+	# Range: > 1
+	scanInterval = 20
+	# Default: 2
+	# Range: 0 ~ 64
+	scanRadius = 2
+	# Default: 250
+	# Range: > 1
+	fluidPerHealth = 250
+	# Default: 51200
+	# Range: > 1
+	tankCapacity = 51200
+	requireNearbyMatchingEntity = true
+
+[spiderAssemblyTable]
+	# Default: 1000
+	# Range: > 1
+	fluidCapacityPerLeg = 1000
+	# Default: 2000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	deployerBaseDuration = 2000.0
+	# Default: 50
+	# Range: > 1
+	sawFallbackDuration = 50
+	# Default: 24.0
+	# Range: 1.0E-4 ~ 1.7976931348623157E308
+	sawSpeedDivisor = 24.0
+
+[cardboardBox]
+	smallBoxEntityAllowlist = ["minecraft:slime", "minecraft:cat", "minecraft:bat", "minecraft:chicken", "minecraft:rabbit", "minecraft:silverfish", "minecraft:endermite", "minecraft:bee", "minecraft:parrot", "minecraft:allay", "minecraft:frog", "minecraft:ocelot", "minecraft:vex", "minecraft:magma_cube"]
+	largeBoxCreativeOnly = true
+	lethalCaptureEnabled = true
+	#Allowed Values: ALLOW_ALL, ALLOWLIST, DENYLIST
+	largeBoxEntityListMode = "ALLOW_ALL"
+	largeBoxEntityAllowlist = []
+	largeBoxEntityDenylist = []
+
+[slimeMimic]
+	# Default: 100
+	# Range: > 1
+	hauntCycleTicks = 100
+	replaceDropsWithSlime = true
+	rewriteVillagerTrades = true
+	# Default: 1
+	# Range: 1 ~ 64
+	villagerTradeMinSlimeBalls = 1
+	# Default: 3
+	# Range: 1 ~ 64
+	villagerTradeMaxSlimeBalls = 3
+	allowSpawnInjection = true
+	#Allowed Values: ALLOW_ALL, ALLOWLIST, DENYLIST
+	entityListMode = "ALLOW_ALL"
+	entityAllowlist = []
+	entityDenylist = []
+
+[ghastHotAirBalloon]
+	# Default: 0.04
+	# Range: 0.0 ~ 1.7976931348623157E308
+	forwardAcceleration = 0.04
+	# Default: 0.02
+	# Range: 0.0 ~ 1.7976931348623157E308
+	backwardAcceleration = 0.02
+	# Default: 0.03
+	# Range: 0.0 ~ 1.7976931348623157E308
+	verticalAcceleration = 0.03
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	horizontalDrag = 0.9
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	verticalDrag = 0.85
+	# Default: 0.35
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxHorizontalSpeed = 0.35
+	# Default: 0.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxVerticalSpeed = 0.25
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	turnAcceleration = 1.0
+	# Default: 4.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	turnBrake = 4.0
+	# Default: 6.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	turnDirectionChangeBrake = 6.0
+	# Default: 6.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxTurnSpeed = 6.0
+	# Default: 8
+	# Range: > 1
+	inputTimeoutTicks = 8
+	# Default: 12
+	# Range: > 12
+	magnetTimeoutTicks = 12
+	# Default: 2.5
+	# Range: 1.0E-4 ~ 1.7976931348623157E308
+	magnetBrakeDistance = 2.5
+	# Default: 32.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	magnetMaxDistance = 32.0
+	# Default: 0.5
+	# Range: 1.0E-4 ~ 1.7976931348623157E308
+	assemblyStationSpeed = 0.5
+	# Default: 20
+	# Range: > 1
+	attractPeriodTicks = 20
+	# Default: 0.001
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxVelocityForAttractSqr = 0.001
+
+[butterCat]
+	# Default: 16
+	# Range: 1 ~ 8192
+	maxButterCount = 16
+	# Default: 320
+	# Range: > 1
+	butterDecayTicks = 320
+	# Default: 16
+	# Range: > 1
+	butterForMaxRpm = 16
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rpmPerButter = 16.0
+	# Default: 256.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxGeneratedRpm = 256.0
+	# Default: 64.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stressCapacityPerRpm = 64.0
+	# Default: 16384.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxStressCapacity = 16384.0
+	# Default: 1.5707963267948966
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rotationAngularSpeed = 1.5707963267948966
+	# Default: 1
+	# Range: 0 ~ 20
+	butterNutrition = 1
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	butterSaturation = 0.5
+	# Default: 18
+	# Range: 0 ~ 20
+	superButterNutrition = 18
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	superButterSaturation = 0.5
+	# Default: 90
+	# Range: > 0
+	superButterRotationDuration = 90
+	# Default: 1
+	# Range: 0 ~ 255
+	superButterRotationAmplifier = 1
+	# Default: 90
+	# Range: > 0
+	superButterLevitationDuration = 90
+	# Default: 0
+	# Range: 0 ~ 255
+	superButterLevitationAmplifier = 0
+	# Default: 2
+	# Range: 0 ~ 20
+	incompleteSuperButterNutrition = 2
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	incompleteSuperButterSaturation = 0.5
+	# Default: 30
+	# Range: > 0
+	incompleteSuperButterRotationDuration = 30
+	# Default: 2
+	# Range: 0 ~ 255
+	incompleteSuperButterRotationAmplifier = 2
+
+[universalJoint]
+	#Deprecated compatibility value. Custom values migrate to strainStartDistance while the new setting remains at its default.
+	# Default: 2
+	# Range: 0 ~ 64
+	maxConnectionRange = 2
+	# Default: 5
+	# Range: > 0
+	itemCooldownTicks = 5
+	#World-space placement/repair radius and distance where stretching begins, in blocks.
+	# Default: 4.675
+	# Range: 0.0 ~ 128.0
+	strainStartDistance = 4.675
+	#World-space distance that breaks an overstretched joint, in blocks.
+	# Default: 5.5
+	# Range: 0.01 ~ 128.0
+	disconnectDistance = 5.5
+	#Maximum spring force reached at the disconnect distance.
+	# Default: 8192.0
+	# Range: 0.0 ~ 1000000.0
+	peakTension = 8192.0
+	#Radial damping force per block/second of relative endpoint speed.
+	# Default: 320.0
+	# Range: 0.0 ~ 100000.0
+	separationDamping = 320.0
+	#Directionless Sable air-drag coefficient contributed by each joint endpoint block. Sable scales it by local air pressure and physics timestep.
+	# Default: 0.75
+	# Range: 0.0 ~ 16.0
+	endpointAirDrag = 0.75
+	#Maximum elastic impulse applied to either structure in one physics step.
+	# Default: 1024.0
+	# Range: 0.01 ~ 1000000.0
+	maxImpulse = 1024.0
+	#Per-axis player movement multiplier while intersecting the slime shaft. Use 1.0 to disable the slowdown; lower values apply stronger slowdown.
+	# Default: 0.4
+	# Range: 0.01 ~ 1.0
+	shaftSlowdownMultiplier = 0.4
+
+[squidPrinter]
+	# Default: 20
+	# Range: > 1
+	cycleTicks = 20
+	# Default: 50
+	# Range: > 0
+	cycleWaterCost = 50
+	# Default: 1000
+	# Range: > 1
+	tankCapacity = 1000
+	# Default: 5
+	# Range: > 0
+	finishingTicks = 5
+
+[evokerEnchantingChamber]
+	# Default: 40
+	# Range: > 1
+	castDurationTicksPerLevel = 40
+	# Default: 1000
+	# Range: > 1
+	fluidPerLevel = 1000
+	# Default: 4000
+	# Range: > 1
+	cacheCapacity = 4000
+
+[schrodingersCat]
+	# Default: 20
+	# Range: > 1
+	defaultInterval = 20
+	# Default: 72000
+	# Range: > 1
+	maxInterval = 72000
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	highSignalChance = 0.5
+
+[boneRatchet]
+	# Default: 20000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fallbackJamStressImpact = 20000.0
+	# Default: 1024.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	creativeMotorMargin = 1024.0
+
+[basinEntityProcessing]
+	# Default: 1.25
+	# Range: 0.0 ~ 16.0
+	entityScanHeight = 1.25
+
+[slimeClutch]
+	# Default: 20
+	# Range: > 1
+	recheckPeriod = 20
+	# Default: 1024
+	# Range: > 1
+	maxWalk = 1024
+	enableSoftOverloadCheck = true
+
+[liquidLivingSlime]
+	# Default: 4
+	# Range: 1 ~ 64
+	sourceHitsToBreak = 4
+	dropSlimeBallWhenSourceBreaks = true
+
+[fixedCarrotFishingRod]
+	# Default: 10.0
+	# Range: 0.0 ~ 128.0
+	searchRange = 10.0
+	# Default: 1.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	speedModifier = 1.2
+	# Default: 2.5
+	# Range: 0.0 ~ 64.0
+	stopDistance = 2.5
+	# Default: 20
+	# Range: > 0
+	searchCooldown = 20
+	# Default: 100
+	# Range: > 0
+	stopCooldown = 100
+
+[bufferPad]
+	# Default: 0.05
+	# Range: 0.0 ~ 1.7976931348623157E308
+	escapePushSpeed = 0.05
+	# Default: 1.0E-4
+	# Range: 0.0 ~ 1.0
+	movementEpsilon = 1.0E-4
+
+[shulkerPackager]
+	# Default: 8
+	# Range: > 1
+	transferDelay = 8
+	# Default: 5
+	# Range: 0 ~ 64
+	connectionRange = 5
+
+[frogStomach]
+	# Default: 48
+	# Range: 16 ~ 256
+	boxSize = 48
+
+[experiencePump]
+	#Allow an open experience pump input to drain experience from players.
+	allowPlayerXpDrain = true
+	#Allow an open experience pump input to drain and attract experience orbs.
+	allowOrbDrain = true
+	#Allow experience pumps to consume supported experience items from inventories.
+	allowItemXpDrain = true
+	#Maximum experience points transferred by one pump per tick. 0 keeps the RPM-derived rate unlimited.
+	# Default: 0
+	# Range: > 0
+	maxTransferPerTick = 0
+	#Experience-orb attraction radius, in blocks, for an input nozzle at 256 RPM.
+	# Default: 16.5
+	# Range: 0.0 ~ 128.0
+	nozzleAttractionRangeAt256Rpm = 16.5
+	#Convert experience fluid leaving open pipe ends back into experience orbs.
+	emitOrbsFromOpenPipes = true
+
+[bioPackager]
+	#Allow moving bio-packagers to replace a contraption's lethal mob hit with capture.
+	enableContraptionLethalCapture = true
+	#Duration of one bio-packager tray movement. Values below 6 are invalid for its animation curve.
+	# Default: 20
+	# Range: 6 ~ 1200
+	cycleTicks = 20
+
+[shulkerTeleporter]
+	allowCrossDimension = true
+	#Allow static-world destinations to load their chunk while resolving a teleport.
+	allowDestinationChunkLoading = true
+	#Maximum destination distance within the same dimension and sublevel. 0 means unlimited.
+	# Default: 0.0
+	# Range: 0.0 ~ 3.0E7
+	maxSameSpaceDistance = 0.0
+	allowPlayers = true
+	allowMobs = true
+	allowItems = true
+	#Maximum entities moved in one activation. 0 means unlimited.
+	# Default: 0
+	# Range: 0 ~ 1024
+	maxEntitiesPerTeleport = 0
+	# Default: 80
+	# Range: > 0
+	arrivalCooldownTicks = 80
+
+[teleportationFluid]
+	#Expose nether portal blocks as sources of teleportation fluid.
+	enablePortalExtraction = true
+	#Teleportation fluid available from each nether portal block, in millibuckets.
+	# Default: 250
+	# Range: > 1
+	fluidPerPortalBlock = 250
+	#Destroy a portal block after all of its configured teleportation fluid is extracted.
+	destroyPortalBlockWhenDrained = true
+
+[allayCourier]
+	allowCrossDimensionDelivery = true
+	#Maximum same-space delivery distance, in blocks. 0 means unlimited.
+	# Default: 0.0
+	# Range: 0.0 ~ 3.0E7
+	maxDeliveryDistance = 0.0
+	#Maximum active courier tasks on the server. 0 means unlimited.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	maxActiveTasks = 0
+	#Maximum active tasks launched by one player. 0 means unlimited; port-launched tasks are not counted here.
+	# Default: 0
+	# Range: 0 ~ 1000000
+	maxActiveTasksPerPlayer = 0
+	#Ticks before a courier may relocate near a distant or cross-dimensional target.
+	# Default: 300
+	# Range: > 0
+	teleportAfterTicks = 300
+	#Ticks before a courier forces delivery recovery. Effectively never less than teleportAfterTicks.
+	# Default: 600
+	# Range: > 0
+	forceArrivalTicks = 600
+	#Ticks a port keeps retrying a queued carrier return before applying its existing fallback.
+	# Default: 100
+	# Range: > 1
+	returnRetryTicks = 100
+	#Delay before a received carrier launches its return trip.
+	# Default: 40
+	# Range: > 0
+	returnLaunchDelayTicks = 40
+
+#Master content-family switches. Disabled families keep their registry entries and existing world blocks, but their output recipes will not load and players cannot place new blocks. Run /reload or restart the server after changing these values.
+[features]
+	allayLogistics = true
+	automaticFishReleaseMachine = true
+	bioPackager = true
+	biotechMaterials = true
+	boneRatchet = true
+	bufferPad = true
+	butterCat = true
+	cardboardBox = true
+	creeperBlastChamber = true
+	evokerEnchantingChamber = true
+	experience = true
+	fixedCarrotFishingRod = true
+	frogStomach = true
+	ghastHotAirBalloon = true
+	liquidLivingSlime = true
+	magmaBelt = true
+	petriDish = true
+	powerBelt = true
+	schrodingersCat = true
+	shulkerPackager = true
+	shulkerTeleporter = true
+	slimeArmor = true
+	slimeBelt = true
+	slimeClutch = true
+	smartSuperGlue = true
+	spiderAssemblyTable = true
+	squidPrinter = true
+	teleportationFluid = true
+	universalJoint = true
+	wirelessTerminal = true

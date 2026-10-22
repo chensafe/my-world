@@ -1,0 +1,75 @@
+#Keep Backpack equipped in Curios slot upon death.
+keepBackpackOnDeath = true
+
+#Jetpack Upgrade
+[jetpack_upgrade]
+	#Enable Jetpack boosting while gliding with an Elytra equipped.
+	elytraBoostEnabled = true
+	#Multiplier for Jetpack fuel consumption while Elytra boosting.
+	# Default: 4
+	# Range: 1 ~ 10
+	elytraBoostMultiplier = 4
+	#Multiplier for Jetpack speed while Elytra boosting.
+	# Default: 1.5
+	# Range: 1.0 ~ 5.0
+	elytraBoostSpeedMultiplier = 1.5
+	#Should the mining speed penalty be applied when flying with the Jetpack and mining?
+	jetpackMiningPenalty = true
+	#Allow the use of the flight upgrade over the void in The End dimension.
+	jetpackAllowVoidFlight = false
+
+#Jukebox Upgrade
+[jukebox_upgrade]
+	#Enable the buff system to apply beneficial buffs to the player when a song is playing.
+	jukeboxBuffsEnabled = true
+	#The range (in blocks) around the backpack within which the Jukebox Upgrade will apply buffs.
+	# Default: 16
+	# Range: 1 ~ 64
+	jukeboxBuffRange = 16
+	#Enable the music note particles on the BLOCK to be displayed when a music disc is playing.
+	jukeboxNotesEnabled = true
+
+#Magnet Upgrade
+[magnet_upgrade]
+	#The range (in blocks) around the backpack within which the Magnet Upgrade will pull items.
+	# Default: 5
+	# Range: 2 ~ 16
+	backpackMagnetRange = 5
+
+#Mechanical Heart Upgrade
+[mechanical_heart_upgrade]
+	#Specify the amount of bonus health the Mechanical Heart Upgrade should provider each player
+	# Default: 5
+	# Range: 0 ~ 50
+	healthUpgradeBonus = 5
+
+#Workshop Upgrade
+[workshop_upgrade]
+	#The kinetic speed supplied to the Workshop Upgrade's machine.
+	#Controls how fast the deployer/press processes items.
+	# Default: 32
+	# Range: 1 ~ 256
+	workshopKineticSpeed = 32
+
+#Ore Mining Upgrade
+[ore_mining_upgrade]
+	#When enabled, the Ore Mining upgrade will only allow ores to be mined with the upgrade.
+	#This setting is enforced by the server and overrides the player's setting.
+	mineOresOnly = false
+	#Allows ore veins to be previewed with an outline when pressing the keybind before mining.
+	#This setting is enforced by the server and overrides the player's setting.
+	oreminingPreviewOreVein = true
+
+#Storage Box
+[storage_box]
+	#The number of ticks before Storage Boxes update their block count and block states. Higher value = better performance.
+	storageBoxUpdateTime = 20
+
+#Storage Network
+[storage_network]
+	#The maximum number of blocks the storage network will search from the controller to find connected components.
+	# Default: 32
+	# Range: 8 ~ 64
+	simpleStorageNetworkRange = 32
+	#The number of ticks between each update check for controllers and interfaces to refresh their connection to the storage network.
+	simpleStorageNetworkUpdateTime = 20

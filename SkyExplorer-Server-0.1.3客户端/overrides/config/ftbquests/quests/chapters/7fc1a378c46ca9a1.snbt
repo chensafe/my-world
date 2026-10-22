@@ -1,0 +1,428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7fc1a378c46ca9a1"
+	group: "475A5EDAEAFE218B"
+	icon: {
+		id: "cataclysm:flame_eye"
+	}
+	id: "7FC1A378C46CA9A1"
+	images: [
+		{
+			height: 4.5d
+			id: "295BB626426327EC"
+			image: "quest_enhance:textures/ftb/chapter_accent_7fc1a378c46ca9a1_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -3.1d
+			y: 0.75d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "6EA7A339143C1535"
+			image: "quest_enhance:textures/ftb/unique_node_v1_cataclysm_logo.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "17B06DF4C1745F2F"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_ancient_remnant.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "2BD80D5C050DC11F"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_maledictus.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "0148F22B65637C4E"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_ignis.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "23587D3C137FFA82"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_the_leviathan.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "3BC6579A3FF8C33B"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_ender_guardian.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "56EA109F88E6FED7"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_the_harbinger.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "607270EB252F032E"
+			image: "quest_enhance:textures/ftb/expansion_v2_boss_netherite_monstrosity.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 2.5d
+			id: "59C2752FF9B5AB9C"
+			image: "quest_enhance:textures/ftb/unique_node_v1_boss_storm.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.5d
+			x: 17.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "1699363DF7324E18"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 2
+					id: "5295EA6C244C53A2"
+					item: {
+						count: 1
+						id: "cataclysm:monstrous_horn"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "4BE966FEC12B2B3C"
+					item: {
+						count: 1
+						id: "cataclysm:lava_power_cell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "2ED7755716E9836B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "17DC02E589B5FFCE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6E5EA8C09932C123"
+				item: {
+					count: 1
+					id: "cataclysm:witherite_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "1C8E3D101070EECE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "462C363D3DDA2C2C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "62A4FF6BB045487E"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					type: "item"
+				}
+				{
+					id: "17B63CD9D3799300"
+					item: {
+						count: 1
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "2C963A1AFAA8B04D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "06B2A3537FC33114"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "2D7697D5C6CDEE48"
+					item: {
+						count: 1
+						id: "cataclysm:tidal_claws"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B3D91A260B1FE1E"
+					item: {
+						count: 1
+						id: "cataclysm:coral_chunk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "67D9AE66BCB5D538"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "6222C280A99AC290"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2BD801A37B727753"
+				item: {
+					count: 1
+					id: "cataclysm:ignitium_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "5D6ECD797E2A1C09"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "7D95FFA36880E21E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "08A2C99C82B68AA8"
+				item: {
+					count: 1
+					id: "cataclysm:cursium_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "5A6BF12E10073132"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "7530384034440568"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 3
+					id: "695537FD5B3032AE"
+					item: {
+						count: 1
+						id: "cataclysm:essence_of_the_storm"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "13C697991929B574"
+					item: {
+						count: 1
+						id: "cataclysm:lacrima"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "5D9A78A0ACF2D411"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:the_baby_leviathan_spawn_egg"
+			}
+			id: "09E2A85D71077E69"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/cataclysm/the_baby_leviathan"
+				criterion: ""
+				id: "0F81359BC187CAFC"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:netherite_ministrosity_spawn_egg"
+			}
+			id: "0500CFD665B660C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/cataclysm/netherite_ministrosity"
+				criterion: ""
+				id: "376552669A688AD2"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:modern_remnant_spawn_egg"
+			}
+			id: "6ADCD5DC43946CD4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				advancement: "lesiry_wildlife:observe/cataclysm/modern_remnant"
+				criterion: ""
+				id: "512B07218B997E60"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "668BACD3134192FE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "34AF6C2063F3CA5E"
+					item: {
+						count: 1
+						id: "cataclysm:sandstorm_in_a_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "31077C3768475ED0"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "62C2A64E0526753B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

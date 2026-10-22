@@ -1,0 +1,1238 @@
+{
+	autofocus_id: "0430F213D462A80A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67f180f6aa32cf84"
+	group: "5EC52CF4B56035D7"
+	icon: {
+		id: "touhou_little_maid:maid_spawn_egg"
+	}
+	id: "67F180F6AA32CF84"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "touhou_little_maid:maid_bed"
+			}
+			id: "5C89F4B12B71AFEC"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "4559445405C58608"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C89F4B12B71AFEC"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "5389FFD17BE749B9"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "79575948414B889E"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C89F4B12B71AFEC"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "22D6F0A9EEA6C7D2"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "2576FACEA9A45FA9"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C89F4B12B71AFEC"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "078D740D7242562A"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "33E93783E66D56C9"
+				item: { count: 1, id: "minecraft:bread" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C89F4B12B71AFEC"]
+			icon: {
+				id: "touhou_little_maid:maid_bed"
+			}
+			id: "42EA3BF1C2B58610"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "14F0AB34B5813CF8"
+				item: { count: 1, id: "touhou_little_maid:maid_bed" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["078D740D7242562A"]
+			icon: {
+				id: "touhou_little_maid:picnic_basket"
+			}
+			id: "18CE32831B5A7A30"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "0C898F4886BD1B73"
+				item: { count: 1, id: "touhou_little_maid:picnic_basket" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42EA3BF1C2B58610"]
+			icon: {
+				id: "touhou_little_maid:maid_bed"
+			}
+			id: "6F227FA8DB59F451"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:favorability/maid_sleep"
+				criterion: ""
+				id: "48B661CEADB8F86D"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18CE32831B5A7A30"]
+			icon: {
+				id: "touhou_little_maid:picnic_basket"
+			}
+			id: "448639B607B9373F"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:favorability/maid_picnic_eat"
+				criterion: ""
+				id: "2BEBB2E5EA85EEA2"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C89F4B12B71AFEC"]
+			icon: {
+				id: "touhou_little_maid:keyboard"
+			}
+			id: "270779B72219F8F5"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "07E0621C9E978D22"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["270779B72219F8F5"]
+			icon: {
+				id: "touhou_little_maid:keyboard"
+			}
+			id: "4A5E176AF9A266F3"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "10014870DB35D443"
+				item: { count: 1, id: "touhou_little_maid:keyboard" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["270779B72219F8F5"]
+			icon: {
+				id: "touhou_little_maid:computer"
+			}
+			id: "38DA55689D4D0230"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "0FE57CE53D3B3388"
+				item: { count: 1, id: "touhou_little_maid:computer" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["270779B72219F8F5"]
+			icon: {
+				id: "touhou_little_maid:bookshelf"
+			}
+			id: "7DC4784C109DDB84"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "5DBD0B3DBFC434F3"
+				item: { count: 1, id: "touhou_little_maid:bookshelf" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["270779B72219F8F5"]
+			icon: {
+				id: "touhou_little_maid:gomoku"
+			}
+			id: "5FBFFA20264912E1"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "0704CE85F9EEFEC7"
+				item: { count: 1, id: "touhou_little_maid:gomoku" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["078D740D7242562A"]
+			icon: {
+				id: "touhou_little_maid:snack_cabinet"
+			}
+			id: "706BCDACFB5BB2BB"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6D8F28326782D931"
+				item: { count: 1, id: "touhou_little_maid:snack_cabinet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "4008875B0677A33D"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/switch_task"
+				criterion: ""
+				id: "7581A312C1F01100"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "1FED71CEB5F9C377"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/maid_farm"
+				criterion: ""
+				id: "7CE8726B8E03F82C"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "3975EC7DD806729B"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/maid_feed_animal"
+				criterion: ""
+				id: "57B8BC662C8B3614"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FED71CEB5F9C377"]
+			icon: {
+				id: "minecraft:sugar_cane"
+			}
+			id: "1C8CCF0CAEDD21E9"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "08B747D5E9D51557"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3975EC7DD806729B"]
+			icon: {
+				id: "minecraft:milk_bucket"
+			}
+			id: "4A7995AC918348D7"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "55CF9ED5385C8C77"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "221919362ACB1573"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "7E1F7D08E22C928C"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "58636E1A800C8225"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/maid_fishing"
+				criterion: ""
+				id: "76A07050FC2D6351"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "68C3BB48F1410C0C"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/maid_kill_mob"
+				criterion: ""
+				id: "1694E8667D42B5A7"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68C3BB48F1410C0C"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BrainlayersBeadDecoration: {
+							Anchor: 1
+							Artwork: {
+								components: {
+									"minecraft:custom_data": {
+										BeadDataVersion: 2
+										Height: 10
+										Pixels: [I;
+											179
+											179
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											161
+											161
+											179
+											179
+											179
+											161
+											161
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											161
+											161
+											161
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											161
+											161
+											161
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											0
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											179
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+											0
+										]
+										Size: 32
+										Width: 12
+									}
+								}
+								count: 1
+								id: "brainlayers:bead_artwork"
+							}
+							Connector: "chain"
+							Height: 10
+							Pixels: [I;
+								179
+								179
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								161
+								161
+								179
+								179
+								179
+								161
+								161
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								161
+								161
+								161
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								161
+								161
+								161
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								0
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								179
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+								0
+							]
+							RX: 0.0f
+							RY: 0.0f
+							RZ: 0.0f
+							Scale: 0.3f
+							StartX: 0.0f
+							StartY: 5.6f
+							StartZ: 0.0f
+							Version: 2
+							Width: 12
+							X: 0.908057f
+							Y: 0.0f
+							Z: -19.245525f
+						}
+						GunCurrentAmmoCount: 9
+						GunFireMode: "AUTO"
+						GunId: "create_armorer:rifle_assult_roller"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "6B23147FA33A35BD"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "752B6D92677177E5"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "create:hand_crank"
+			}
+			id: "4D05A1F1A59E8868"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.5d
+			tasks: [{
+				id: "3E7C56342CD59BF1"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "0814EB728B77E48C"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "2A5EE2B6EA2F7272"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0814EB728B77E48C"]
+			icon: {
+				id: "maidsoulkitchen:culinary_hub"
+			}
+			id: "5065808DA1ADA720"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2CBC51B27E00162C"
+				item: { count: 1, id: "maidsoulkitchen:culinary_hub" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5065808DA1ADA720"]
+			icon: {
+				id: "maidsoulkitchen:culinary_hub"
+			}
+			id: "60F4EAF7E458D54D"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "63D0DED5DBAD7312"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:item_magnet_bauble"
+			}
+			id: "545E2CB52F5D0F86"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "21E3BAF03D81F8C6"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:maid_backpack_small"
+			}
+			id: "385AFDD2F14D74A5"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4A90300B16B69825"
+				item: { count: 1, id: "touhou_little_maid:maid_backpack_small" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["385AFDD2F14D74A5"]
+			icon: {
+				id: "touhou_little_maid:maid_backpack_middle"
+			}
+			id: "6889ACB231355C7B"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "22D0739D3FE1DB0F"
+				item: { count: 1, id: "touhou_little_maid:maid_backpack_middle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6889ACB231355C7B"]
+			icon: {
+				id: "touhou_little_maid:maid_backpack_big"
+			}
+			id: "0DD842F610E3C7EC"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "54E604C73F1B295E"
+				item: { count: 1, id: "touhou_little_maid:maid_backpack_big" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["385AFDD2F14D74A5"]
+			icon: {
+				id: "touhou_little_maid:crafting_table_backpack"
+			}
+			id: "1A584E4767D86111"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "25C3B2B7EFFEB2D7"
+				item: { count: 1, id: "touhou_little_maid:crafting_table_backpack" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["385AFDD2F14D74A5"]
+			icon: {
+				id: "touhou_little_maid:furnace_backpack"
+			}
+			id: "724311BA2BCE8B13"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "38FF30865207E363"
+				item: { count: 1, id: "touhou_little_maid:furnace_backpack" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["385AFDD2F14D74A5"]
+			icon: {
+				id: "touhou_little_maid:ender_chest_backpack"
+			}
+			id: "608EBE41AB197D6F"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "16BE1D18AEACC873"
+				item: { count: 1, id: "touhou_little_maid:ender_chest_backpack" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["385AFDD2F14D74A5"]
+			icon: {
+				id: "touhou_little_maid:tank_backpack"
+			}
+			id: "7E619BC33F4DE14A"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "3D3B34C90A77491B"
+				item: { count: 1, id: "touhou_little_maid:tank_backpack" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:camera"
+			}
+			id: "49D2B7159916B9B6"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6BCD07E57968B63B"
+				item: { count: 1, id: "touhou_little_maid:camera" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49D2B7159916B9B6"]
+			icon: {
+				id: "touhou_little_maid:photo"
+			}
+			id: "4CE83291C79256FD"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/photo_maid"
+				criterion: ""
+				id: "7090976451D1D3AC"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CE83291C79256FD"]
+			icon: {
+				id: "touhou_little_maid:photo"
+			}
+			id: "42AD3CF441EE3126"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "4A5E0299741D5231"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:servant_bell"
+			}
+			id: "38264A6E923BEBC4"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "197C07BA2B569A90"
+				item: { count: 1, id: "touhou_little_maid:servant_bell" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38264A6E923BEBC4"]
+			icon: {
+				id: "touhou_little_maid:servant_bell"
+			}
+			id: "227EE85FA7D13861"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				advancement: "touhou_little_maid:maid_base/use_servant_bell"
+				criterion: ""
+				id: "4033E3A83B77736D"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:film"
+			}
+			id: "063DCBBE188E94E8"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "1578FD31F3BBEC78"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["063DCBBE188E94E8"]
+			icon: {
+				id: "touhou_little_maid:shrine"
+			}
+			id: "2C3C883491165558"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "4CBD089BD8B37606"
+				item: { count: 1, id: "touhou_little_maid:shrine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "touhou_little_maid:ultramarine_orb_elixir"
+			}
+			id: "1B9450D458AE97C8"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "3FF40A86B2C3498F"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:fall_protect_bauble"
+			}
+			id: "2988B00DC9342592"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "43CC23D0236F25AB"
+				item: { count: 1, id: "touhou_little_maid:fall_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:fire_protect_bauble"
+			}
+			id: "1015CA2DB4C84042"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "20EAC878D85EDFC1"
+				item: { count: 1, id: "touhou_little_maid:fire_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:magic_protect_bauble"
+			}
+			id: "00948EFA2E746626"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "1E87A215FC535172"
+				item: { count: 1, id: "touhou_little_maid:magic_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:projectile_protect_bauble"
+			}
+			id: "2ADD7C4ED8C20359"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "10202946B46E65ED"
+				item: { count: 1, id: "touhou_little_maid:projectile_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:explosion_protect_bauble"
+			}
+			id: "5EE74B47C4AADCBB"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "547EF400AF9C66FE"
+				item: { count: 1, id: "touhou_little_maid:explosion_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:drown_protect_bauble"
+			}
+			id: "63EC449EE8039B09"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "643830685DD0F6CF"
+				item: { count: 1, id: "touhou_little_maid:drown_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:nimble_fabric"
+			}
+			id: "584899B9A0DBB0A0"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6FE8A4483E07FBC1"
+				item: { count: 1, id: "touhou_little_maid:nimble_fabric" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:ultramarine_orb_elixir"
+			}
+			id: "14C2F013ACBB153F"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "69265A1AA0B20C28"
+				item: { count: 1, id: "touhou_little_maid:ultramarine_orb_elixir" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "7FB79BBFE739B97D"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2FD396B1B20F6BD1"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:item_magnet_bauble"
+			}
+			id: "1DDBD19C214879CF"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "022235CB620BACA0"
+				item: { count: 1, id: "touhou_little_maid:item_magnet_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:mute_bauble"
+			}
+			id: "1CC64E8ABB8E2A18"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "24309033256DB57A"
+				item: { count: 1, id: "touhou_little_maid:mute_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "touhou_little_maid:wireless_io"
+			}
+			id: "4F834081CE6E159F"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "315EF09A96E5A91F"
+				item: { count: 1, id: "touhou_little_maid:wireless_io" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B9450D458AE97C8"]
+			icon: {
+				id: "maidsoulkitchen:burn_protect_bauble"
+			}
+			id: "07F9662283C7A5A8"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "2BA1A5C127A6093C"
+				item: { count: 1, id: "maidsoulkitchen:burn_protect_bauble" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ancient_city"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/66f1efd2a0aeae61"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/03414ea3d071c47c"
+        }
+      ]
+    }
+  ],
+  "table": "create_biotech:chests/ancient_city_sonic_boom"
+}

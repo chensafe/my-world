@@ -1,0 +1,1340 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "6c228e82951234d5"
+	group: "5C5B541F10D098F1"
+	icon: {
+		id: "minecraft:wheat_seeds"
+	}
+	id: "6C228E82951234D5"
+	images: [{
+		click_action: "none:"
+		height: 38.0d
+		id: "452CA37D8F2E9678"
+		image: "quest_enhance:textures/ftb/seed_shop_stall_v1.png"
+		order: -30
+		quest_enhance_exclude_from_box_selection: 0b
+		rotation: 0.0d
+		width: 30.0d
+		x: 0.0d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "7827EB3AC9887179"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5C01A70DC3B6C0F4"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6538E9402EF9504B"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:beetroot"
+			}
+			id: "5C8F4ADA632373B3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "40A0D7085E99463F"
+				item: {
+					count: 1
+					id: "minecraft:beetroot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7E5162D34F4815E5"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:melon_slice"
+			}
+			id: "7D999D6FF04D9480"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "21FA0E085D861343"
+				item: {
+					count: 1
+					id: "minecraft:melon_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "72681ADB601A320E"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:pumpkin_seeds"
+			}
+			id: "471327D09CE252D0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5BB478A231653CE4"
+				item: {
+					count: 1
+					id: "minecraft:pumpkin_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "63EB76E009BD1D6E"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:torchflower_seeds"
+			}
+			id: "367AD72BE418210C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "6418B1E084BB5A44"
+				item: {
+					count: 1
+					id: "minecraft:torchflower_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "25F2951556C38837"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:pitcher_pod"
+			}
+			id: "4D07CD21C2240B28"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "7D9953E237DACE8A"
+				item: {
+					count: 1
+					id: "minecraft:pitcher_pod"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "49567CEB2F21C1AB"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "farmersdelight:cabbage"
+			}
+			id: "68E6699F905B49FA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "6C6068D3AEDDCA81"
+				item: {
+					count: 1
+					id: "farmersdelight:cabbage_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7863F8F7B4BD4759"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "farmersdelight:tomato_seeds"
+			}
+			id: "04D2AB91768F066C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "3100F653F1007245"
+				item: {
+					count: 1
+					id: "farmersdelight:tomato_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6C44508B47CCF6DA"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "farmersdelight:rice"
+			}
+			id: "54C6C576E4A0FCA1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5F196E8D1AB20A91"
+				item: {
+					count: 1
+					id: "farmersdelight:rice"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "34E1D7F99FD96F5B"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "culturaldelights:corn_kernels"
+			}
+			id: "3737845AEDDCA488"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "4837C360EFB0C61B"
+				item: {
+					count: 1
+					id: "culturaldelights:corn_kernels"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "41E1CFE0FF229D75"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "culturaldelights:cucumber_seeds"
+			}
+			id: "1B85D9B45CD912D1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "35CCFCF9D5ED158A"
+				item: {
+					count: 1
+					id: "culturaldelights:cucumber_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3646B9DCB8E3F650"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "culturaldelights:eggplant_seeds"
+			}
+			id: "26B25B3D4E863BC1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "6336B367C967E117"
+				item: {
+					count: 1
+					id: "culturaldelights:eggplant_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "67D711513F3DD438"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "expandeddelight:asparagus_seeds"
+			}
+			id: "1FD14D42938EC7C3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5D03DF55C25AB25C"
+				item: {
+					count: 1
+					id: "expandeddelight:asparagus_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4F7365B0A8109556"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "expandeddelight:chili_pepper_seeds"
+			}
+			id: "5C09804569D3A0D4"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "549C16FF6D607B20"
+				item: {
+					count: 1
+					id: "expandeddelight:chili_pepper_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3D2497D76D8A07AB"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "rusticdelight:bell_pepper_seeds"
+			}
+			id: "00C29C860CFEDA81"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "48F7D3105CA793FD"
+				item: {
+					count: 1
+					id: "rusticdelight:bell_pepper_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1B6E1C74C6155904"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "rusticdelight:cotton_boll"
+			}
+			id: "3C7AA564835D4A06"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "04F7F3BAA41B63BE"
+				item: {
+					count: 1
+					id: "rusticdelight:cotton_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0535387A1C044CF3"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "rusticdelight:dark_bell_pepper_seeds"
+			}
+			id: "00807A26CDAF94BB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "4229988C25ECFE28"
+				item: {
+					count: 1
+					id: "rusticdelight:dark_bell_pepper_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "125FEB39112FC0DA"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "rusticdelight:pale_bell_pepper_seeds"
+			}
+			id: "2D00CDF7F95798E2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "1F8351D87D487F73"
+				item: {
+					count: 1
+					id: "rusticdelight:pale_bell_pepper_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4F4B4B15E94FDF76"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "rusticdelight:coffee_beans"
+			}
+			id: "303A16661BA0D36A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "66120AC6F231C270"
+				item: {
+					count: 1
+					id: "rusticdelight:coffee_beans"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3C96442C253A5AFB"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:red_grape_seeds"
+			}
+			id: "02686EA80A362EA7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "3504D1557BECE00D"
+				item: {
+					count: 1
+					id: "vinery:red_grape_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "522D6307CC4F7A84"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:white_grape_seeds"
+			}
+			id: "3D4A3E360F3B42B6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "08BBD13BDD262B62"
+				item: {
+					count: 1
+					id: "vinery:white_grape_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "38AB114F4A00801D"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:jungle_grape_seeds_red"
+			}
+			id: "4C1F8815A796F2D1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "4CE590BB91BC2C55"
+				item: {
+					count: 1
+					id: "vinery:jungle_grape_seeds_red"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3F41E5857302465A"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:jungle_grape_seeds_white"
+			}
+			id: "108C4E9A6D7BD50E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "3072AA022F0A1FFA"
+				item: {
+					count: 1
+					id: "vinery:jungle_grape_seeds_white"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5D44414C9F8C65CE"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:savanna_grape_seeds_red"
+			}
+			id: "7E161CFB680E74F2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "155D63953113D884"
+				item: {
+					count: 1
+					id: "vinery:savanna_grape_seeds_red"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "01ECFDBF7FDE2019"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:savanna_grape_seeds_white"
+			}
+			id: "28CA2C379C1D48FE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "1BC486F2D69B4207"
+				item: {
+					count: 1
+					id: "vinery:savanna_grape_seeds_white"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4B1707EA32ED198B"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:taiga_grape_seeds_red"
+			}
+			id: "742F4E42C82AF272"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "1ADDDF417EABEA5E"
+				item: {
+					count: 1
+					id: "vinery:taiga_grape_seeds_red"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3A8CB84313834D2B"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "vinery:taiga_grape_seeds_white"
+			}
+			id: "7D0EB14B806B79E6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "533D41BDF263DF59"
+				item: {
+					count: 1
+					id: "vinery:taiga_grape_seeds_white"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5B7176D424BCD8D1"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "adorablehamsterpets:cucumber_seeds"
+			}
+			id: "3DA56EC50A33C717"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "13C42026B115C3DA"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:cucumber_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5E409C94A51DC967"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "adorablehamsterpets:green_bean_seeds"
+			}
+			id: "109B24E104B9CDC8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "640DF2B77D3ADC67"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:green_bean_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "33C94A31229CE21F"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "adorablehamsterpets:sunflower_seeds"
+			}
+			id: "16C94F5543E186AE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "3A0971DFD8D7A101"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:sunflower_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "20B2D13B3C2C10F4"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "primal:kiwano_seeds"
+			}
+			id: "3CC17AE5CBF74796"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "646BD76968780D98"
+				item: {
+					count: 1
+					id: "primal:kiwano_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3AF263BE547F346E"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "primal:litchi_seeds"
+			}
+			id: "115CD342CDD4AA4A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "69431A060BAAEC0B"
+				item: {
+					count: 1
+					id: "primal:litchi_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "520025160781812E"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "primal:starfruit"
+			}
+			id: "64BE6BCC6AAF1F5D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "0A6DB44C7F0608F5"
+				item: {
+					count: 1
+					id: "primal:starfruit_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0564F77836C552A0"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "spawn:date_seed"
+			}
+			id: "65BF97D1F019F393"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5CD1BC3DF852FA57"
+				item: {
+					count: 1
+					id: "spawn:date_seed"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2147E65D43973FD2"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "spawn:sunflower_seeds"
+			}
+			id: "1292D0DE2FE73AA3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "365C4952418EBBD8"
+				item: {
+					count: 1
+					id: "spawn:sunflower_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6110524B67C2F7F8"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "supplementaries:flax_seeds"
+			}
+			id: "3F239CB4B7F71CB5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "052DF6606F888CBA"
+				item: {
+					count: 1
+					id: "supplementaries:flax_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "053204DF4116C7F8"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "netherexp:cerebrage_seeds"
+			}
+			id: "5128A4692D2B0DD3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "39DDE978D8B14DCB"
+				item: {
+					count: 1
+					id: "netherexp:cerebrage_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "479DAF1B0971D4EE"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:potato"
+			}
+			id: "0710362D30172B8D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "125919D66702E5B3"
+				item: {
+					count: 1
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "039BC96AD284213A"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "7DBB8DF852E92CB1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "52FAD4B866953397"
+				item: {
+					count: 1
+					id: "minecraft:carrot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "6BBA837E850CB22A"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mynethersdelight:powder_cannon"
+			}
+			id: "225F5B65AF4DE1DD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "07E77F238099C071"
+				item: {
+					count: 1
+					id: "mynethersdelight:powder_cannon"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0E4737395CBCDDD7"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cocoa_beans"
+			}
+			id: "454DE984E0C23CC7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "0CB95DC82952ABD4"
+				item: {
+					count: 1
+					id: "minecraft:cocoa_beans"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "22B82E0DFC1D3EAC"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:cactus"
+			}
+			id: "33D4CBBBBC4730F6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "277A4BF306F9804F"
+				item: {
+					count: 1
+					id: "minecraft:cactus"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0CC76C56AB94F80C"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:bamboo"
+			}
+			id: "6C6DBBA9ED181F83"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "5D094C331431F65A"
+				item: {
+					count: 1
+					id: "minecraft:bamboo"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5323D9D7F6487FBD"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:kelp"
+			}
+			id: "22D58C5EA424F908"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "257A2122EA5878A3"
+				item: {
+					count: 1
+					id: "minecraft:kelp"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2F3267F46083068C"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+	]
+}

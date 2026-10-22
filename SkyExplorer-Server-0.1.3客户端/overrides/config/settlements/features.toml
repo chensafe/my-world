@@ -1,0 +1,45 @@
+[drop_inventory_on_death]
+	#When a villager dies, drop inventory onto the ground.
+	enabled = true
+
+[worldgen_villager_replacement]
+	#Chance for each naturally spawned villager to be replaced by a Settlements villager. Set to 0 to disable
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	replacement_chance = 0.75
+
+[ore_regeneration]
+	#Master switch: should the ores mined by villagers regenerate into random ores?
+	enabled = true
+	#Probability that a dormant ore grows on each random tick. At randomTickSpeed=3 (vanilla default) and regenChancePerRandomTick=0.06, each full recharge takes 37 mins on average
+	# Default: 0.06
+	# Range: 0.0 ~ 1.0
+	regen_chance_per_random_tick = 0.06
+
+[speech_mirror]
+	#When true, villager speech (monologue/gossip/dialogue) is echoed into the chat log
+	mirror_to_chat = false
+	#Radius in blocks around a speaking villager within which players receive the chat mirror
+	# Default: 16
+	# Range: 1 ~ 128
+	chat_radius = 16
+
+[village_animal_spawner]
+	#Seconds between spawn attempts near a village
+	# Default: 40
+	# Range: 1 ~ 1200
+	spawn_interval = 40
+	#Maximum Settlements wolves within 48 blocks of a village before wolf spawning stops
+	# Default: 2
+	# Range: 0 ~ 64
+	wolf_village_cap = 2
+	#Minimum occupied home POIs nearby for an area to count as a spawnable village
+	# Default: 4
+	# Range: 0 ~ 256
+	minimum_occupied_homes = 4
+	#Chance per spawn cycle to also spawn one configured farm animal near the village
+	# Default: 0.06
+	# Range: 0.0 ~ 1.0
+	farm_animal_spawn_chance = 0.06
+	#Farm animals eligible to spawn in villages, mapped to their per-species cap within 48 blocks (Format: key1=value1,key2=value2)
+	farm_animal_caps = "{'minecraft:cow':'2','minecraft:chicken':'2','minecraft:pig':'2','minecraft:sheep':'2','minecraft:rabbit':'2'}"

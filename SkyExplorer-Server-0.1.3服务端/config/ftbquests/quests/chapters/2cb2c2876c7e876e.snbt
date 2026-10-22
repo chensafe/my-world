@@ -1,0 +1,328 @@
+{
+	autofocus_id: "1097A9542B0755E1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2cb2c2876c7e876e"
+	group: "02B06C73667D5EA7"
+	icon: {
+		id: "farmersdelight:stove"
+	}
+	id: "2CB2C2876C7E876E"
+	images: [{
+		height: 4.5d
+		id: "4FE38EDE087B4049"
+		image: "quest_enhance:textures/ftb/chapter_accent_2cb2c2876c7e876e_v1.png"
+		order: -10
+		quest_enhance_exclude_from_box_selection: 0b
+		rotation: 0.0d
+		width: 4.5d
+		x: 4.5d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1097A9542B0755E1"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "42FAD0874C309151"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "305B65FA1F577523"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "775C7D5403E7D267"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "47127EC5940CE80A"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "0AAB26E939FC977C"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "632654168A1AA602"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "6D380279E8F08C88"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "13F6AF00588BCCB0"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "227B1ABA1E77F03D"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "24DC8A921948B2C0"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5BE00A32E138CD30"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "6574DAA0113450AB"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "527C1E23C4AF18A9"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "64BCC23A90B4A46B"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "59BDC53E068BEF8A"
+				item: { count: 1, id: "farmersdelight:golden_knife" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "3CD4311DDFCAA4AA"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "7AC3586BC3D41630"
+				item: { count: 1, id: "farmersdelight:diamond_knife" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "2C701DF95D95F055"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "606E692652B7E043"
+				item: { count: 1, id: "farmersdelight:netherite_knife" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "4B9CF867699F899D"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "3A3A630AFD84AE0F"
+				item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "16F7388D4F2525A9"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "127A1E25DAF54B7A"
+				item: { count: 1, id: "dungeonsdelight:dungeon_stove" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "76F36BB2E9C6CC82"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "2165D171BCB4CA32"
+				item: { count: 1, id: "dungeonsdelight:monster_pot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "5C188DD7C65CE8F5"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "7748D660BE07B4DB"
+				item: { count: 1, id: "dungeonsdelight:flint_cleaver" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "748C8252DE36A865"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "44D677EA4E9894CA"
+				item: { count: 1, id: "dungeonsdelight:iron_cleaver" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "47EDEDEDCFB2C834"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5BEF51C4F32DB8D3"
+				item: { count: 1, id: "dungeonsdelight:golden_cleaver" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "7A14EC20DB95DF92"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "3D9858F105AF4AEE"
+				item: { count: 1, id: "dungeonsdelight:diamond_cleaver" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "254EF2BAF78FF98F"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "3C639061B24A3FED"
+				item: { count: 1, id: "dungeonsdelight:netherite_cleaver" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "68099640D80B28A4"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "656AAFFF74314EE1"
+				item: { count: 1, id: "ends_delight:end_stove" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "00E642354900C2CB"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "1C9C953A4FFC1749"
+				item: { count: 1, id: "ends_delight:end_stone_knife" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "4032C51FF30AE523"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "1C11B03DBF6D3537"
+				item: { count: 1, id: "ends_delight:purpur_knife" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "37BE2D4B08CFCAB4"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "0E7992D7E27F924F"
+				item: { count: 1, id: "ends_delight:dragon_egg_shell_knife" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "45C704362A99E3F4"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "2F811DBED57D9315"
+				item: { count: 1, id: "ends_delight:dragon_tooth_knife" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "5F47FB15D60EC4B2"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "26D02D50343CE56E"
+				item: { count: 1, id: "expandeddelight:juicer" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "38557621409870EE"
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "4917010128DC2098"
+				item: { count: 1, id: "expandeddelight:crushing_mallet" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,97 @@
+[event_lane]
+	#How many ticks a world event remains in the bus before being evicted (~5 s at 20 tps = 100 ticks)
+	# Default: 100
+	# Range: 20 ~ 12000
+	world_event_ttl_ticks = 100
+	#Maximum observations buffered per villager per tick before older ones are dropped
+	# Default: 50
+	# Range: 10 ~ 500
+	observation_buffer_capacity = 50
+	#Maximum episodic knowledge entries a villager retains (oldest evicted when full)
+	# Default: 200
+	# Range: 10 ~ 2000
+	knowledge_store_max_entries = 200
+	#Maximum squared block distance between two villagers for gossip to be possible
+	# Default: 25
+	# Range: 4 ~ 400
+	gossip_max_distance_squared = 25
+	#Base cooldown, before charisma and jitter, between attempts by one villager to initiate gossip
+	# Default: 120
+	# Range: 5 ~ 86400
+	gossip_initiate_cooldown_seconds = 120
+	#Base cooldown, before charisma and jitter, between gossip accept cues for one villager
+	# Default: 10
+	# Range: 1 ~ 86400
+	gossip_accept_cooldown_seconds = 10
+	#Exact per-receiver cooldown after one villager initiates gossip with another villager
+	# Default: 300
+	# Range: 5 ~ 86400
+	gossip_target_cooldown_seconds = 300
+
+[rehearsed_dialogue]
+	#Dialog mode: SCRIPTED (default, localized built-in lines) or REHEARSED (dialog service batch with SCRIPTED fallback).
+	mode = "SCRIPTED"
+	#How many candidate lines to generate per villager in the evening REHEARSED sweep.
+	# Default: 12
+	# Range: 1 ~ 50
+	pack_lines_per_villager = 12
+	#Total time budget in seconds for the evening REHEARSED sweep across all villagers.
+	# Default: 60
+	# Range: 5 ~ 300
+	pack_sweep_deadline_seconds = 60
+
+[plan_inference]
+	#Plan mode: HEURISTIC (default) or LLM (an always-on per-villager overlay may replace the heuristic plan).
+	mode = "HEURISTIC"
+	#Total time budget in seconds for one PLAN overlay sub-batch's streaming request.
+	# Default: 300
+	# Range: 5 ~ 1200
+	overlay_deadline_seconds = 300
+	#Max villagers coalesced into one streaming PLAN POST. Purely bounds HTTP payload size and per-connection failure blast radius — the backend (SIS + vLLM continuous batching) owns actual LLM concurrency, so this is not a throughput knob.
+	# Default: 20
+	# Range: 1 ~ 200
+	sub_batch_size = 20
+	#Max real seconds a partial sub-batch is held before being sent. A sub-batch flushes when it reaches sub_batch_size villagers OR this window elapses since its first buffered villager, whichever comes first.
+	# Default: 3
+	# Range: 1 ~ 30
+	sub_batch_window_seconds = 3
+	#Latest point in a plan's own day (civil ticks; 0 = 00:00, 24000 = next midnight; default 11_000 = 11:00) at which an LLM PLAN overlay is still worth requesting.
+	# Default: 11000
+	# Range: 0 ~ 24000
+	overlay_cutoff_civil_tick = 11000
+
+[persona]
+	#How often (in ticks) the pipeline scans loaded villagers for a PENDING persona and dispatches a batch.
+	# Default: 1200
+	# Range: 20 ~ 12000
+	sweep_interval_ticks = 1200
+	#Wall-clock budget in seconds for one persona generation batch. Generous by design -- generation is offline and non-interactive.
+	# Default: 120
+	# Range: 5 ~ 600
+	batch_deadline_seconds = 120
+	#Maximum number of villagers assembled into a single persona generation batch.
+	# Default: 32
+	# Range: 1 ~ 256
+	max_batch_size = 32
+	#Cooldown (in ticks) applied after the first batch that returns zero results, before the pipeline will dispatch another.
+	# Default: 200
+	# Range: 20 ~ 24000
+	backoff_floor_ticks = 200
+	#Upper bound (in ticks) the exponential backoff cooldown may reach after repeated zero-result batches.
+	# Default: 12000
+	# Range: 20 ~ 72000
+	backoff_ceiling_ticks = 12000
+
+[inference]
+	#Enable Settlements Inference Service
+	enabled = false
+	#Base URL of the inference service, e.g. http://127.0.0.1:12345
+	endpoint_base_url = ""
+	#Pre-shared bearer token for the inference service. Empty disables authentication
+	api_key = ""
+	#Server locale used for generated inference text
+	locale = "en_us"
+	#Maximum episodic memory entries sent to the inference service per villager per request. Higher values give the model more to draw on at the cost of a larger prompt
+	# Default: 50
+	# Range: 1 ~ 256
+	max_episodic_entries = 50

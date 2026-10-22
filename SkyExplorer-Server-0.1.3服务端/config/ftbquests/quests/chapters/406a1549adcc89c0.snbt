@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "406a1549adcc89c0"
+	group: "260D8BCC312E1074"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "406A1549ADCC89C0"
+	images: [
+		{
+			height: 4.5d
+			id: "4806E60E05B89F60"
+			image: "quest_enhance:textures/ftb/chapter_accent_406a1549adcc89c0_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 2.6d
+			id: "6FD0ABC264404B8F"
+			image: "quest_enhance:textures/ftb/node_detail_observe_v1.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.6d
+			x: 5.0d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E773D2117E7D243"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "41E1F9755445321D"
+				item: {
+					count: 1
+					id: "minecraft:spyglass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D344D2865CD965C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E773D2117E7D243"]
+			id: "7D6384214569EF2F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "65A116D3559B06E1"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6384214569EF2F"]
+			id: "270AD4A06D7DB9B3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3B5213B2E8EEFD3E"
+				item: { count: 1, id: "exposure:black_and_white_film" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["270AD4A06D7DB9B3"]
+			id: "31CD791A657D0605"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "06134C1BD49C148D"
+				item: { count: 1, id: "exposure:color_film" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["270AD4A06D7DB9B3"]
+			id: "1EFA217C960442ED"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5B31A26936EDF526"
+				item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["270AD4A06D7DB9B3"]
+			id: "66A22220A16133B3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "560E0E9C22117703"
+				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["509243B1FB908FB0"]
+			id: "73C23AAF06E476BF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1630D0ECA58E6557"
+				item: { count: 1, id: "exposure:photograph" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73C23AAF06E476BF"]
+			id: "4CA38BBD469F0004"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3CD23705775EFD0D"
+				item: { count: 1, id: "exposure:album" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["270AD4A06D7DB9B3"]
+			id: "509243B1FB908FB0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6F30F7EB71BD5CDF"
+				item: { count: 1, id: "exposure:lightroom" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

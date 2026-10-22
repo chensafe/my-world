@@ -1,0 +1,676 @@
+{
+	autofocus_id: "1B52AB1FC95AB5C6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "57629c2fadca6ec7"
+	group: "47B8506CDC91D25A"
+	icon: {
+		id: "create_biotech:spider_assembly_table"
+	}
+	id: "57629C2FADCA6EC7"
+	images: [
+		{
+			height: 3.0d
+			id: "4B2F5855587F5645"
+			image: "quest_enhance:textures/ftb/biotech_20261007_biotech_title.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 9.0d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 1.6667d
+			id: "03B6653FCFAA0A3C"
+			image: "quest_enhance:textures/ftb/biotech_20261007_transmission_logo.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.6667d
+			id: "7338F99834DF5B7A"
+			image: "quest_enhance:textures/ftb/biotech_20261007_culture_logo.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5333d
+			id: "1FAF043F0C12FF1A"
+			image: "quest_enhance:textures/ftb/biotech_20261007_workshop_logo.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.6d
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			height: 1.6667d
+			id: "19B87D75EB98D070"
+			image: "quest_enhance:textures/ftb/biotech_20261007_ghast_logo.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			height: 2.8667d
+			id: "23A3CB036AC74204"
+			image: "quest_enhance:textures/ftb/biotech_20261007_zombie_treadmill.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.3d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 2.25d
+			id: "5CCA081302268763"
+			image: "quest_enhance:textures/ftb/biotech_20261007_slime_culture.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			height: 1.9d
+			id: "7483551C12A1471A"
+			image: "quest_enhance:textures/ftb/biotech_20261007_box_logistics.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.8d
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			height: 2.6667d
+			id: "4F45880645751A3D"
+			image: "quest_enhance:textures/ftb/biotech_20261007_spider_workshop.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 2.4d
+			id: "65B9662E529841EA"
+			image: "quest_enhance:textures/ftb/biotech_20261007_butter_cat.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.8d
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			height: 2.4667d
+			id: "1460D0FED4BD4326"
+			image: "quest_enhance:textures/ftb/biotech_20261007_slime_armory.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.7d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 2.8667d
+			id: "686CA734130BE932"
+			image: "quest_enhance:textures/ftb/biotech_20261007_ghast_airship.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.3d
+			x: 13.5d
+			y: 4.5d
+		}
+	]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B52AB1FC95AB5C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4101657896CBBBDF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "08CCB313C64FE45A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5B946778641FFDC8"
+				item: { count: 1, id: "create:pulp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08CCB313C64FE45A"]
+			id: "12B0669CE2B4666E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "65CC3CD226179D24"
+				item: { count: 1, id: "create:cardboard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B0669CE2B4666E"]
+			id: "0520CAE9312A996D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "308AA31ED7D9B55B"
+				item: { count: 1, id: "create_biotech:cardboard_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "7908E22BA91E0775"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5C2E6615C5BD29E8"
+				item: { count: 1, id: "create_biotech:large_cardboard_box" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "4A9682314FD94A8F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7DB9451858A85D42"
+				item: { count: 1, id: "create_biotech:power_belt_connector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A9682314FD94A8F"]
+			id: "3CA5A68EA53DF2BF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "755D6F295E878E3E"
+				item: { count: 1, id: "create_biotech:fixed_carrot_fishing_rod" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "4450762FC3F096C7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "646EDFE062507CEA"
+				item: { count: 1, id: "create_biotech:automatic_fish_release_machine" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "35984B4360C677A6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "04D2040853B2DAEF"
+				item: { count: 1, id: "create_biotech:butter_cat_engine" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["35984B4360C677A6"]
+			id: "344BFD3F85E1B243"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "535C3D02214EE6D8"
+				item: { count: 1, id: "create_biotech:butter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["344BFD3F85E1B243"]
+			id: "3FEDB8785BA7949D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "28CBB4FFD9A54AC1"
+				item: { count: 1, id: "create_biotech:super_butter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "124F8AE79C5BA16B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4A5DA04D50422AEB"
+				item: { count: 1, id: "create_biotech:bionic_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"124F8AE79C5BA16B"
+				"0520CAE9312A996D"
+			]
+			id: "1C65BF90A9796A90"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "65E5E1313D2C1C4A"
+				item: { count: 1, id: "create_biotech:creeper_blast_chamber" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"124F8AE79C5BA16B"
+				"0520CAE9312A996D"
+			]
+			id: "4990950783823E12"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63CCEFC6304AB199"
+				item: { count: 1, id: "create_biotech:spider_assembly_table" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"124F8AE79C5BA16B"
+				"0520CAE9312A996D"
+			]
+			id: "596C9A5923FEDE93"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5833347F6677301E"
+				item: { count: 1, id: "create_biotech:sonic_dog_cannon" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7AE6FC03C54BF50D"]
+			id: "5E8C368F4B6E4095"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "70744EC752928124"
+				item: { count: 1, id: "create_biotech:evoker_enchanting_chamber" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "7AE6FC03C54BF50D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "21578219934AE07D"
+				item: { count: 1, id: "create_biotech:squid_printer" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C65BF90A9796A90"]
+			id: "563228AD4013ABAC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2747E3554CFD7630"
+				item: { count: 1, id: "create_biotech:budding_experience" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "0D563AAEA7A46D72"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "663B66918B297B02"
+				item: { count: 1, id: "create_biotech:allay_port" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "519253FC70EA260E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6D965973DB938F14"
+				item: { count: 1, id: "create_biotech:shulker_teleporter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "0DDE7A640F4474E2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "715DEFF8647AB5CC"
+				item: { count: 1, id: "create_biotech:slime_belt_connector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "40619EB3EA939BCC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63E2AB74836EFFBC"
+				item: { count: 1, id: "create_biotech:magma_belt_connector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "09DE7846C602169C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0AADF60F35CA6458"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09DE7846C602169C"]
+			id: "06E7D0297EC45B16"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6D1A934A57548121"
+				item: { count: 1, id: "create_biotech:liquid_living_slime_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06E7D0297EC45B16"]
+			id: "42C331BECFBD6BF8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "69AB7B3864004F6F"
+				item: { count: 1, id: "create_biotech:petri_dish" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["124F8AE79C5BA16B"]
+			id: "3A258303FC7129CB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "70D6E0696FDB87EC"
+				item: { count: 1, id: "create_biotech:ghast_helm" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A258303FC7129CB"]
+			id: "7C135676CB43701A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6E09A612CE416671"
+				item: { count: 1, id: "create_biotech:ghast_hot_air_balloon_assembly_station" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09DE7846C602169C"]
+			id: "73AB43CD4456AD37"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7BFF892C65436E39"
+				item: { count: 1, id: "create_biotech:universal_joint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0520CAE9312A996D"]
+			id: "65578934F9EB6B30"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "347BEBEB487E7977"
+				item: { count: 1, id: "create_biotech:shulker_packager" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			id: "08EB2942AE54FDC5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4468ACB138650DAC"
+				item: { count: 1, id: "create_biotech:slime_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "13F65C5682A1A8B7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "27A10816E35C5574"
+				item: { count: 1, id: "create_biotech:slime_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4856696EF7746355"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2FEFEACA019CB26B"
+				item: { count: 1, id: "create_biotech:slime_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "188E26F71F809466"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5F4B52C019874989"
+				item: { count: 1, id: "create_biotech:slime_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "2FC81CD9009DFC95"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6F5022F2CCF0DAD7"
+				item: { count: 1, id: "create_biotech:giant_frog" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "5B6504BE4BFB3800"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "470E4C404C045952"
+				item: { count: 1, id: "create_biotech:enchantment_book_copy" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "22A76DFD5064B381"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5AF4CCF2C70C1024"
+				item: { count: 1, id: "create_biotech:asurine_alloy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "2A26C2835F75AF4C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "586047AA91D1CBD6"
+				item: { count: 1, id: "create_biotech:asurine_casing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73AB43CD4456AD37"]
+			id: "13086F1363960829"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B3B0F80BDB13830"
+				item: { count: 1, id: "create_biotech:slime_clutch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "57FD2E4186B78E3E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2CD40B8598395798"
+				item: { count: 1, id: "create_biotech:bone_ratchet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B52AB1FC95AB5C6"]
+			id: "6544716EB0C64D51"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "797EB242277DDBDC"
+				item: { count: 1, id: "create_biotech:wireless_terminal" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "7209CB2C1BE3279B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3DA0028684711483"
+				item: { count: 1, id: "create_biotech:buffer_pad" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "5193D065C82A5DE4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4CADD7B84AD1DBB2"
+				item: { count: 1, id: "create_biotech:schrodingers_cat" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "2EFD8B3A3CF6C47D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "05AB7513AE5E8F33"
+				item: { count: 1, id: "create_biotech:ding_dong_chicken" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42C331BECFBD6BF8"]
+			id: "36BD822627C442CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "06C1144D750580B8"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/feb22bc524ea2c32"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/b4db90598cd68fa7"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/a310d69a9c837816"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/450e0a41b627ca9e"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:original/minecraft/chests/pillager_outpost"
+        }
+      ]
+    }
+  ],
+  "table": "farmersdelight:chests/fd_pillager_outpost"
+}

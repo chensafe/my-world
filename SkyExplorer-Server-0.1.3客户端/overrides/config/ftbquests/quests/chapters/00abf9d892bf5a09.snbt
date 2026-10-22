@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00abf9d892bf5a09"
+	group: ""
+	icon: {
+		id: "minecraft:elytra"
+	}
+	id: "00ABF9D892BF5A09"
+	images: [
+		{
+			height: 7.0d
+			id: "433B291EFADEBEFB"
+			image: "quest_enhance:textures/ftb/departure_keyvisual_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: -6.89336d
+		}
+		{
+			click_action: "none:"
+			height: 8.5d
+			id: "232FAB9B8F5EB38C"
+			image: "quest_enhance:textures/ftb/departure_frame_v1.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.7d
+			x: 0.0d
+			y: -6.89336d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "1D5D939225C63707"
+			image: "quest_enhance:textures/ftb/departure_logo_v1.png"
+			order: -8
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -4.4d
+		}
+		{
+			height: 4.5d
+			id: "48A1BC9442A2FBA8"
+			image: "quest_enhance:textures/ftb/chapter_accent_00abf9d892bf5a09_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 5.5d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "22BDB6080690740A"
+			quest_enhance_disable_scroll_paging: false
+			size: 2.0d
+			tasks: [{
+				id: "06BA874881462DE6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22BDB6080690740A"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "31495B98B67AC26C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "0FB91BA8A3AEC12D"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "4169032562C5AE4E"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "5D56B4B6276677D1"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "3C17627109EEAF2E"
+					item: {
+						count: 1
+						id: "laowu:cat_engineer_goggles"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51E3C2B30280D936"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22BDB6080690740A"]
+			icon: {
+				components: {
+					"sophisticatedcore:number_of_inventory_slots": 27
+					"sophisticatedcore:number_of_upgrade_slots": 1
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "68CD30FD2123A2A3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "64669ECF5A2E75E4"
+					item: {
+						components: {
+							"sophisticatedcore:number_of_inventory_slots": 108
+							"sophisticatedcore:number_of_upgrade_slots": 5
+						}
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "231161EA9A180E9A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:crafting_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "0C61E3D93FD7FBFC"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stonecutter_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "431032E55226A0B1"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								wand_options: { }
+							}
+						}
+						count: 1
+						id: "constructionwand:diamond_wand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4704DEF9536DA97D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22BDB6080690740A"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "685A0639C84CE554"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 16
+					id: "5029F56C16FD3FDA"
+					item: {
+						count: 1
+						id: "farmersdelight:melon_juice"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0B0C44DEB816D3BD"
+					item: {
+						count: 1
+						id: "create:sweet_roll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "381444494E6C87E2"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31495B98B67AC26C"]
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:creative_physics_staff"
+			}
+			id: "16A2B26415E69E50"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "04338D00B2C628B0"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "433D793AA49D3916"
+					item: {
+						count: 1
+						id: "simulated:creative_physics_staff"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "169D16FF7F63A8D5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22BDB6080690740A"]
+			hide_details_until_startable: false
+			id: "0A3C6182FB66149B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6DD0C506376FB834"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3283CA96CC82DF09"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22BDB6080690740A"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "2D79E50B2E4D7035"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "0F5AF65B7F9B01D1"
+				item: {
+					count: 1
+					id: "create:large_water_wheel"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3302205921D3543C"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+	]
+}

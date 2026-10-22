@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2f9135d2bdb48ea3"
+	group: ""
+	icon: {
+		id: "supplementaries:cog_block"
+	}
+	id: "2F9135D2BDB48EA3"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "255C88D94DFD9812"
+			quest_enhance_disable_scroll_paging: false
+			shape: "circle"
+			tasks: [{
+				id: "63C1869C347E6D9D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "61AFC94DA6C8CADE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6A2B88B9528E99B1"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:healing"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "78EDB2B25F266F21"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "13F56ADBC427E3F2"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "supplementaries:slice_map"
+			}
+			id: "00A66D793B4B56FA"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.5d
+			tasks: [{
+				id: "581C8E33456D9F1B"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "4213D899F63E7BEE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/gamerule keepInventory true"
+					exclude_from_claim_all: true
+					id: "548E7697B5811570"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/gamerule keepInventory false"
+					exclude_from_claim_all: true
+					id: "5ECEE793D387F103"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4ABA164AF866FD10"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["00A66D793B4B56FA"]
+			disable_toast: true
+			icon: {
+				id: "create_power_loader:brass_chunk_loader"
+			}
+			id: "48B52E4DCCDBC450"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:grass_block"
+				}
+				id: "5F486840C0D43271"
+				table_data: {
+					loot_size: 1
+					rewards: [
+						{
+							icon: {
+								id: "minecraft:grass_block"
+							}
+							id: "14CD7481FBA7F807"
+							type: "custom"
+						}
+						{
+							icon: {
+								id: "minecraft:dirt"
+							}
+							id: "1B5EBE46E00443BF"
+							type: "custom"
+						}
+					]
+				}
+				table_id: -1L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "759DC734C377FCA5"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "1442DF413CBD2DD2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "684CC388A9120C12"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+}

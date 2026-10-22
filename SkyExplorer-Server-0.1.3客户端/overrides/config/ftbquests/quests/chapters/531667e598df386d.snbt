@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "531667e598df386d"
+	group: "547988EB708FD599"
+	icon: {
+		id: "minecraft:crying_obsidian"
+	}
+	id: "531667E598DF386D"
+	images: [
+		{
+			click_action: "none:"
+			height: 13.2d
+			id: "002545694D7015C0"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_otherworld.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "2E58620882E3121C"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_otherworld.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 4.5d
+			id: "193849C1CF9C7D9B"
+			image: "quest_enhance:textures/ftb/chapter_accent_531667e598df386d_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 5.5d
+			y: 6.0d
+		}
+	]
+	order_index: 10
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
+			id: "4EA791C8C5847881"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4DB74AD71174C251"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "25DF3B2CFCEE7BF5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "1589C4425DE7B902"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7601C357AEE221A5"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "622096CA7EF6BAEA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "773A9ADE8F0C3D04"
+				item: {
+					count: 1
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7904F167CC0B7B0D"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "5042F29C75976FAD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 8
+					id: "17F2EC7B9949D791"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "52813BF654EF6681"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B719B65D7A20D79"
+				structure: "minecraft:ruined_portal_nether"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "3C8B6723419E7D8D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "79D4F0FCFAD3FE1C"
+				item: {
+					count: 1
+					id: "minecraft:writable_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7887830B8E2CB49D"
+				structure: "netherexp:chapel"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:fire_charge"
+			}
+			id: "78CAB1B4EA80CF45"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "74619D7900A411F9"
+				item: {
+					count: 1
+					id: "mynethersdelight:spicy_noodle_soup"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F64EF42D0F16703"
+				structure: "netherexp:devils_misfortune"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "636144052A130EA1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7291704905A2F888"
+				structure: "netherexp:mega_fossil_campsite"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:soul_torch"
+			}
+			id: "2E37950EDA05F91A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "7F0F6679DB2491A8"
+				item: {
+					count: 1
+					id: "netherexp:treacherous_lantern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C9F01EBFD920F2"
+				structure: "netherexp:sanctum"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "4A889C9D3CA31C9E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 64
+					id: "6AA2732D3EA544C2"
+					item: {
+						count: 1
+						id: "minecraft:bone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "60F64EFB17341AB8"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A39FD063D7544D4"
+				structure: "netherexp:mega_fossil"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+}

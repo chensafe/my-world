@@ -1,0 +1,3 @@
+[vanilla_changes]
+	#config.teallib.bucket_tooltip.tooltip
+	bucket_tooltip = true
