@@ -1,0 +1,17 @@
+{
+  "fancymenu.actions.screens.finish.no_action_selected": "§x您需要先选择一个操作！",
+  "fancymenu.elements.browser.rinku_initializing.line_1": "浏览器正在启动...",
+  "fancymenu.elements.browser.rinku_initializing.line_2": "等待Rinku完成初始化。",
+  "fancymenu.elements.browser.rinku_failed.line_1": "浏览器初始化失败！",
+  "fancymenu.elements.browser.rinku_failed.line_2": "检查游戏日志以了解详细信息。",
+  "fancymenu.elements.text.markdown": "降价",
+  "fancymenu.ui.color_picker.hex": "十六进制",
+  "fancymenu.ui.color_picker.hsv": "单纯疱疹病毒",
+  "fancymenu.ui.filechooser.create_folder.default_name": "新文件夹",
+  "fancymenu.actions.blocks.else": "其他",
+  "fancymenu.actions.show_toast.default_title": "FancyMenu 提示通知",
+  "fancymenu.backgrounds.glsl.compile_mode.shadertoy": "着色玩具",
+  "fancymenu.decoration_overlays.glsl.compile_mode.shadertoy": "着色玩具",
+  "fancymenu.elements.glsl.compile_mode.shadertoy": "着色玩具",
+  "fancymenu.decoration_overlays.buddy": "伙计"
+}

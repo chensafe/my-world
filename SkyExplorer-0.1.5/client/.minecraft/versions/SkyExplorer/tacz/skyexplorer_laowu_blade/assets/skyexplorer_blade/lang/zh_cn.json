@@ -1,0 +1,6 @@
+{
+  "skyexplorer_blade.name": "老吴战刀",
+  "skyexplorer_blade.tooltip": "左键挥砍 · 无需弹药。沿用扳手的近战判定与攻击节奏，下劈、斜劈、突刺、横斩。挥空也加速，第八刀满速，停手2秒重置。",
+  "skyexplorer_blade.ammo.hissing_gas.name": "哈气桶",
+  "skyexplorer_blade.ammo.hissing_gas.tooltip": "老吴战刀充能弹药。按换弹键补充最多2000哈气值并返还空桶；也可继续使用加热的浸渍盆充能。"
+}

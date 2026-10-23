@@ -1,0 +1,12 @@
+{
+  "itemGroup.lootr": "掠夺",
+  "itemGroup.lootr.lootr": "掠夺",
+  "text.autoconfig.lootr.title": "掠夺",
+  "lootr.configuration.break_to_drop_loot": "打破掉落战利品",
+  "text.autoconfig.lootr.option.breaking.break_to_drop_loot": "打破掉落战利品",
+  "lootr.configuration.pinned_team_resolver": "固定团队解析器",
+  "text.autoconfig.lootr.option.team.pinned_team_resolver": "固定团队解析器",
+  "lootr.configuration.team_loot": "启用共享团队库存",
+  "text.autoconfig.lootr.option.team.team_loot": "启用共享团队库存",
+  "text.autoconfig.lootr.option.team": "共享团队库存"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "lying",
+  "displayName": "趴下",
+  "head": [60, 0, 0],
+  "hat": [60, 0, 0],
+  "body": [-90, 0, 0],
+  "rightArm": [180, 0, 0],
+  "leftArm": [180, 0, 0],
+  "rightLeg": [0, 0, 0],
+  "leftLeg": [0, 0, 0],
+  "position": [0.0, -1.0, 0.0],
+  "scale": [1.0, 1.0, 1.0]
+}

@@ -1,0 +1,7 @@
+{
+  "config.teallib.section.vanilla_changes": "原版改动",
+  "entity.teallib.mannequin": "人偶",
+  "item.teallib.mannequin": "人偶",
+  "config.teallib.bucket_tooltip": "桶工具提示",
+  "config.teallib.bucket_tooltip.tooltip": "桶状生物是否在桶工具提示中显示它们自己。"
+}

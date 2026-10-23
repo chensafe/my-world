@@ -1,0 +1,19 @@
+{
+  "create.gui.stock_keeper.click_to_cycle": "点击循环",
+  "create.gui.stock_keeper.jei_sync.none": "没有同步",
+  "create.gui.stock_keeper.jei_sync.none.description": "仓储管理器与配方查看器各自保留独立搜索内容。",
+  "create.gui.stock_keeper.jei_sync.sync_both": "与配方查看器同步 ",
+  "create.gui.stock_keeper.jei_sync.sync_both.description": "库存管理员和菜谱查看器搜索将同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei": "从配方查看器同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei.description": "将配方查看器中的搜索内容同步到仓储管理器。",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper": "从仓储管理器同步",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper.description": "在库存管理器中搜索将由配方查看器镜像",
+  "create.keyinfo.alt_modifier": "替代修饰符",
+  "create.keyinfo.ctrl_modifier": "Ctrl修饰符",
+  "create.keyinfo.shift_modifier": "移位修饰符",
+  "tag.item.c.foods.dough.wheat": "小麦面团",
+  "advancement.create.extendo_grip": "呸呸呸！",
+  "create.command.killTPSCommand": "杀戮",
+  "create.command.killTPSCommand.argument.tickTime": "滴答时间",
+  "create.generic.unit.ticks": "刻"
+}

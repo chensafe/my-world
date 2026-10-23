@@ -1,0 +1,20 @@
+{
+  "name": "wave",
+  "displayName": "挥手",
+  "mode": "ONCE",
+  "looping": false,
+  "keyframes": [
+    {
+      "tick": 10,
+      "pose": "standing"
+    },
+    {
+      "tick": 10,
+      "pose": "wave_up"
+    },
+    {
+      "tick": 10,
+      "pose": "standing"
+    }
+  ]
+}

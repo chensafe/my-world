@@ -1,0 +1,11 @@
+天空开拓者 v0.1.5 Windows 64 位便携懒人包
+
+完整解压到一个普通文件夹，双击“启动PCL.bat”，在 PCL 中选择 SkyExplorer，用自己的账号登录后启动。
+不要在压缩软件里直接运行。已包含启动器、Java 25、Minecraft/NeoForge 运行依赖和本版本资源，不需要另外安装 Java。
+如果直接打开 Plain Craft Launcher 2.exe 后 Java 自动选择不正确，改用“启动PCL.bat”；也可在启动设置中选择本包 .minecraft/versions/SkyExplorer/runtime/java-runtime-25/bin/javaw.exe。
+
+保留：所有启用的模组、config、KubeJS 脚本/资源/数据、生物属性及生成规则、可视化战利品修改、可视化配方 lesiry.recipe 和 potato.recipe、FTB 任务与图文资源、枪包、女仆模型、光影/资源包、预制结构图纸及按键配置。
+不包含：任何世界存档、FTB/Xaero 地图与路径点、历史记录、崩溃报告、日志、渲染缓存、下载缓存、测试版本、停用旧模组和备份、启动器账号或登录凭据。
+导出副本默认窗口模式，防止沿用原电脑的屏幕设置；远程管理面板的令牌/证书未打包，面板默认关闭。原整合包没有被修改。
+
+导出清单和核对报告见“导出文件清单.json”和“魔改保留核对.json”。可复用的导出配置和脚本位于本压缩包旁，配置是配套 Python 脚本使用的，不是 PCL 导入文件。

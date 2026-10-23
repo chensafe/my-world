@@ -1,0 +1,44 @@
+{
+  "name": "dance",
+  "displayName": "舞蹈",
+  "mode": "LOOP",
+  "looping": true,
+  "keyframes": [
+    {
+      "tick": 0,
+      "pose": {
+        "name": "dance_pose_1",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [30, 30, 90],
+        "leftArm": [30, 30, 90],
+        "rightLeg": [0, 0, -45],
+        "leftLeg": [0, 0, 0]
+      }
+    },
+    {
+      "tick": 10,
+      "pose": {
+        "name": "dance_pose_2",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [30, 30, -90],
+        "leftArm": [30, 30, -90],
+        "rightLeg": [0, 0, 0],
+        "leftLeg": [0, 0, 45]
+      }
+    },
+    {
+      "tick": 10,
+      "pose": {
+        "name": "dance_pose_1",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [30, 30, 90],
+        "leftArm": [30, 30, 90],
+        "rightLeg": [0, 0, -45],
+        "leftLeg": [0, 0, 0]
+      }
+    }
+  ]
+}

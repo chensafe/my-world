@@ -1,0 +1,21 @@
+{
+  "block.dungeonsdelight.spirit_fire": "灵火",
+  "container.farmersdelight.monster_pot": "怪物锅",
+  "container.farmersdelight.monster_pot.heated": "加热",
+  "container.farmersdelight.monster_pot.not_heated": "需要来自下方的生活热量",
+  "death.attack.dungeonsdelight.living_essence": "%1$s的生命精华被耗尽",
+  "dungeonsdelight.living_essence": "%1$s的生命精华被耗尽",
+  "death.attack.dungeonsdelight.living_essence.player": "%2$s 汲取了%1$s的生命精华",
+  "dungeonsdelight.advancement.create_spirit_fire": "也许在另一生",
+  "dungeonsdelight.advancement.create_spirit_fire.desc": "使用腐烂和钢铁在灵魂块上创造精神之火",
+  "farmersdelight.tooltip.necronog": "使随机效果的持续时间加倍，但将其放大器减少 1",
+  "item.dungeonsdelight.necronog": "死灵蛋奶酒",
+  "item.dungeonsdelight.rot_and_steel": "腐菌打火石",
+  "item.dungeonsdelight.takoyaki": "章鱼烧",
+  "jei.farmersdelight.jei.monster_cooking": "怪物烹饪",
+  "subtitles.effect.monsterize.activate": "状态效果被吞噬",
+  "subtitles.item.rot_and_steel.use": "旋转和钢铁点击",
+  "subtitles.random.acidic_hiss": "酸性效应蒸发",
+  "tooltip.farmersdelight.ossobuco": "补充随机怪物效果",
+  "yapping_tooltips.item.dungeonsdelight.necronog.desc": "通常在寒冷的夜晚保存的美味佳肴的仿制品"
+}

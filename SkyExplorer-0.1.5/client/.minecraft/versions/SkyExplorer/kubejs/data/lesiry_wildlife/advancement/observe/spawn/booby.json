@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "discovered": {
+      "trigger": "fieldguide:entry_unlocked",
+      "conditions": {
+        "entry": "entity:spawn/booby"
+      }
+    }
+  }
+}

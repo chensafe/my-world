@@ -1,0 +1,16 @@
+{
+  "advancement.dungeons_arise.find_kisegi_sanctuary.title": "对魔鬼的同情",
+  "advancement.dungeons_arise.find_kisegi_sanctuary.desc": "找到Kisegi保护区",
+  "enchantment.dungeons_arise.purification": "纯化",
+  "enchantment.dungeons_arise.purification.desc": "有机会抵消所有传入的有毒和枯萎效果，释放能量爆发，对附近的敌人造成伤害。",
+  "enchantment.dungeons_arise.voltaic_shot": "伏打射击",
+  "enchantment.dungeons_arise.voltaic_shot.desc": "给箭充入电能，这使得它们能够沿直线飞行并产生爆炸。",
+  "enchantment.dungeons_arise.discharge": "放电",
+  "enchantment.dungeons_arise.discharge.desc": "攻击敌人会提高速度，然而，高水平的速度会在剧烈爆炸中释放，从而对受害者和攻击者造成伤害。",
+  "enchantment.dungeons_arise.lolths_curse": "罗丝的诅咒",
+  "enchantment.dungeons_arise.lolths_curse.desc": "攻击敌人时有机会恢复生命值，但是蜘蛛可能会从它们的身体中发芽。伤害节肢动物会反映对使用者的伤害。",
+  "enchantment.dungeons_arise.ensnaring": "诱捕",
+  "enchantment.dungeons_arise.ensnaring.desc": "在伤害敌人时有机会造成更大的缓慢，并召唤攻击周围所有怪物的尖牙。",
+  "advancement.dungeons_arise.find_mechanical_nest.title": "欢迎来到机器",
+  "advancement.dungeons_arise.find_mechanical_nest.desc": "寻找机械巢"
+}

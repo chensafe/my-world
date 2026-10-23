@@ -1,0 +1,8 @@
+{
+  "block.createaddition.servo_motor": "伺服电机",
+  "death.attack.createaddition.barbed_wire": "%1$s试图跨越铁丝网",
+  "death.attack.createaddition.barbed_wire.player": "%1$s 在与 %2$s 战斗时试图穿过铁丝网",
+  "death.attack.createaddition.tesla_coil": "%1$s 受到致命电击",
+  "death.attack.createaddition.tesla_coil.player": "%1$s 在与 %2$s 战斗时受到致命电击",
+  "tag.fluid.c.ignites": "可燃液体"
+}

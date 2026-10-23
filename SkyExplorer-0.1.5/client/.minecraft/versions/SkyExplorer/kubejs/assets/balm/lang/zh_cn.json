@@ -1,0 +1,9 @@
+{
+  "tag.item.c.cooking_oil": "食用油",
+  "tag.item.c.chests.chests": "木箱",
+  "balm.configuration.exampleCategory": "示例类别",
+  "disconnect.balm.mod_missing_on_server": "服务器未安装 %s。请从您的游戏中删除该模组或将其安装在服务器上。",
+  "disconnect.balm.mod_missing_on_client": "您没有安装 %s。请安装%s版本%s才能在本服务器上玩。",
+  "disconnect.balm.mod_version_mismatch": "%s 的版本不匹配。服务器预期版本为 %s，但您当前已安装 %s。请安装正确的版本。",
+  "config.jade.plugin_balm.jade": "香膏"
+}

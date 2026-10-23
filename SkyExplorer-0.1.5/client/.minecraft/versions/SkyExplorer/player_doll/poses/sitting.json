@@ -1,0 +1,12 @@
+{
+  "name": "sitting",
+  "displayName": "坐下",
+  "head": [0, 0, 0],
+  "hat": [0, 0, 0],
+  "body": [20, 0, 0],
+  "rightArm": [-40, 0, 0],
+  "leftArm": [-40, 0, 0],
+  "rightLeg": [70, 0, 0],
+  "leftLeg": [70, 0, 0],
+  "position": [0.0, -0.5, 0.0]
+}

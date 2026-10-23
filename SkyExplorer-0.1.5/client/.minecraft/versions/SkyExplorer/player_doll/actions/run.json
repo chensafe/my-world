@@ -1,0 +1,44 @@
+{
+  "name": "run",
+  "displayName": "奔跑",
+  "mode": "LOOP",
+  "looping": true,
+  "keyframes": [
+    {
+      "tick": 0,
+      "pose": {
+        "name": "dance_pose_1",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [-90, 0, 0],
+        "leftArm": [90, 0, 0],
+        "rightLeg": [90, 0, 0],
+        "leftLeg": [-90, 0, 0]
+      }
+    },
+    {
+      "tick": 20,
+      "pose": {
+        "name": "dance_pose_2",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [90, 0, 0],
+        "leftArm": [-90, 0, 0],
+        "rightLeg": [-90, 0, 0],
+        "leftLeg": [90, 0, 0]
+      }
+    },
+    {
+      "tick": 20,
+      "pose": {
+        "name": "dance_pose_1",
+        "head": [0, 0, 0],
+        "body": [0, 0, 0],
+        "rightArm": [-90, 0, 0],
+        "leftArm": [90, 0, 0],
+        "rightLeg": [90, 0, 0],
+        "leftLeg": [-90, 0, 0]
+      }
+    }
+  ]
+}

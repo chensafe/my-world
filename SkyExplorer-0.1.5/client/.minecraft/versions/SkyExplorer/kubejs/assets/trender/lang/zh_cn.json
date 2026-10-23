@@ -1,0 +1,12 @@
+{
+  "text.trender.name": "趋势者",
+  "text.trender.tab.general_options": "选项",
+  "text.trender.style": "UI风格",
+  "text.trender.style.tooltip": "更改 tr7zw 的所有 mod 的 UI 样式。",
+  "text.trender.style.MODERN": "现代",
+  "text.trender.style.MODERN_DARK": "现代黑暗",
+  "text.trender.style.VANILLA_OLD": "老原版",
+  "text.trender.style.VANILLA_MODERN": "现代原版",
+  "text.trender.sendstacktraces": "发送堆栈跟踪",
+  "text.trender.sendstacktraces.tooltip": "启用后，包含 tr7zw 对 mod 的 mod 引用的日志或游戏崩溃中的堆栈跟踪将通过 Sentry (Sentry.io) 发送给 mod 作者，以帮助更快地修复错误。不会收集或发送任何个人信息。 （开启后重新启动游戏）"
+}

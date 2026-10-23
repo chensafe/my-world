@@ -1,0 +1,22 @@
+{
+  "block.createnuclear.cut_autunite_brick_wall": "切制钙铀云母砖墙",
+  "block.createnuclear.cut_autunite_bricks": "切制钙铀云母砖",
+  "block.createnuclear.cut_autunite_slab": "切制钙铀云母台阶",
+  "block.createnuclear.cut_autunite_stairs": "切制钙铀云母楼梯",
+  "block.createnuclear.cut_autunite_wall": "切制钙铀云母墙",
+  "block.createnuclear.layered_autunite": "层叠钙铀云母",
+  "block.createnuclear.polished_cut_autunite": "磨制切制钙铀云母",
+  "block.createnuclear.polished_cut_autunite_slab": "磨制切制钙铀云母台阶",
+  "block.createnuclear.polished_cut_autunite_stairs": "磨制切制钙铀云母楼梯",
+  "block.createnuclear.polished_cut_autunite_wall": "磨制切制钙铀云母墙",
+  "block.createnuclear.small_autunite_brick_slab": "小块钙铀云母砖台阶",
+  "block.createnuclear.small_autunite_brick_stairs": "小块钙铀云母砖楼梯",
+  "block.createnuclear.small_autunite_brick_wall": "小块钙铀云母砖墙",
+  "block.createnuclear.small_autunite_bricks": "小块钙铀云母砖",
+  "overlay.event_message": "⚠ 警告 ⚠ %s 定时器",
+  "block.createnuclear.autunite": "钙铀云母",
+  "block.createnuclear.autunite_pillar": "钙铀云母柱",
+  "block.createnuclear.cut_autunite": "切制钙铀云母",
+  "block.createnuclear.cut_autunite_brick_slab": "切制钙铀云母砖台阶",
+  "block.createnuclear.cut_autunite_brick_stairs": "切制钙铀云母砖楼梯"
+}

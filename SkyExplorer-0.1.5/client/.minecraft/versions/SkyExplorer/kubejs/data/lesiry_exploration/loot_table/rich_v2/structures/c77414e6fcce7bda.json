@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "minecraft:chests/bastion_treasure",
+  "pools": []
+}

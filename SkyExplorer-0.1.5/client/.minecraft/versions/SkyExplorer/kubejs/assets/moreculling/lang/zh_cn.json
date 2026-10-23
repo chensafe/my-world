@@ -1,0 +1,9 @@
+{
+  "moreculling.config.category.leaves": "叶子剔除",
+  "moreculling.config.category.item_frame": "物品展示框剔除",
+  "moreculling.config.option.dontCull": "不要剔除",
+  "moreculling.config.option.dontCull.tooltip": "在此添加方块 ID，以禁止对这些方块进行剔除。例如 minecraft:bamboo。",
+  "moreculling.config.option.paintingCulling": "绘画剔除",
+  "moreculling.config.option.paintingCulling.tooltip": "剔除绘画的背面和内表面",
+  "moreculling.title": "更多剔除"
+}

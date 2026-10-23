@@ -1,0 +1,23 @@
+{
+  "roxy.tfc.page": "LOD 更新",
+  "roxy.tfc.day_cycle": "TerraFirmaCraft 兼容性",
+  "roxy.tfc.day_cycle.tooltip": "每个游戏内日在后台将来自 TFC 的更新应用到 LOD 地形。",
+  "roxy.tfc.show_progress": "显示更新进度",
+  "roxy.tfc.show_progress.tooltip": "显示 LOD 更新进度条以用于调试目的。",
+  "roxy.tfc.requires_mod": "需要 TerraFirmaCraft。",
+  "roxy.tfc.progress": "TFC叶刷新：%s/%s采样块就绪",
+  "roxy.tfc.progress.reads": " | %s 气候读取已排队",
+  "roxy.tfc.progress.meshes": " | %s 网格待定",
+  "roxy.tfc.progress.missing": " | %s 需要气候",
+  "roxy.fog.page": "远雾",
+  "roxy.fog.automatic": "动态天气雾",
+  "roxy.fog.automatic.tooltip": "在下雨和雷暴期间将雾带入附近地形。",
+  "roxy.fog.start": "雾开始",
+  "roxy.fog.start.tooltip": "天气晴朗时雾开始的区块距离。 Voxy 的当前渲染距离用作雾终点。",
+  "roxy.fog.weather_roll_in": "天气雾滚滚",
+  "roxy.fog.weather_roll_in.tooltip": "天气将雾带入附近地形的强度有多大。值越高，雾气越近。",
+  "roxy.fog.requires_mod": "需要受支持的雾模式：雾或无人区。",
+  "roxy.fog.betterfog_settings": "Better Fog控制它自己的雾距离和天气。在 Better Fog 的设置中配置这些。",
+  "roxy.fog.chunks": "%s 块",
+  "roxy.fog.percent": "%s%%"
+}

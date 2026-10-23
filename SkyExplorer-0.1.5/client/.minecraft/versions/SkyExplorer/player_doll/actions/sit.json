@@ -1,0 +1,16 @@
+{
+  "name": "sit",
+  "displayName": "坐下",
+  "mode": "HOLD",
+  "looping": false,
+  "keyframes": [
+    {
+      "tick": 10,
+      "pose": "standing"
+    },
+    {
+      "tick": 20,
+      "pose": "sitting"
+    }
+  ]
+}

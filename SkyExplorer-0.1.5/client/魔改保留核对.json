@@ -1,0 +1,76 @@
+{
+  "source_version": "SkyExplorer / v0.1.5",
+  "active_mods": 208,
+  "checks": [
+    {
+      "source": "config/mobspawncontroller",
+      "retained_files": 1,
+      "all_hashes_match": true
+    },
+    {
+      "source": "config/incontrol",
+      "retained_files": 12,
+      "all_hashes_match": true
+    },
+    {
+      "source": "config/attributefix",
+      "retained_files": 79,
+      "all_hashes_match": true
+    },
+    {
+      "source": "config/visual_loot_edit",
+      "retained_files": 961,
+      "all_hashes_match": true
+    },
+    {
+      "source": "config/ftbquests",
+      "retained_files": 59,
+      "all_hashes_match": true
+    },
+    {
+      "source": "config/quest_enhance",
+      "retained_files": 292,
+      "all_hashes_match": true
+    },
+    {
+      "source": "kubejs/server_scripts",
+      "retained_files": 16,
+      "all_hashes_match": true
+    },
+    {
+      "source": "kubejs/startup_scripts",
+      "retained_files": 19,
+      "all_hashes_match": true
+    },
+    {
+      "source": "kubejs/client_scripts",
+      "retained_files": 4,
+      "all_hashes_match": true
+    },
+    {
+      "source": "kubejs/data",
+      "retained_files": 953,
+      "all_hashes_match": true
+    },
+    {
+      "source": "kubejs/assets",
+      "retained_files": 241,
+      "all_hashes_match": true
+    },
+    {
+      "source": "ldlib2/assets/viscript_recipe/recipes",
+      "retained_files": 2,
+      "all_hashes_match": true
+    },
+    {
+      "source": "tacz",
+      "retained_files": 3214,
+      "all_hashes_match": true
+    }
+  ],
+  "world_saves_exported": false,
+  "map_cache_exported": false,
+  "accounts_exported": false,
+  "java": "JAVA_VERSION=\"25.0.4.1\"",
+  "original_instance_modified": false
+}

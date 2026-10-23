@@ -1,0 +1,11 @@
+{
+  "name": "spread_arms",
+  "displayName": "双手张开",
+  "head": [0, 0, 0],
+  "hat": [0, 0, 0],
+  "body": [0, 0, 0],
+  "rightArm": [0, 0, -90],
+  "leftArm": [0, 0, 90],
+  "rightLeg": [0, 0, 0],
+  "leftLeg": [0, 0, 0]
+}

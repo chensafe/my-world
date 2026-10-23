@@ -1,0 +1,12 @@
+{
+  "zeta.gui.config.save": "保存更改",
+  "zeta.gui.config.discard": "放弃改变",
+  "zeta.gui.config.header": "%s 配置",
+  "zeta.gui.config.default": "设置为默认值",
+  "zeta.gui.config.subcategories": "------- 子类别 -------",
+  "zeta.gui.config.onechild": "1名儿童",
+  "zeta.gui.config.nchildren": "%d 个子选项",
+  "zeta.gui.config.defaultvalue": "默认值：%s",
+  "zeta.gui.config.missingaddon": "您缺少此类别所需的插件模组",
+  "zeta.jei.hint_preamble": "[泽塔]\n"
+}

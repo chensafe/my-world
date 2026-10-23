@@ -1,0 +1,13 @@
+{
+  "name": "spread_legs",
+  "displayName": "玩偶",
+  "head": [0, 0, 0],
+  "hat": [0, 0, 0],
+  "headScale": [1.5, 1.5, 1.5],
+  "body": [0, 0, 0],
+  "rightArm": [0, 0, -30],
+  "leftArm": [0, 0, 30],
+  "rightLeg": [90, -15, 0],
+  "leftLeg": [90, 15, 0],
+  "position": [0.0, -0.5, 0.0]
+}

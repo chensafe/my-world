@@ -1,0 +1,15 @@
+{
+  "subtitles.entity.spawn.angler_fish.bite": "琵琶鱼咬伤",
+  "commands.spawn.locate.island_not_found": "附近找不到 %1$s",
+  "config.spawn.section.vanilla_changes": "原版改动",
+  "config.spawn.section.vanilla_additions": "原版添加物",
+  "config.spawn.section.aggression_additions": "攻击性添加",
+  "config.spawn.tinted_lily_pads": "有色百合叶",
+  "config.spawn.tinted_lily_pads.tooltip": "睡莲叶是否遵循生物群系的色调。",
+  "spawn.item_group": "产生",
+  "item.spawn.spawn": "产生",
+  "jei.spawn.block_recipe.anthill": "蚁丘腐烂",
+  "painting.spawn.clown.title": "小丑",
+  "painting.spawn.its_still_life.title": "这是静物",
+  "painting.spawn.the_reptile.title": "爬行动物"
+}

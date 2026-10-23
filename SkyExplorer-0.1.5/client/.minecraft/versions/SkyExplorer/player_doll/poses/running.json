@@ -1,0 +1,11 @@
+{
+  "name": "running",
+  "displayName": "奔跑",
+  "head": [0, 0, 0],
+  "hat": [0, 0, 0],
+  "body": [-10, 0, 0],
+  "rightArm": [-30, 0, -20],
+  "leftArm": [30, 0, 20],
+  "rightLeg": [45, 0, 0],
+  "leftLeg": [-45, 0, 0]
+}
