@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "laowu:hissing_gas_bucket"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "skyexplorer_blade:hissing_gas",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

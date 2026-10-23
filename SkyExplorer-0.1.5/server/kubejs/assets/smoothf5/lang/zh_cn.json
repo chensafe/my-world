@@ -1,0 +1,13 @@
+{
+  "smooth_f5.midnightconfig.category.general": "一般",
+  "smooth_f5.midnightconfig.title": "平滑F5",
+  "smooth_f5.midnightconfig.category.camera": "相机",
+  "smooth_f5.midnightconfig.enableSmoothF5": "启用平滑F5",
+  "smooth_f5.midnightconfig.smoothingMode": "平滑模式",
+  "smooth_f5.midnightconfig.enablePosSmoothing": "启用相机位置平滑",
+  "smooth_f5.midnightconfig.enableRotSmoothing": "启用相机旋转平滑",
+  "smooth_f5.midnightconfig.posStiffness": "相机位置刚度",
+  "smooth_f5.midnightconfig.rotStiffness": "相机旋转刚度",
+  "smooth_f5.midnightconfig.returnDuration": "相机转换持续时间",
+  "smooth_f5.midnightconfig.returnDuration.tooltip": "这仅适用于 TRANSITION 模式以及 ALWAYS 中的第一人称返回"
+}

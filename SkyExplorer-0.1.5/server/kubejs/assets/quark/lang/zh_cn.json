@@ -1,0 +1,14 @@
+{
+  "quark.jade.eating_cooldown": "进食冷却时间：%ds",
+  "config.jade.plugin_quark.oretoise_eating_cooldown": "奥雷图瓦斯进食冷却时间",
+  "quark.misc.totem_darksouls": "当之前的持有图腾破碎时，你会感到恐惧",
+  "item.quark.backpack.warning.line_1": "警告",
+  "item.quark.backpack.warning.line_2": "这个背包里有物品，如果在生存时没有装备，它会被擦除。",
+  "item.quark.smithing_template_rune": "锻造模板",
+  "entity.quark.torch_arrow": "火炬箭",
+  "advancements.quark.tatami_gaeshi.title": "榻榻米设计！",
+  "advancements.quark.tatami_gaeshi.description": "用竹席击打某物",
+  "quark.pack.emote_icon_pack": "夸克表情图标包",
+  "quark.gui.config.social.forum": "紫月论坛",
+  "quark.subtitles.kingbdogz": "王狗兹"
+}

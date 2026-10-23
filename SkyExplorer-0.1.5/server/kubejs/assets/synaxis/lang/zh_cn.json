@@ -1,0 +1,11 @@
+{
+  "block.synaxis.constraint_anchor": "约束锚",
+  "key.synaxis.control_chair.open_bindings": "打开控制椅绑定",
+  "key.synaxis.control_chair.reset_view": "重置控制椅视图",
+  "key.synaxis.control_chair.toggle_input": "切换控制椅输入",
+  "key.synaxis.control_chair.toggle_view_lock": "切换控制椅视图锁定",
+  "gui.synaxis.circuit.ldgraph.luacuit_code.title": "Luacuit循环",
+  "gui.synaxis.circuit.ldgraph.title.luacuit": "卢库特: %s",
+  "gui.synaxis.common.unit.tick": "勾选",
+  "gui.synaxis.engage_gizmo.title.weld_m0": "参与小玩意"
+}

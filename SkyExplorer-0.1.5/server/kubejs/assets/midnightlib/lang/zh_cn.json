@@ -1,0 +1,5 @@
+{
+  "midnightconfig.action.list_index": "编辑索引 %s 处的列表",
+  "midnightconfig.action.color_chooser": "打开颜色选择器",
+  "midnightconfig.action.file_chooser": "打开文件选择器"
+}

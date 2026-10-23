@@ -1,0 +1,6 @@
+{
+  "skyexplorer_blade.name": "LaoWu Blade",
+  "skyexplorer_blade.tooltip": "Left click to slash. No ammunition. Native wrench melee timing with a custom diagonal cut.",
+  "skyexplorer_blade.ammo.hissing_gas.name": "Hissing Gas Bucket",
+  "skyexplorer_blade.ammo.hissing_gas.tooltip": "LaoWu Blade fuel. Reload restores up to 2000 Hiss and returns an empty bucket. Heated Infiltration Tanks also work."
+}

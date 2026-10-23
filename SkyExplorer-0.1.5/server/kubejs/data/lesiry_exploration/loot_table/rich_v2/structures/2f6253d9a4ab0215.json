@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "create_rustic_structures:chests/loot_2",
+  "pools": []
+}

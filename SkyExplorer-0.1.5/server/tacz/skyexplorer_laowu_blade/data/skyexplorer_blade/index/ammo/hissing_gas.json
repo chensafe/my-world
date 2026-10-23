@@ -1,0 +1,6 @@
+{
+  "name": "skyexplorer_blade.ammo.hissing_gas.name",
+  "display": "skyexplorer_blade:hissing_gas_display",
+  "tooltip": "skyexplorer_blade.ammo.hissing_gas.tooltip",
+  "stack_size": 1
+}

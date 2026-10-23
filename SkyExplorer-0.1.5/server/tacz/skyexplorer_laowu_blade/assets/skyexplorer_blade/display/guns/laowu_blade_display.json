@@ -1,0 +1,37 @@
+{
+  "model": "skyexplorer_blade:gun/laowu_blade",
+  "texture": "skyexplorer_blade:blade",
+  "hud": "skyexplorer_blade:hud",
+  "slot": "skyexplorer_blade:icon",
+  "animation": "skyexplorer_blade:laowu_blade",
+  "state_machine": "skyexplorer_blade:blade_state_machine",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "player_animator_3rd": "skyexplorer_blade:blade.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "ground": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fixed": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  },
+  "sounds": {
+    "melee_stock": "skyexplorer_blade:blade/slash",
+    "draw": "skyexplorer_blade:blade/draw",
+    "inspect": "skyexplorer_blade:blade/inspect",
+    "inspect_empty": "skyexplorer_blade:blade/inspect",
+    "dry_fire": "skyexplorer_blade:blade/slash"
+  }
+}

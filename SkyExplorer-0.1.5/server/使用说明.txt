@@ -1,0 +1,22 @@
+SkyExplorer v0.1.5 服务端 / 作者 lesiry
+Minecraft 1.21.1 / NeoForge 21.1.249 / 内置 Windows x64 Java 25
+
+完整解压到独立文件夹，双击“启动服务端.bat”。内存默认2—8GB，在user_jvm_args.txt调整。
+默认端口25565，正版验证开启，允许飞行，视距6，模拟距离4。停止时输入stop并等待保存退出。
+eula.txt沿用作者此前服务端已确认的设置；使用前请阅读Minecraft EULA：https://aka.ms/MinecraftEULA。
+Linux需自行安装Java25，用sh start.sh启动；内置运行时为Windows版，未实测Linux。
+
+来源为当前SkyExplorer 0.1正式包，不混入0.2demo。
+保留JEI 19.56.0.438；最新更多航空学联动0.10.21.2及合并补丁skyexplorer-compat 1.0.0.8。
+同步KubeJS、可视化配方ldlib2、FTB任务、生物属性及生成规则、战利品修改、TaCZ枪包和女仆模型。
+保留TaCZ .export-state.json，防止已删除的默认枪械配方被重新导出。
+鼠片驯猫KubeJS沿用专用服务端写法：直接发布AnimalTameEvent，避免EventHooks反射客户端类；行为一致。
+客户端渲染、光影、地图、输入和Player Doll等沿用上一服务端的排除规则；不带停用的随机优化和旧独立补丁。
+Sable远程面板默认关闭；不携带原面板令牌、证书、强加载列表。
+不包含作者地图、玩家身份文件、缓存、日志、备份及验证探针。
+
+从旧版升级：先停止并备份旧服，将本包解压至新目录，再迁入world、白名单及管理员文件。
+按旧服需求调整server.properties和旧世界serverconfig；不要把旧mods、config、kubejs整目录覆盖回来。
+玩家应使用匹配的最新0.1正式客户端；不要用服务端mods目录覆盖客户端。
+额外保留四个客户端/服务端同步模组：AE2 19.2.18、GuideME 21.1.19、AE2CT 1.21.1-1.1.1、Yes Steve Model 2.6.5。
+本次为服务端导出：在原版 0.1.5 基础上追加上述四个模组；未新增其他玩法数据包。

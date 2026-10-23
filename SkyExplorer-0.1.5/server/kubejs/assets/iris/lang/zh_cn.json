@@ -1,0 +1,10 @@
+{
+  "iris.shaders.debug.restartNoDebug": "着色器调试已启用； NeoForge 不支持 OpenGL 调试。",
+  "iris.load.failure.shader": "光影包加载失败！请将错误报告给着色器开发人员。 ",
+  "iris.load.failure.generic": "Iris 在尝试加载着色器时遇到问题；请向 Iris 开发人员报告此情况。 ",
+  "iris.keybind.wireframe": "线框（仅限 SP）",
+  "options.iris.colorSpace": "色彩空间",
+  "options.iris.colorSpace.sodium_tooltip": "屏幕输出使用的色彩空间，在光影包的输出结果之上应用。不确定时请使用 sRGB。",
+  "iris.keybinds": "虹膜",
+  "iris.unsupported.iris": "虹膜"
+}

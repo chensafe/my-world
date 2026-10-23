@@ -1,0 +1,4 @@
+{
+  "message.solcarrot.chat_wrapper": "[SoL：胡萝卜] %s",
+  "solcarrot.networking.food_list_message.failed": "同步食物列表失败！ %s"
+}

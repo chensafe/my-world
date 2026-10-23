@@ -1,0 +1,21 @@
+{
+  "modmenu.descriptionTranslation.biolith": "Terraformers 的世界生成实用程序",
+  "biolith.command.describe.header": "生物群系值",
+  "biolith.command.describe.biome.vanilla": "原版/数据生物群系： ",
+  "biolith.command.describe.biome.terrablender": "TerraBlender生物群系： ",
+  "biolith.command.describe.biome.moderner_beta": "现代β生物群系： ",
+  "biolith.command.describe.biome.replacement": "替换生物群系： ",
+  "biolith.command.describe.biome.sub": "选择的子生物群系： ",
+  "biolith.command.describe.biome.nearest": "最近： ",
+  "biolith.command.describe.biome.none": "（无）",
+  "biolith.command.describe.biome.scale": "规模",
+  "biolith.command.describe.nonPlayer": "呼叫者是非玩家；请提供实体或职位。",
+  "biolith.command.describe.notOurs": "目标尺寸不被Biolith修改。",
+  "biolith.command.help": "命令选项：\n §9/biolith help§r - 显示 Biolith 命令帮助\n §9/biolith describe§r - 查看生物群系和噪声信息",
+  "biolith.command.help.missing": "§e指定命令没有帮助。",
+  "biolith.command.help.describe": "§9/biolith describe [at (<entity>|<position>)]§r - 查看噪声和生物群系选择信息",
+  "biolith.command.hint": "§6（尝试“§9/biolith help§6”以获取命令信息...）",
+  "biolith.world.minecraft.the_end": "结束",
+  "biolith.world.minecraft.the_nether": "下界",
+  "biolith.world.minecraft.overworld": "主世界"
+}

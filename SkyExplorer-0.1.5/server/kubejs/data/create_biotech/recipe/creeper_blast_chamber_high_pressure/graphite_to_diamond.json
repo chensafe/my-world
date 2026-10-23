@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_biotech:feature_enabled",
+      "feature": "biotechMaterials"
+    }
+  ],
+  "type": "create_biotech:creeper_blast_chamber_high_pressure",
+  "exclusiveResults": true,
+  "ingredients": [
+    {
+      "item": "create_biotech:graphite"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.5,
+      "id": "minecraft:diamond"
+    },
+    {
+      "chance": 0.5,
+      "id": "createnuclear:coal_dust"
+    }
+  ]
+}

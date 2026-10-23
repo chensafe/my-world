@@ -1,0 +1,8 @@
+{
+  "config.structure_layout_optimizer.title": "结构布局优化",
+  "config.structure_layout_optimizer.desc": "优化拼图结构的生成过程",
+  "config.structure_layout_optimizer.link.bug_report": "报告问题",
+  "config.structure_layout_optimizer.link.license": "许可证",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list": "对打乱后的模板池条目列表去重",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list.desc": "是否使用另一种策略，在本模组默认的模板池权重优化基础上，进一步加快结构布局的生成。此策略会改变结构从模板池中收集部件的方式，使列表中不再包含重复条目。\n这不会破坏结构生成，但启用后生成的结构布局会与关闭时不同：即使世界种子相同，也不再保证生成与原版一致的结构布局。对于安装了大量结构模组、且许多模板池使用较高权重的整合包，这种以布局一致性换取速度的方式可能值得采用。\n\n优点：进一步提升高权重模板池结构的生成性能。\n缺点：同一种子下的结构布局可能与原版不同。（结构生成不会损坏，只是布局有所变化。）"
+}

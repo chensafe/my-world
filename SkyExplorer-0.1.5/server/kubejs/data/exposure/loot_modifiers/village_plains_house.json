@@ -1,0 +1,27 @@
+{
+  "type": "exposure:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_plains_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/338223504fda855f"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/a9952c24fbed593f"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:original/minecraft/chests/village/village_plains_house"
+        }
+      ]
+    }
+  ],
+  "table": "exposure:chests/village_plains_house"
+}

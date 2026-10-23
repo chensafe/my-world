@@ -1,0 +1,13 @@
+{
+  "name": "SkyExplorer",
+  "version": "v0.1.5",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.249",
+  "java": 25,
+  "author": "lesiry",
+  "more_aero_links": "0.10.21.2",
+  "skyexplorer_compat": "1.0.0.8",
+  "jei_included": true,
+  "jei_version": "19.56.0.438",
+  "mods": 174
+}

@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.betterendisland-fabric-1_21.title": "YUNG的更好的结局岛",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg": "召唤龙掉落蛋",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg.@Tooltip": "末影龙每次被击败时是否会掉落蛋",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform": "生成原版黑曜石平台",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform.@Tooltip": "原版黑曜石平台是否应该在末地而不是改造后的平台中生成",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways": "生成原版末地网关",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways.@Tooltip": "原版末地网关是否应该在末地生成，而不是改造后的网关",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound": "播放铃声",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound.@Tooltip": "首次召唤末影龙之前和重新召唤期间是否应播放铃声",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially": "最初生成中央塔",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially.@Tooltip": "当世界第一次生成时，中央塔是否应该在末路生成",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon": "重生中央塔重新召唤",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon.@Tooltip": "当末影龙重新召唤时，中央塔是否应该在末路重生"
+}

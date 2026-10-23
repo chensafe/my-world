@@ -1,0 +1,6 @@
+FC copy migration v1
+area=SERVER_CONFIG
+new-location-is-authoritative=true
+legacy-files-preserved=true
+files-checked=0
+conflicts=0

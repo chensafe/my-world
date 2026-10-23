@@ -1,0 +1,7 @@
+{
+  "option.modmenu.use_catalogue_icon": "使用目录的图标",
+  "mod_menu.configuration.use_catalogue_icon.true": "开",
+  "mod_menu.configuration.use_catalogue_icon.false": "关闭",
+  "mod_menu.configuration.use_catalogue_icon.tooltip": "将使用 mods 的目录图标（如果存在）",
+  "mod_menu.searchTerms.neoforge": "新锻造"
+}

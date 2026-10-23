@@ -1,0 +1,35 @@
+{
+  "type": "sophisticatedbackpacks:inject_loot",
+  "conditions": [
+    {
+      "condition": "sophisticatedbackpacks:loot_enabled"
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/woodland_mansion"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/d826d16e7cfad126"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/ea5d4816fe0b16b1"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/274b6fb27183c93a"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:original/minecraft/chests/woodland_mansion"
+        }
+      ]
+    }
+  ],
+  "loot_table": "sophisticatedbackpacks:inject/chests/woodland_mansion",
+  "loot_table_to_inject_into": "minecraft:chests/woodland_mansion"
+}

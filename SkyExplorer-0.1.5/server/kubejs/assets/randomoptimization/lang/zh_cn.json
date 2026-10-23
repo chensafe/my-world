@@ -1,0 +1,12 @@
+{
+  "itemGroup.randomoptimization": "Mod 选项卡示例",
+  "block.randomoptimization.example_block": "示例方块",
+  "item.randomoptimization.example_item": "示例物品",
+  "randomoptimization.configuration.title": "随机优化配置",
+  "randomoptimization.configuration.section.randomoptimization.common.toml": "随机优化配置",
+  "randomoptimization.configuration.section.randomoptimization.common.toml.title": "随机优化配置",
+  "randomoptimization.configuration.items": "物品列表",
+  "randomoptimization.configuration.logDirtBlock": "原木污垢块",
+  "randomoptimization.configuration.magicNumberIntroduction": "幻数文本",
+  "randomoptimization.configuration.magicNumber": "幻数"
+}

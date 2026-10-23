@@ -1,0 +1,19 @@
+{
+  "type": "exposure:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_map"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/cf391985eb400ca2"
+        }
+      ]
+    }
+  ],
+  "table": "exposure:chests/shipwreck_map"
+}

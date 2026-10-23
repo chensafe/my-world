@@ -1,0 +1,52 @@
+{
+  "version": "v0.1.5",
+  "source_instance": "SkyExplorer (0.1 release)",
+  "demo_content_included": false,
+  "java": "25.0.4.1",
+  "tests": [
+    {
+      "run": 0,
+      "exit": 0,
+      "seconds": 98.91,
+      "loaded": true,
+      "ticked": true,
+      "saved": true,
+      "done": true,
+      "passed": true
+    },
+    {
+      "run": 1,
+      "exit": 0,
+      "seconds": 53.09,
+      "loaded": true,
+      "ticked": true,
+      "saved": true,
+      "done": true,
+      "passed": true
+    }
+  ],
+  "jei_present": true,
+  "kubejs_error_lines": [],
+  "critical_counts": {
+    "config/mobspawncontroller": 1,
+    "config/incontrol": 12,
+    "config/attributefix": 79,
+    "config/visual_loot_edit": 961,
+    "config/ftbquests": 59,
+    "config/quest_enhance": 292,
+    "kubejs/server_scripts": 16,
+    "kubejs/startup_scripts": 19,
+    "kubejs/client_scripts": 4,
+    "kubejs/data": 953,
+    "kubejs/assets": 241,
+    "ldlib2/assets/viscript_recipe/recipes": 2,
+    "tacz": 3215
+  },
+  "limitations": [
+    "No real-player login or long multiplayer stress test.",
+    "Existing third-party nonfatal recipe/loot-table/tag parse errors are retained, including create_connected and cbcmoreshells.",
+    "Windows x64 runtime only; Linux requires own Java25."
+  ],
+  "files_hash_verified": true,
+  "worlds_or_cache_exported": false
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tacz:loot_table_injector",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item.supplementaries.pignata": "皮尼亚塔",
+  "entity.supplementaries.pignata": "皮尼亚塔",
+  "block.supplementaries.pignata_anchor": "皮尼亚塔锚",
+  "message.supplementaries.pignata.full": "这个皮尼亚塔已经满了",
+  "subtitles.supplementaries.pignata.burst": "皮尼亚塔爆发",
+  "subtitles.supplementaries.pignata.hit": "皮尼亚塔命中",
+  "supplementaries.configuration.rope.lead_knots": "铅结",
+  "supplementaries.configuration.rope.lead_knots.description": "引线可以绑在绳子上",
+  "supplementaries.configuration.building.pignata": "皮纳塔",
+  "supplementaries.configuration.pignata": "皮纳塔",
+  "supplementaries.configuration.blackboard.connected_gui": "已连接的 GUI",
+  "supplementaries.configuration.blackboard.connected_gui.description": "打开黑板 GUI 还会显示最多 3x3 的已连接黑板，因此您可以同时在所有黑板上绘图",
+  "supplementaries.configuration.pignata.heal_interval": "治疗间隔",
+  "supplementaries.configuration.pignata.heal_interval.description": "蜱虫需要治愈一颗受伤的心",
+  "painting.supplementaries.bombs.title": "炸弹",
+  "painting.supplementaries.jar.title": "罐子",
+  "supplementaries.virtual_resourcepack.description": "动态运行时资源",
+  "supplementaries.virtual_resourcepack.title": "虚拟资源包"
+}

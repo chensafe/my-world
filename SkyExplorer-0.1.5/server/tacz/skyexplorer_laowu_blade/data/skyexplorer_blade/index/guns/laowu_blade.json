@@ -1,0 +1,8 @@
+{
+  "name": "skyexplorer_blade.name",
+  "display": "skyexplorer_blade:laowu_blade_display",
+  "data": "skyexplorer_blade:laowu_blade_data",
+  "tooltip": "skyexplorer_blade.tooltip",
+  "type": "rpg",
+  "sort": 352
+}
