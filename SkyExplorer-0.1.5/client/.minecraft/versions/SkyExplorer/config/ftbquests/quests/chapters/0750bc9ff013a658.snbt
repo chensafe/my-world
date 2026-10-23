@@ -1,0 +1,1045 @@
+{
+	autofocus_id: "794C4CC559FABE1B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0750bc9ff013a658"
+	group: "47B8506CDC91D25A"
+	icon: {
+		id: "kubejs:anshanbox"
+	}
+	id: "0750BC9FF013A658"
+	images: [
+		{
+			height: 4.5d
+			id: "0300721570A92A15"
+			image: "quest_enhance:textures/ftb/chapter_accent_0750bc9ff013a658_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.8d
+			id: "1EC07571215DF539"
+			image: "quest_enhance:textures/ftb/node_detail_flight_v1.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.8d
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			height: 3.4d
+			id: "61268843CB7EF331"
+			image: "quest_enhance:textures/ftb/unique_node_v1_airship_envelope.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.4d
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			height: 2.5652d
+			id: "093DF571588DC46A"
+			image: "quest_enhance:textures/ftb/unique_node_v1_airship_liftoff_logo.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -21.0d
+		}
+	]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "794C4CC559FABE1B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "04FD6030FD781ACB"
+				item: {
+					count: 1
+					id: "kubejs:anshanbox"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0D227F8465D67EE7"
+				item: { count: 1, id: "kubejs:anshanbox" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0F40FA578806AE"]
+			id: "1191D199AC84EF12"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "72D0CC58792CA76B"
+				item: {
+					count: 1
+					id: "aeronautics:adjustable_burner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C0F139A9531423D"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["50BE4C5075F348F7"]
+			id: "792170DB627423E8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3A11B68880D273E7"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["794C4CC559FABE1B"]
+			id: "50BE4C5075F348F7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 256
+					id: "3940C33526BF4E86"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 512
+					id: "6BECD85D2D87F248"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "225A25018589866B"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+				{
+					id: "02BBE0206011B218"
+					item: {
+						count: 1
+						id: "simulated:throttle_lever"
+					}
+					type: "item"
+				}
+				{
+					id: "213FEE8E0C3E17B1"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A6302DC1E828CDE"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F8D7033A356E345"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+				{
+					id: "211721DC57DA90C7"
+					item: {
+						count: 1
+						id: "create:linked_controller"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "021519FA017E57FD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1191D199AC84EF12"]
+			id: "5C992CD23E876D97"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3BEC10054D6CE332"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["792170DB627423E8"]
+			id: "692D129E8EB17D70"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56D219D5786F28E1"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03D18E59FB1F2932"]
+			id: "1D0F40FA578806AE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0A2FF97FE172A048"
+				item: {
+					count: 1
+					id: "simulated:throttle_lever"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42F8EB1CFAEF8EFC"
+				item: { count: 1, id: "create:analog_lever" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["792170DB627423E8"]
+			id: "14B4FA5791A3BE2A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3FBE97E080031ECF"
+				item: { count: 1, id: "simulated:engine_assembly" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["14B4FA5791A3BE2A"]
+			id: "3F97208069BD43D6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7330BA961621EE10"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5C992CD23E876D97"]
+			id: "23E2AAE19E2703C1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5A145C8FCE7EA3C5"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5C992CD23E876D97"]
+			id: "46FE316DF95A2182"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1E8750D232BAF95B"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3F97208069BD43D6"]
+			id: "03D18E59FB1F2932"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54DBB23A56373022"
+				item: { count: 1, id: "simulated:directional_gearshift" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5C992CD23E876D97"]
+			id: "2DE7465E44B9BDC2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "45CD5EEBA5DE181C"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1D0F40FA578806AE"]
+			id: "00BE03454D1965E3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B281E53700689CF"
+				item: { count: 1, id: "simulated:spring" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["00BE03454D1965E3"]
+			id: "1437B143178EBCD4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "103ECEA384D15626"
+				item: { count: 1, id: "simulated:torsion_spring" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1437B143178EBCD4"]
+			id: "09F3C31B37E5BB8F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "009AA77F23AD089B"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["09F3C31B37E5BB8F"]
+			id: "665122AFE716B8BA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "11D329392DA44D26"
+				item: { count: 1, id: "create:white_sail" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["665122AFE716B8BA"]
+			id: "4ED2D668867664DA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4C6EC741A8F12530"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["2DE7465E44B9BDC2"]
+			id: "5E3BADB08C7D91E3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1AEBAB38650DD62B"
+				item: { count: 1, id: "create:white_sail" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3BADB08C7D91E3"]
+			id: "04119720A885A46C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "47E9C8A29BA428CD"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1437B143178EBCD4"]
+			id: "56BD34B030FFD355"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "41C69B67F9B2DC69"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1437B143178EBCD4"]
+			id: "670ACCBA61710830"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "13EE8D54CC073580"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["792170DB627423E8"]
+			id: "4E9A7DDF6AD31FE7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1E98C04A65A79796"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D0F40FA578806AE"]
+			id: "4443E77D85B30F8C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "101C9B4291D46139"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1D0F40FA578806AE"]
+			id: "7475A20D8316F622"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "32158B833EBF4408"
+				item: { count: 1, id: "simulated:velocity_sensor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["03D18E59FB1F2932"]
+			id: "5906A68EC1D1F19B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0AAA60E7CC743CC9"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["794C4CC559FABE1B"]
+			id: "337A7BDFB30437AA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 2
+				id: "4F1858D90A0BD4C9"
+				item: {
+					count: 1
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "772AA69C8D7120AB"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "6C31ACC3C189D022"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6F83B42BA49EBBE8"
+				item: { count: 1, id: "minecraft:gold_nugget" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "4658DEB261C7AFF7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "13FC38AE4313128C"
+				item: { count: 1, id: "create:copper_nugget" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "04E64E92822ABC5C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "45D942D271596229"
+				item: { count: 1, id: "create:zinc_nugget" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "168B1701001B8514"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2CD3E402EFF1E8D8"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "36E988631830E23A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7571F0DAFF0F7610"
+				item: { count: 1, id: "createaddition:electrum_nugget" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["337A7BDFB30437AA"]
+			id: "346D324FC027FEB9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "6B8F52D944003B45"
+					item: {
+						count: 1
+						id: "create:windmill_bearing"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4D1475B0662685AA"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "125CEAFE20104E1D"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5906A68EC1D1F19B"]
+			id: "3AF893E50E396455"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63D40CACED1F270B"
+				item: { count: 1, id: "create:linked_controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "2E3C2144050A6E1C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "30E48B6440589D4C"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "3D0F92DB0CC9141B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "64917D6195B92CFE"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CDFBBF3E38FD7AB"]
+			id: "2124A22DCA0C8BED"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "39D093F0C5D3B007"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A61A0642A24460B"]
+			id: "2665EEA853CB9565"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "628640AAF2A705D9"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "5BB23412797759EA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7CBDBCDC2E435EAB"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB23412797759EA"]
+			id: "7DB6500B73EDA4EE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "675613A3AAD99172"
+				item: { count: 1, id: "minecraft:baked_potato" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7DB6500B73EDA4EE"
+				"2665EEA853CB9565"
+				"2124A22DCA0C8BED"
+			]
+			id: "410442C2930F28D2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2E3662313BA2B4A4"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB23412797759EA"]
+			id: "538BA7B0FACCE536"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "21FAC42301A81F81"
+				item: { count: 1, id: "kubejs:potato_hand" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E3C2144050A6E1C"]
+			id: "2CDFBBF3E38FD7AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0515E120A1BEDFB5"
+				item: { count: 1, id: "kubejs:carrot_juice_bucket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D0F92DB0CC9141B"]
+			id: "3A61A0642A24460B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4A3F0F0A94A72F8E"
+				item: { count: 1, id: "kubejs:cabbage_juice_bucket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["538BA7B0FACCE536"]
+			id: "53D5E8AE65D90F8B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B789BE87582EEB2"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2124A22DCA0C8BED"]
+			id: "3D89567F3772A220"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2F2ADC3319EB74B0"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["410442C2930F28D2"]
+			id: "3BE44EA112576354"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6CED1EEC1CD261C1"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BE44EA112576354"]
+			id: "0235A23B8C31C408"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63CA3388346907AC"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0235A23B8C31C408"]
+			id: "59A592F17F06037E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "5E6B0359423647D7"
+				item: {
+					count: 1
+					id: "kubejs:huangtongbox"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "445370FDF3BCC9EA"
+				item: { count: 1, id: "kubejs:huangtongbox" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D89567F3772A220"]
+			id: "00C9E73EECC88400"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "06A4FE322AD07DC7"
+				item: {
+					count: 1
+					id: "kubejs:tongbox"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "747B510D9A3E498A"
+				item: { count: 1, id: "kubejs:tongbox" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4ED2D668867664DA"
+				"04119720A885A46C"
+			]
+			id: "7D95735BD73E7DF7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1BEFCB989458AEEA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "0C14C61D8D69688B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6C63056C09C41520"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C14C61D8D69688B"]
+			id: "21C7D935BFC8BC8F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7C7FA7D95287A099"
+				item: { count: 1, id: "create:wheat_flour" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21C7D935BFC8BC8F"]
+			id: "20C770765AB84CE4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56606480EEADFA20"
+				item: { count: 1, id: "create:dough" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"20C770765AB84CE4"
+				"79A33DD94E3D614C"
+			]
+			id: "782C3CB8A4C0B3A9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "0266815AA774DCB4"
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C751CE8A4A06E96"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5BB23412797759EA"]
+			id: "60D8A23CE7E182CD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "08649789E0BAB65E"
+				item: {
+					count: 1
+					id: "quark:gunpowder_sack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FB070B9E1D99645"
+				item: { count: 1, id: "kubejs:pistol_casing" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60D8A23CE7E182CD"]
+			id: "26F05426D79A0FAB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6FA78799EE2ED39E"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:gas_pistol_ammo" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "4D7EFF3F781201F0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C84F333CB25F571"
+				item: { count: 1, id: "rusticdelight:cotton_boll" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D7EFF3F781201F0"]
+			id: "290F8D2F0E1FB47B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5AD7BD0D0EA9B07A"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["290F8D2F0E1FB47B"]
+			id: "7272BB93D8954150"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5B5A26CC1E0E6601"
+				item: { count: 1, id: "minecraft:white_wool" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7272BB93D8954150"]
+			id: "1EE1A8DBDC654820"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 1024
+				id: "4E92456DB83D6825"
+				item: {
+					count: 1
+					id: "aeronautics:white_envelope"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E822AEFB5120D86"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "5D68EA93FAD52CA0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0F1ECEC7C1576B8D"
+				item: { count: 1, id: "minecraft:cactus" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D68EA93FAD52CA0"]
+			id: "79A33DD94E3D614C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "080DB9C7BDB72F11"
+				item: { count: 1, id: "kubejs:cactus_juice_bucket" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["346D324FC027FEB9"]
+			id: "6457BE95B1AF383A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "380CC9E0C16B95D2"
+				item: { count: 1, id: "culturaldelights:corn_cob" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6457BE95B1AF383A"]
+			id: "676E3687756C1141"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "395C91D754C0D8CD"
+				item: { count: 1, id: "kubejs:yumi" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["676E3687756C1141"]
+			id: "4DD4090F63818BC1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1D20B91E1781C60E"
+				item: { count: 1, id: "kubejs:yumi_juice_bucket" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DD4090F63818BC1"]
+			id: "4D1CB01EBF843173"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "68A9A324CC07B703"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+	]
+}

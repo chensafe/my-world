@@ -1,0 +1,832 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "0786fd82a2cde89b"
+	group: "02B06C73667D5EA7"
+	icon: {
+		id: "vinery:red_wine"
+	}
+	id: "0786FD82A2CDE89B"
+	images: [
+		{
+			click_action: "none:"
+			height: 6.533d
+			id: "6BC19BFCA7F795EC"
+			image: "lesiry:textures/gui/food_journal/v2/title_wine_pixel.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 19.6d
+			x: 8.4d
+			y: -2.8d
+		}
+		{
+			height: 2.933d
+			id: "79A5A59EF3E31AEA"
+			image: "lesiry:textures/gui/food_journal/v3/logos/dungeonsdelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 0.8d
+		}
+		{
+			height: 2.933d
+			id: "5FF9D0A6A46A3BEC"
+			image: "lesiry:textures/gui/food_journal/v3/logos/ends_delight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 0.8d
+		}
+		{
+			height: 2.933d
+			id: "1B43D2488AFBF1B7"
+			image: "lesiry:textures/gui/food_journal/v3/logos/culturaldelights.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 5.15d
+		}
+		{
+			height: 2.933d
+			id: "7549099EA6A45E90"
+			image: "lesiry:textures/gui/food_journal/v3/logos/vinery.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 5.15d
+		}
+		{
+			height: 4.5d
+			id: "196D474DA16997DD"
+			image: "quest_enhance:textures/ftb/chapter_accent_0786fd82a2cde89b_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -4.0d
+			y: -2.8d
+		}
+		{
+			height: 3.5d
+			id: "5B6F22D780521C30"
+			image: "quest_enhance:textures/ftb/unique_node_v1_food_wine.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.5d
+			x: 20.0d
+			y: 9.0d
+		}
+	]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "dungeonsdelight:bloody_mary"
+			}
+			id: "59F995E052A61B35"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5256F84CFAA90A48"
+				item: { count: 1, id: "dungeonsdelight:bloody_mary" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:ghastly_spirits"
+			}
+			id: "5343F50A32888590"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "58C4194CFA4C3C2F"
+				item: { count: 1, id: "dungeonsdelight:ghastly_spirits" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:necronog"
+			}
+			id: "5410C46D71641295"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2274D3833EB7C172"
+				item: { count: 1, id: "dungeonsdelight:necronog" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_fruit_wine"
+			}
+			id: "46AAB37226DB66CD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4570CBAEBA8D846D"
+				item: { count: 1, id: "ends_delight:chorus_fruit_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "culturaldelights:apple_cider"
+			}
+			id: "525DB26BE738091D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "36B091D290AD639E"
+				item: { count: 1, id: "culturaldelights:apple_cider" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:beer"
+			}
+			id: "521A9FC752941BBD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2C7CE5531827C9E2"
+				item: { count: 1, id: "culturaldelights:beer" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:bloody_mary"
+			}
+			id: "40D80FC0C5A65EE1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "373C222EDDB1BEBF"
+				item: { count: 1, id: "culturaldelights:bloody_mary" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:brandy"
+			}
+			id: "58EBA5C5296EC78B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "11EADB3ABD7CCFB9"
+				item: { count: 1, id: "culturaldelights:brandy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:butterbeer"
+			}
+			id: "62D113263479F29B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "782AB7E8836A00FE"
+				item: { count: 1, id: "culturaldelights:butterbeer" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:gin"
+			}
+			id: "7951A4CC3FBBD56C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2ED3D1BD91F8B9A2"
+				item: { count: 1, id: "culturaldelights:gin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "culturaldelights:glow_wine"
+			}
+			id: "03AD7E9F6410BA48"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4A0E04DE7A9C888A"
+				item: { count: 1, id: "culturaldelights:glow_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:lemon_liqueur"
+			}
+			id: "0A4CAC0AE4AA8F80"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "647DB9AC7C7CEA5B"
+				item: { count: 1, id: "culturaldelights:lemon_liqueur" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:margarita"
+			}
+			id: "20213C0D7176A4BF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "06C80ADC2AC9D235"
+				item: { count: 1, id: "culturaldelights:margarita" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:mead"
+			}
+			id: "12C25C55B06B8A39"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "68C454771FC01EDF"
+				item: { count: 1, id: "culturaldelights:mead" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:mojito"
+			}
+			id: "1D9CE5BFF2F4791A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "04213BC0F4259367"
+				item: { count: 1, id: "culturaldelights:mojito" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:rum"
+			}
+			id: "439C6EAF0566CE38"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3F3380500860C113"
+				item: { count: 1, id: "culturaldelights:rum" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "culturaldelights:tequila"
+			}
+			id: "0EF1B4264B507D13"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1792732DDB6A010F"
+				item: { count: 1, id: "culturaldelights:tequila" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "culturaldelights:vodka"
+			}
+			id: "771232CC0A7AE918"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1E856E84DBB65220"
+				item: { count: 1, id: "culturaldelights:vodka" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "culturaldelights:whiskey"
+			}
+			id: "11111DD6D76290E7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "72D1C45B0D51936E"
+				item: { count: 1, id: "culturaldelights:whiskey" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "culturaldelights:wine"
+			}
+			id: "30E96096E83C1610"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "76290D19262950A3"
+				item: { count: 1, id: "culturaldelights:wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:aegis_wine"
+			}
+			id: "4C744DA8AF815505"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0F79A9ED9FFCE29D"
+				item: { count: 1, id: "vinery:aegis_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:apple_cider"
+			}
+			id: "21BA20C7C5B35935"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "46C6567B8B697CD0"
+				item: { count: 1, id: "vinery:apple_cider" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:apple_wine"
+			}
+			id: "0A1F72143C19F964"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4796C6DE51C7A930"
+				item: { count: 1, id: "vinery:apple_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:bolvar_wine"
+			}
+			id: "379ADB7FE4C34D64"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5040D693BA3F2750"
+				item: { count: 1, id: "vinery:bolvar_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:bottle_mojang_noir"
+			}
+			id: "0FE7E9F76B0DC324"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6220C86C5A7BA115"
+				item: { count: 1, id: "vinery:bottle_mojang_noir" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:chenet_wine"
+			}
+			id: "473CBE83BF52F662"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6CE7733B43BBCBFC"
+				item: { count: 1, id: "vinery:chenet_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "vinery:cherry_wine"
+			}
+			id: "0F304D7C9E2B8957"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "69118E9F4124DAC5"
+				item: { count: 1, id: "vinery:cherry_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:chorus_wine"
+			}
+			id: "129D0E303B8050C0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0C22E49FEF4759DC"
+				item: { count: 1, id: "vinery:chorus_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:clark_wine"
+			}
+			id: "075C3CD13B1DB993"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "006421C778BC59D0"
+				item: { count: 1, id: "vinery:clark_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:creepers_crush"
+			}
+			id: "68129C63E757D1A8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "408F1B2C236CD7CE"
+				item: { count: 1, id: "vinery:creepers_crush" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:cristel_wine"
+			}
+			id: "0C39A972A700B48A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0F658F5BEB95363A"
+				item: { count: 1, id: "vinery:cristel_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:eiswein"
+			}
+			id: "58E15365A908D0C1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6A3F3F98FCBD48B8"
+				item: { count: 1, id: "vinery:eiswein" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 8.45d
+		}
+		{
+			icon: {
+				id: "vinery:glowing_wine"
+			}
+			id: "0828B388A66364C9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6EDB5C996052256D"
+				item: { count: 1, id: "vinery:glowing_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:jellie_wine"
+			}
+			id: "0D877DBED214A68A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2A8083829BDC1F91"
+				item: { count: 1, id: "vinery:jellie_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:jo_special_mixture"
+			}
+			id: "6A3B96CDE1133989"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "61B4418CBD25D7B8"
+				item: { count: 1, id: "vinery:jo_special_mixture" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:kelp_cider"
+			}
+			id: "125619686A499DAC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "57353D9A8D70006F"
+				item: { count: 1, id: "vinery:kelp_cider" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:lilitu_wine"
+			}
+			id: "3266EE1E02AF2900"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5E284328CE5E5E69"
+				item: { count: 1, id: "vinery:lilitu_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:magnetic_wine"
+			}
+			id: "7BC9EAC7541FF6B5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3C408DFD4D71FBC6"
+				item: { count: 1, id: "vinery:magnetic_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "vinery:mead"
+			}
+			id: "5256BDE4ACBE11F2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7CDE61667EF625E0"
+				item: { count: 1, id: "vinery:mead" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:mellohi_wine"
+			}
+			id: "078F63EE625947D0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "34F21A7966A59962"
+				item: { count: 1, id: "vinery:mellohi_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:noir_wine"
+			}
+			id: "18C3D37160F034D2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5B3BCE72085F49DF"
+				item: { count: 1, id: "vinery:noir_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "583B16BC7E8FA862"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4B298E90532B225C"
+				item: { count: 1, id: "vinery:red_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:solaris_wine"
+			}
+			id: "0FF6DC8071D6BB0A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7B068E37F7497CBE"
+				item: { count: 1, id: "vinery:solaris_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:stal_wine"
+			}
+			id: "6EF70B6BB2C1BBA7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "63A8C360747DFA55"
+				item: { count: 1, id: "vinery:stal_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "vinery:strad_wine"
+			}
+			id: "5C3F71616CC34DEC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4D2CFA44E5200BFB"
+				item: { count: 1, id: "vinery:strad_wine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "vinery:villagers_fright"
+			}
+			id: "7DF174E6F54FA18E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1762063596CDA510"
+				item: { count: 1, id: "vinery:villagers_fright" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 12.35d
+		}
+	]
+}

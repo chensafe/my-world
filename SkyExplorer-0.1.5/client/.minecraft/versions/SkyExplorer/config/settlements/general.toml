@@ -1,0 +1,37 @@
+[general_config]
+	#When true, behaviors run without requiring or emitting demand signals for their input items. If the villager happens to have the item, it is still consumed.
+	bypass_inventory_requirements = true
+	#Governs whether villager chat bubbles are drawn on this client
+	enable_chat_bubbles = true
+	#Disables villager experience gained naturally from successful behaviors
+	disable_natural_experience_gain = false
+	#The key that can be used to unlock all villager-related containers
+	global_lock_key = "settlements-lock-key"
+
+[dialogue]
+	#Whether the backend-free SCRIPTED dialogue floor may emit ambient chatter.
+	scripted_chatter = true
+	#Maximum characters of generated literal text shown in a bubble after defensive truncation.
+	# Default: 120
+	# Range: 20 ~ 300
+	bubble_char_cap = 120
+
+[social_cue]
+	#Base cooldown, before charisma and jitter, between ambient villager chatter bubbles
+	# Default: 120
+	# Range: 5 ~ 86400
+	villager_chatter_cooldown_seconds = 120
+	#Cooldown multiplier applied at CHARISMA=0.0 before jitter; larger values make low-CHA villagers quieter
+	# Default: 4.0
+	# Range: 0.01 ~ 100.0
+	social_cue_low_charisma_cooldown_multiplier = 4.0
+	#Cooldown multiplier applied at CHARISMA=1.0 before jitter; smaller values make high-CHA villagers more talkative
+	# Default: 0.5
+	# Range: 0.01 ~ 100.0
+	social_cue_high_charisma_cooldown_multiplier = 0.5
+	#Random per-cue cooldown jitter half-width; 0.25 means each completed cue varies by +/-25% after charisma scaling
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	social_cue_cooldown_jitter_fraction = 0.25
+	#How CHARISMA maps between low/high cooldown multipliers. Supported values: linear, exponential
+	social_cue_charisma_cooldown_scaling = "exponential"

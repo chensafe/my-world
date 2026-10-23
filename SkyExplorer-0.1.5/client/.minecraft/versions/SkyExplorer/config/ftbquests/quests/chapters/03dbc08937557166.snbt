@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "03dbc08937557166"
+	group: "547988EB708FD599"
+	icon: {
+		id: "minecraft:enchanting_table"
+	}
+	id: "03DBC08937557166"
+	images: [
+		{
+			height: 13.2d
+			id: "3202F7651969B994"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_magic.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "385832956C9720AB"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_magic.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 4.5d
+			id: "6CBCAFB18F0C8BB3"
+			image: "quest_enhance:textures/ftb/chapter_accent_03dbc08937557166_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 6.0d
+			y: 5.0d
+		}
+	]
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "33ACBD22FBEB6207"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "193578E9F65B9F1B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "4CCA2138E3D8F4AB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "44A88E224B0B30EF"
+					item: {
+						count: 1
+						id: "minecraft:brewing_stand"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "320C51E762091E49"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37CF0C016CA760AC"
+				structure: "minecraft:swamp_hut"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "5131BC45DDF750FA"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "105EA5DB23D947A2"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "69B4CF210B26D723"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22161D591A5F4868"
+				structure: "terralith:mage_complex"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "67654CF11B2A0C3E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1D876961571B919A"
+				item: {
+					count: 1
+					id: "dungeonsdelight:amethyst_rock_candy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E9A9F482AB4D154"
+				structure: "terralith:mage_tower"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:orange_stained_glass"
+			}
+			id: "60FF3344D59518E3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "05C84F93995B6F8F"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:acorn"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6054563A8A8DD83F"
+				structure: "terralith:mage_tower_autumn"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:pink_tulip"
+			}
+			id: "3E6065E01ED7D89C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "4F667A7780D054BF"
+				item: {
+					count: 1
+					id: "minecraft:pink_tulip"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E0D2F3CA58BEE1B"
+				structure: "terralith:mage_tower_spring"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:sunflower"
+			}
+			id: "6F9CC493607D7D55"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "6C509CD4682F1E1D"
+				item: {
+					count: 1
+					id: "spawn:sunflower_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC4586F79D399F5"
+				structure: "terralith:mage_tower_summer"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:light_blue_stained_glass"
+			}
+			id: "7A14F65CCCAB912C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "45CAB0BB75BD6607"
+				item: {
+					count: 1
+					id: "farmersdelight:smoked_ham"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C186F59D0716145"
+				structure: "terralith:mage_tower_winter"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glass_bottle"
+			}
+			id: "5ADDA80629604F97"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "356BB8F94193D5F7"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_healing"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24EA086E30EE2443"
+				structure: "terralith:witch_hut"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "40E3009F7DBDDDC8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "1CD3612C25345060"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7618EF92B860B0A7"
+				structure: "trek:overworld/common/smoldering_altar"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "0982AC872334E2A8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "1CE59DB03DCBA7D9"
+					item: {
+						count: 1
+						id: "minecraft:anvil"
+					}
+					type: "item"
+				}
+				{
+					id: "22E69ACB658F2200"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:anvil_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F9035C647544867"
+				structure: "trek:overworld/medium/enchanter"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "1012DE06A2F7A9BF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5E1BF1DA27AA2A13"
+				item: {
+					count: 1
+					id: "minecraft:diamond_pickaxe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04D7BBD7ED8BA17B"
+				structure: "trek:overworld/medium/graveyard"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_cluster"
+			}
+			id: "3CE48D5F86DB8970"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 4
+				id: "6724C3AE46847AE8"
+				item: {
+					count: 1
+					id: "minecraft:budding_amethyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B6EA34990CFF71A"
+				structure: "trek:overworld/medium/ritual"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "787855D859C1FD7F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "331BAAF98BDF21E7"
+				item: {
+					count: 1
+					id: "quark:golden_apple_crate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD53EB7316F0608"
+				structure: "trek:overworld/medium/sorcerers_house"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "3958474225B6DE9A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "12A07C831E614CD3"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "create_biotech:super_rotation_potion"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FDD16421C226DDA"
+				structure: "trek:overworld/medium/witch_tower"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+	]
+}

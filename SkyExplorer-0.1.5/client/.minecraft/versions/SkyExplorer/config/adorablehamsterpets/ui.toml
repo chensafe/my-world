@@ -1,0 +1,102 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Hand-delivers the sacred texts on first login.
+enableAutoGuidebookDelivery = true
+# If Auto Delivery is disabled (like in most modpacks), give the guidebook the first time the player actually spots a wild hamster from 10 blocks away. This will only trigger once, and only if the player has never received the guidebook before.
+enableAutoGuidebookDeliveryFallback = true
+# A list of players who have already seen the missing guidebook warning. This helps ensure that each player sees the warning only once. It was broken for a while, but it is fixed as of v3.7.0.
+playersWhoHaveSeenGuidebookWarning = [  ]
+# How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
+guidebookWarningTimer = 3600
+# If true, you must hold sneak to expose their genetic secrets. If false, their DNA is proudly broadcasted to you at all times. Set to False by default so I don't get spammed on Discord.
+requireSneakForCustomJadeInfo = false
+# If true, the default Jade info will also be hidden unless you are actively sneaking. This setting only matters if 'Require Sneaking' is enabled above.
+requireSneakForDefaultJadeInfo = false
+# Display the default Jade entity name. You know, 'Hampter'.
+showJadeEntityName = true
+# Display the default Jade health hearts. In case you want to know exactly how close your hamster is to the great beyond.
+showJadeEntityHealth = true
+# Display the default Jade growth timer that shows how long until babies become adults. Useful if you believe age is just a feeling.
+showJadeGrowthTime = true
+# Display the default Jade owner name. So everyone knows who is responsible when it happens.
+showJadeOwner = true
+# Display how long this hamster has managed to survive your world.
+showJadeAge = true
+# Display the underlying fur palette.
+showJadeBaseCoat = true
+# Display the naturally occurring fur overlay patterns.
+showJadeWildOverlay = true
+# Display the mutations you caused by genetic engineering.
+showJadeBreedingOverlay = true
+# Display whether they possess the recessive red eye gene. Helpful since the eyes still appear black.
+showJadeEyeColor = true
+# Display whether the hamster is currently in Pacifist, Menace, or just Standard aggression mode.
+showJadeAggressionState = true
+# Show Severe, Recovering, or Nearly Cured while looking at a fevered hamster.
+showJadeRedstoneFeverRecovery = false
+# Show whether a hamster is Untrained, Learning, Responsive, or Attuned to the Acorn Flute. The more in sync, the faster the hamster will respond when you use the flute to call it to your shoulder.
+showJadeFluteTraining = false
+# Display the default Jade inventory contents so you can see what your hamster is hoarding.
+showJadeInventory = true
+# The duration (in ticks) that action bar messages stay on screen. Only affects your personal computer. Vanilla is 60 (3 seconds), which is barely enough time to realize you're reading. Crank this up to savor the text. (20 ticks = 1 second).
+actionBarDuration = 100
+# Whether to display the chat warning when you cancel a hamster throw by releasing the button too early.
+enableThrowCancellationWarning = true
+# Little status mumbles when your co-pilot disembarks.
+enableShoulderDismountMessages = true
+# Whether to show an action bar message when a Tree Heist begins.
+enableTreeHeistStartMessage = true
+# Get an action bar message when your hamster's bed is broken. Here's where you can turn it off if you prefer... complete immersion.
+enableBedBreakMessage = true
+# Warns you when a newly tamed baby hamster refuses to follow you and informs you how to unlink them from their parent.
+enableTamedBabyWarningMessage = true
+# If true, you must have a Name Tag in your inventory (or the hamster's cheeks) to confirm the rename, and it will be consumed. True by default to keep things vanilla-friendly-ish.
+consumeNameTagForGuiRename = true
+# Which side of the name the little pencil icon sits on. For the easterners who prefer reading from right to left.
+renameIconPlacement = "LEFT"
+# Helpful whispers on what the heck that cucumber is for.
+enableItemTooltips = true
+# If true, the hamster's age progresses at real-world speed (24 hours = 1 day) instead of Minecraft speed (20 minutes = 1 day).
+displayAgeInIrlTime = false
+# More stats than anyone asked for. Defaults to off— mercifully.
+enableJadeHamsterDebugInfo = false
+# Your personal switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
+enableNotificationIcons = true
+# If true, completely disables the announcement bell icon for all players on the server, overriding their client settings, including 'Enable Announcements (Client).'
+serverDisableAnnouncements = false
+# For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
+snoozeUpdateReminderDays = 5
+# Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.
+enableHudIcon = true
+# Banish the bell to a corner of your choosing. It's your screen. Establish dominance.
+hudIconPositionPreset = "TOP_LEFT"
+# Shove the icon horizontally. For when 'top-left' isn't specific enough for your discerning taste.
+hudIconOffsetX = 10
+# Adjust the vertical placement. Does it block your view? Is it not blocking your view enough? The power is yours.
+hudIconOffsetY = 10
+# Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.
+hudIconScale = 1.0
+# Decide if the bell icon should ambush you while you're sorting your inventory. If disabled, it will only bother you on the main menu or the game HUD if you have those enabled. Your screen, your rules.
+enableWidgetIcon = true
+# How loud the wind gust sound effect is, for you overachievers who are running 15 different sound physics mods. 1.0 is default, 0.0 is silent.
+leafGustVolume = 0.3
+# Should the gentle, drift of Hamster Bedding leaf particles slowly change direction over time? If true, it's a slow, majestic rotation. (It takes a bout 3 minutes to make a full 360 degree rotation). If false, you get to pick a static wind direction below.
+enableDynamicDriftAngle = true
+# Set a fixed direction for the universal leaf drift (0-360 degrees). 0 = South, 90 = West, 180 = North, 270 = East. Or just slide it until it looks cool. Whatever. Only works if 'Dynamic Drift' is off.
+staticDriftAngle = 0
+
+# Control the icon's placement for standard GUIs. Because nothing says 'immersion' like a perfectly aligned notification bell. Position is relative to the GUI's top-right corner.
+
+[survivalWidgetIconSettings]
+# Shove it sideways (in pixels). Increase the number to move it right, decrease to move left.
+offsetX = 0
+# Shove it vertically (in pixels). Increase the number to move it down, decrease to move up.
+offsetY = 0
+
+# Control the icon's placement for the creative mode GUI. Because nothing says 'immersion' like a perfectly aligned notification bell. Position is relative to the GUI's top-right corner.
+
+[creativeWidgetIconSettings]
+# Shove it sideways (in pixels). Increase the number to move it right, decrease to move left.
+offsetX = 0
+# Shove it vertically (in pixels). Increase the number to move it down, decrease to move up.
+offsetY = 0

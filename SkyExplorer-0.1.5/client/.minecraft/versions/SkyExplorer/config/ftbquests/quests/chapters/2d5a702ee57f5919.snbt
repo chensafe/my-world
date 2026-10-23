@@ -1,0 +1,2025 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "2d5a702ee57f5919"
+	group: "02B06C73667D5EA7"
+	icon: {
+		id: "minecraft:cake"
+	}
+	id: "2D5A702EE57F5919"
+	images: [
+		{
+			click_action: "none:"
+			height: 9.333d
+			id: "23880E9B51182C53"
+			image: "lesiry:textures/gui/food_journal/v2/title_sweets_pixel.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 28.0d
+			x: 13.55d
+			y: -2.8d
+		}
+		{
+			height: 2.933d
+			id: "7C7E10A2EEEA4935"
+			image: "lesiry:textures/gui/food_journal/v3/logos/minecraft.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 0.8d
+		}
+		{
+			height: 2.933d
+			id: "6862A90ED983423F"
+			image: "lesiry:textures/gui/food_journal/v3/logos/farmersdelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 0.8d
+		}
+		{
+			height: 2.933d
+			id: "040F33A68E7488A5"
+			image: "lesiry:textures/gui/food_journal/v3/logos/dungeonsdelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 23.85d
+			y: 0.8d
+		}
+		{
+			height: 2.933d
+			id: "471A6E2097A2ED60"
+			image: "lesiry:textures/gui/food_journal/v3/logos/ends_delight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 5.15d
+		}
+		{
+			height: 2.933d
+			id: "7A0416D3D7D3FE7A"
+			image: "lesiry:textures/gui/food_journal/v3/logos/mynethersdelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 7.75d
+		}
+		{
+			height: 2.933d
+			id: "3EF582F5DD53CEAE"
+			image: "lesiry:textures/gui/food_journal/v3/logos/jadensnetherexpansiondelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 23.85d
+			y: 9.05d
+		}
+		{
+			height: 2.933d
+			id: "1F65AD9DEDDAA629"
+			image: "lesiry:textures/gui/food_journal/v3/logos/rusticdelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 9.5d
+		}
+		{
+			height: 2.933d
+			id: "11EDF6EFF0E18D53"
+			image: "lesiry:textures/gui/food_journal/v3/logos/culturaldelights.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 12.1d
+		}
+		{
+			height: 2.933d
+			id: "1DF7CD9BEF5C3E0C"
+			image: "lesiry:textures/gui/food_journal/v3/logos/expandeddelight.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 23.85d
+			y: 16.0d
+		}
+		{
+			height: 2.933d
+			id: "62F8D5C6FBEC70C8"
+			image: "lesiry:textures/gui/food_journal/v3/logos/cookscollection.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 16.45d
+		}
+		{
+			height: 2.933d
+			id: "709BDA0CEA37D51E"
+			image: "lesiry:textures/gui/food_journal/v3/logos/create.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 16.45d
+		}
+		{
+			height: 2.933d
+			id: "1790A8ADA004FAB9"
+			image: "lesiry:textures/gui/food_journal/v3/logos/createaddition.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 20.8d
+		}
+		{
+			height: 2.933d
+			id: "16E8FA9DD88BF5BE"
+			image: "lesiry:textures/gui/food_journal/v3/logos/spawn.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 13.55d
+			y: 20.8d
+		}
+		{
+			height: 2.933d
+			id: "0404B2E23852FA7B"
+			image: "lesiry:textures/gui/food_journal/v3/logos/primal.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 23.85d
+			y: 22.95d
+		}
+		{
+			height: 2.933d
+			id: "4421D981FDF6FE3D"
+			image: "lesiry:textures/gui/food_journal/v3/logos/supplementaries.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 8.8d
+			x: 3.25d
+			y: 25.15d
+		}
+		{
+			height: 4.5d
+			id: "2CFB8833160C8452"
+			image: "quest_enhance:textures/ftb/chapter_accent_2d5a702ee57f5919_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -3.05d
+			y: -3.3d
+		}
+		{
+			height: 3.4d
+			id: "0F41C5C849F962A5"
+			image: "quest_enhance:textures/ftb/unique_node_v1_food_cake.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.4d
+			x: 30.5d
+			y: 17.0d
+		}
+	]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "653F7B1F555739A2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1380FD6053011214"
+				item: { count: 1, id: "minecraft:cake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "minecraft:cookie"
+			}
+			id: "1D46D45A92F6D84F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5555F98806F1E0C8"
+				item: { count: 1, id: "minecraft:cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "minecraft:pumpkin_pie"
+			}
+			id: "45825C4C42492943"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6ABA586C31CB7A4F"
+				item: { count: 1, id: "minecraft:pumpkin_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:apple_pie"
+			}
+			id: "40B54BA0FB81C67E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "07FF368A9551AC7D"
+				item: { count: 1, id: "farmersdelight:apple_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:apple_pie_slice"
+			}
+			id: "1A5106200D872CD6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "220244A9AAA1A1CE"
+				item: { count: 1, id: "farmersdelight:apple_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cake_slice"
+			}
+			id: "2CF27DD3CDCC5FB0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "571615631386D28E"
+				item: { count: 1, id: "farmersdelight:cake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:chocolate_pie"
+			}
+			id: "2BF5E07CA8197659"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4E89D21BFE92A262"
+				item: { count: 1, id: "farmersdelight:chocolate_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:chocolate_pie_slice"
+			}
+			id: "0C4094BA83BBBCF4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "093C164B701896C5"
+				item: { count: 1, id: "farmersdelight:chocolate_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:fruit_salad"
+			}
+			id: "67A030AA50193865"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "529EE1A7B7086206"
+				item: { count: 1, id: "farmersdelight:fruit_salad" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "farmersdelight:glow_berry_custard"
+			}
+			id: "3FE2E0DE8A7552B9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4FE5E56D5B11A322"
+				item: { count: 1, id: "farmersdelight:glow_berry_custard" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:honey_cookie"
+			}
+			id: "7417181A00398737"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7E6723400EDC5328"
+				item: { count: 1, id: "farmersdelight:honey_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:melon_popsicle"
+			}
+			id: "3226D6BE5CFF15F5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6235EBECA645A400"
+				item: { count: 1, id: "farmersdelight:melon_popsicle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:pumpkin_pie_slice"
+			}
+			id: "3646BD2F75121958"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0744867A2B27B5D6"
+				item: { count: 1, id: "farmersdelight:pumpkin_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:sweet_berry_cheesecake"
+			}
+			id: "11DD56ED5007CF56"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6A010109A52FEAC9"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:sweet_berry_cheesecake_slice"
+			}
+			id: "4E5F7136CAC3A89B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1FF46715722340B4"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "farmersdelight:sweet_berry_cookie"
+			}
+			id: "20AD9ECE28E3144F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1A957683ED72F379"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:amethyst_rock_candy"
+			}
+			id: "5904F81CEB83F054"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "31623417FA56E9C3"
+				item: { count: 1, id: "dungeonsdelight:amethyst_rock_candy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:breeze_cream_cone"
+			}
+			id: "2EB24CBFB06A80C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "233FB7D3EBACED2F"
+				item: { count: 1, id: "dungeonsdelight:breeze_cream_cone" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:bubblegunk"
+			}
+			id: "1628981AE03B5130"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4BA59806C60C8F9F"
+				item: { count: 1, id: "dungeonsdelight:bubblegunk" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:candied_silverfish_sucker"
+			}
+			id: "086C85733A70EB26"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1A7695BA5ECD2B9D"
+				item: { count: 1, id: "dungeonsdelight:candied_silverfish_sucker" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:candied_vex_sucker"
+			}
+			id: "2F029C2FE00ADF77"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "581244733EDB2648"
+				item: { count: 1, id: "dungeonsdelight:candied_vex_sucker" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:cob_n_candy"
+			}
+			id: "1D5BB1DDED1008C9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "43F006040C5F4889"
+				item: { count: 1, id: "dungeonsdelight:cob_n_candy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 2.8d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:echo_rock_candy"
+			}
+			id: "18B09491B631EA85"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6CF5119CEBAF8340"
+				item: { count: 1, id: "dungeonsdelight:echo_rock_candy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:jelly_beans"
+			}
+			id: "6182C4329D16AEE9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5805B75AC03BB330"
+				item: { count: 1, id: "dungeonsdelight:jelly_beans" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:marshbellow"
+			}
+			id: "1BBFEBFEEF59DE49"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "34C0D8343C9CCF78"
+				item: { count: 1, id: "dungeonsdelight:marshbellow" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:monster_cake"
+			}
+			id: "11B209710262C9B2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "54886A4E0D2E9341"
+				item: { count: 1, id: "dungeonsdelight:monster_cake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:monster_cake_slice"
+			}
+			id: "02DBBF7BA19604F6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4D41F09177FFD85B"
+				item: { count: 1, id: "dungeonsdelight:monster_cake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:monster_mousse"
+			}
+			id: "22A8DA45CF9C7442"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7EC4193D4EF3E3E1"
+				item: { count: 1, id: "dungeonsdelight:monster_mousse" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 4.1d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:monster_mousse_block"
+			}
+			id: "58EB224395F1D96E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0302F32E16C8E2EA"
+				item: { count: 1, id: "dungeonsdelight:monster_mousse_block" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:monster_muffin"
+			}
+			id: "54ED5E18F8F087D1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6AFB0E267EE3540E"
+				item: { count: 1, id: "dungeonsdelight:monster_muffin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:rotpop"
+			}
+			id: "1A113F639C5C75C8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "23EE0FF244770D57"
+				item: { count: 1, id: "dungeonsdelight:rotpop" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:sculk_tart"
+			}
+			id: "1A8C8EE3C9736484"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "10CF17DAFF34E698"
+				item: { count: 1, id: "dungeonsdelight:sculk_tart" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:sculk_tart_slice"
+			}
+			id: "34A38F06AA7B3B60"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3E8C0865EF07033A"
+				item: { count: 1, id: "dungeonsdelight:sculk_tart_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:slicorice"
+			}
+			id: "096D2B1DBBF71760"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6F99BE0B860052EF"
+				item: { count: 1, id: "dungeonsdelight:slicorice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:soft_serve_sniffer_egg"
+			}
+			id: "2C177E8FB7A4A147"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "476B7F6B0B1851B6"
+				item: { count: 1, id: "dungeonsdelight:soft_serve_sniffer_egg" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 6.7d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:spider_donut"
+			}
+			id: "50D32BC638276BD4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5960BCB73828D139"
+				item: { count: 1, id: "dungeonsdelight:spider_donut" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 6.7d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:spider_pie"
+			}
+			id: "0E440B8E20672A9B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5027550C1A07DFB3"
+				item: { count: 1, id: "dungeonsdelight:spider_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 6.7d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:spider_pie_slice"
+			}
+			id: "6ED94F3DA2721011"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4BB2CB79AEAFF812"
+				item: { count: 1, id: "dungeonsdelight:spider_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.7d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:spider_tanghulu"
+			}
+			id: "129E98D579B442F1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2C16621EA2D36F8F"
+				item: { count: 1, id: "dungeonsdelight:spider_tanghulu" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 6.7d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_cookie"
+			}
+			id: "5B35D9A00B12A997"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "465D38E6F355C597"
+				item: { count: 1, id: "ends_delight:chorus_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_flower_pie"
+			}
+			id: "23A4A88F932793A4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5840AE44E1C921B7"
+				item: { count: 1, id: "ends_delight:chorus_flower_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_fruit_pie"
+			}
+			id: "4DF6C6739978A3B7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0E3682A9BF87AE54"
+				item: { count: 1, id: "ends_delight:chorus_fruit_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_fruit_pie_slice"
+			}
+			id: "52791F19B3CD78DF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3AFC70B3466F0DCE"
+				item: { count: 1, id: "ends_delight:chorus_fruit_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "ends_delight:chorus_fruit_popsicle"
+			}
+			id: "0C73F82E5D4D4F9C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0088D1C7745FCCD1"
+				item: { count: 1, id: "ends_delight:chorus_fruit_popsicle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "ends_delight:stuffed_rice_cake"
+			}
+			id: "165C91625D02A2F4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6C42B19148076D5C"
+				item: { count: 1, id: "ends_delight:stuffed_rice_cake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.15d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:hot_cream_cone"
+			}
+			id: "49D870FA90CBF800"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0F9CA1E7338DE407"
+				item: { count: 1, id: "mynethersdelight:hot_cream_cone" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:magma_cake_block"
+			}
+			id: "0C5118AA1C75F262"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "126EA2BCDBF16F4A"
+				item: { count: 1, id: "mynethersdelight:magma_cake_block" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:magma_cake_slice"
+			}
+			id: "7A557C68B308AEFE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "55B37175863CE602"
+				item: { count: 1, id: "mynethersdelight:magma_cake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:sizzling_pudding"
+			}
+			id: "7FC17BAF7B910393"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5ECA0C5ABF436C82"
+				item: { count: 1, id: "mynethersdelight:sizzling_pudding" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:spicy_cotton"
+			}
+			id: "2A833457EFCF862E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "356C4AAE5246CD57"
+				item: { count: 1, id: "mynethersdelight:spicy_cotton" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:tear_popsicle"
+			}
+			id: "11DC3C718C751491"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2F73EFEF694A1BE1"
+				item: { count: 1, id: "mynethersdelight:tear_popsicle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 16.8d
+			y: 9.75d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:banshee_cookie"
+			}
+			id: "1C01EAA83373974E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1F135206715E35E1"
+				item: { count: 1, id: "jadensnetherexpansiondelight:banshee_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:banshee_powder_ice_cream"
+			}
+			id: "76DBBBC7D94CAFF6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7750FE791ED75EA0"
+				item: { count: 1, id: "jadensnetherexpansiondelight:banshee_powder_ice_cream" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:lightspores_cheesecake"
+			}
+			id: "2FA41FC25AF1B6BA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4001ADD8947609E9"
+				item: { count: 1, id: "jadensnetherexpansiondelight:lightspores_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:lightspores_cheesecake_slice"
+			}
+			id: "75763BFA887E5C8C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "099B12D872B64A25"
+				item: { count: 1, id: "jadensnetherexpansiondelight:lightspores_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:lightspores_popsicle"
+			}
+			id: "1EF5DE7844AED5B9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "62A55218594CB69E"
+				item: { count: 1, id: "jadensnetherexpansiondelight:lightspores_popsicle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:nightspores_cheesecake"
+			}
+			id: "78762FF49C1BB27C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "10CB0C908144AE87"
+				item: { count: 1, id: "jadensnetherexpansiondelight:nightspores_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 11.05d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:nightspores_cheesecake_slice"
+			}
+			id: "2D041EE9087A19A8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5BF3F6AB3559717F"
+				item: { count: 1, id: "jadensnetherexpansiondelight:nightspores_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:nightspores_popsicle"
+			}
+			id: "6C8B522044AAFAA5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1A328B7F4B8B24C6"
+				item: { count: 1, id: "jadensnetherexpansiondelight:nightspores_popsicle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:ochre_cookie"
+			}
+			id: "6E825D1A6832D62F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7EB44BC6E6CF0208"
+				item: { count: 1, id: "jadensnetherexpansiondelight:ochre_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:pearlescent_cookie"
+			}
+			id: "59126A55CE66300D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7BD28FDEDC8CAFED"
+				item: { count: 1, id: "jadensnetherexpansiondelight:pearlescent_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:verdant_cookie"
+			}
+			id: "05B39ACCDEDE4CD9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7FBED781D85422DC"
+				item: { count: 1, id: "jadensnetherexpansiondelight:verdant_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:wisp_custard"
+			}
+			id: "0BCD5E97CC03B3ED"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "429FCF80E762671E"
+				item: { count: 1, id: "jadensnetherexpansiondelight:wisp_custard" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 12.35d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:wisp_pie"
+			}
+			id: "227D6BF76BCEA1A0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6D7ABC29936E6244"
+				item: { count: 1, id: "jadensnetherexpansiondelight:wisp_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 13.65d
+		}
+		{
+			icon: {
+				id: "jadensnetherexpansiondelight:wisp_pie_slice"
+			}
+			id: "638A187B1CC89646"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1EE4BFFB3E33FC54"
+				item: { count: 1, id: "jadensnetherexpansiondelight:wisp_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 13.65d
+		}
+		{
+			icon: {
+				id: "rusticdelight:cherry_blossom_cheesecake"
+			}
+			id: "5AE870211621963B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "36A4A721D6EE46C1"
+				item: { count: 1, id: "rusticdelight:cherry_blossom_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:cherry_blossom_cheesecake_slice"
+			}
+			id: "0B054D1CBB31FA51"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "784C67003C7FE9C5"
+				item: { count: 1, id: "rusticdelight:cherry_blossom_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:cherry_blossom_cookie"
+			}
+			id: "4763228177722B87"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "62B148FB399A3254"
+				item: { count: 1, id: "rusticdelight:cherry_blossom_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:cherry_blossom_pancake"
+			}
+			id: "167C9C8967FE0DB9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2556E4AADA463431"
+				item: { count: 1, id: "rusticdelight:cherry_blossom_pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:chocolate_pancake"
+			}
+			id: "0A33CA9231C40BA6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7E798951FCDB252D"
+				item: { count: 1, id: "rusticdelight:chocolate_pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:coffee_cheesecake"
+			}
+			id: "5E8EABF172ADEF5C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0D2B0078D7BD4D8C"
+				item: { count: 1, id: "rusticdelight:coffee_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "rusticdelight:coffee_cheesecake_slice"
+			}
+			id: "09FBE1AD23FD6D4C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "11C753BC8894983F"
+				item: { count: 1, id: "rusticdelight:coffee_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:coffee_cookie"
+			}
+			id: "4D29A317FF388D0C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "437EA5796E49089B"
+				item: { count: 1, id: "rusticdelight:coffee_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:coffee_pancake"
+			}
+			id: "480FFE00337B46F2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "02227CCED31E4283"
+				item: { count: 1, id: "rusticdelight:coffee_pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:fruit_beignet"
+			}
+			id: "661F1CE8C95015A9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "135C604F6CDB2ECD"
+				item: { count: 1, id: "rusticdelight:fruit_beignet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:honey_pancake"
+			}
+			id: "4EBB0B997B30DE02"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "36F7799AC1F36939"
+				item: { count: 1, id: "rusticdelight:honey_pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:pancake"
+			}
+			id: "5D00B6760249D716"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "07783D960D2D34DF"
+				item: { count: 1, id: "rusticdelight:pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.8d
+		}
+		{
+			icon: {
+				id: "rusticdelight:sweet_salad"
+			}
+			id: "56E4B31E5ACC29C0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "13FDE430AA7ACACE"
+				item: { count: 1, id: "rusticdelight:sweet_salad" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "rusticdelight:syrup_cheesecake"
+			}
+			id: "6A8C4538A112F811"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4C4D4104AF4280BB"
+				item: { count: 1, id: "rusticdelight:syrup_cheesecake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "rusticdelight:syrup_cheesecake_slice"
+			}
+			id: "78CF1C2811D7501F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4954089A4E830D3A"
+				item: { count: 1, id: "rusticdelight:syrup_cheesecake_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.6d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "rusticdelight:syrup_cookie"
+			}
+			id: "7D55FA70F406846C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "7617BE6D6F8496E7"
+				item: { count: 1, id: "rusticdelight:syrup_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.9d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "rusticdelight:syrup_sandwich"
+			}
+			id: "2674C589F26AE07B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "02D18A57E41D14BA"
+				item: { count: 1, id: "rusticdelight:syrup_sandwich" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.2d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "culturaldelights:butterscotch_cinnamon_pie"
+			}
+			id: "0E3976ED0076CE79"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "61276F90A39F002D"
+				item: { count: 1, id: "culturaldelights:butterscotch_cinnamon_pie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "culturaldelights:butterscotch_cinnamon_pie_slice"
+			}
+			id: "505BBCE3A730B88E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "018F91E828E4EB4A"
+				item: { count: 1, id: "culturaldelights:butterscotch_cinnamon_pie_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 14.1d
+		}
+		{
+			icon: {
+				id: "expandeddelight:berry_sweet_roll"
+			}
+			id: "443C9A0F8D6A13B5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5C9B74CBE0603423"
+				item: { count: 1, id: "expandeddelight:berry_sweet_roll" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "expandeddelight:chocolate_cookie"
+			}
+			id: "3E85C6BB0B4DE8E0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2E639DC9A20529EA"
+				item: { count: 1, id: "expandeddelight:chocolate_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "expandeddelight:cinnamon_apples"
+			}
+			id: "4B0437B98D550716"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2C78A9046D37FFDF"
+				item: { count: 1, id: "expandeddelight:cinnamon_apples" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "expandeddelight:cinnamon_rice"
+			}
+			id: "3B27616D88C80C23"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4C64C56062E2AE77"
+				item: { count: 1, id: "expandeddelight:cinnamon_rice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "expandeddelight:cranberry_jelly_sandwich"
+			}
+			id: "59C76048756DD99A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1452C0C1EF4ABCB6"
+				item: { count: 1, id: "expandeddelight:cranberry_jelly_sandwich" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:glow_berry_jelly_sandwich"
+			}
+			id: "290132C63AD857C1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "62E9C095F5DF254B"
+				item: { count: 1, id: "expandeddelight:glow_berry_jelly_sandwich" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:glow_berry_sweet_roll"
+			}
+			id: "6F42040032F7597F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2B9FB3E75B730494"
+				item: { count: 1, id: "expandeddelight:glow_berry_sweet_roll" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:honeyed_goat_cheese_tart"
+			}
+			id: "5D05A8FC3CD67E19"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0B1077B15DFBB3C1"
+				item: { count: 1, id: "expandeddelight:honeyed_goat_cheese_tart" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 24.5d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:honeyed_goat_cheese_tart_slice"
+			}
+			id: "617894AF94C379B3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "28B094F2C037AA64"
+				item: { count: 1, id: "expandeddelight:honeyed_goat_cheese_tart_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:snickerdoodle"
+			}
+			id: "2C52BCDF9BE20BE1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3CEBF87CC68370F2"
+				item: { count: 1, id: "expandeddelight:snickerdoodle" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 19.3d
+		}
+		{
+			icon: {
+				id: "expandeddelight:sugar_cookie"
+			}
+			id: "1CC3A1C3965CF123"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1CBDA357FC99AF67"
+				item: { count: 1, id: "expandeddelight:sugar_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 20.6d
+		}
+		{
+			icon: {
+				id: "expandeddelight:sweet_berry_jelly_sandwich"
+			}
+			id: "131433C0DC0BB7D4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1A97A6118595103E"
+				item: { count: 1, id: "expandeddelight:sweet_berry_jelly_sandwich" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 20.6d
+		}
+		{
+			icon: {
+				id: "expandeddelight:sweet_roll"
+			}
+			id: "52615D7B1BF8D833"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "4760B0CE5C517231"
+				item: { count: 1, id: "expandeddelight:sweet_roll" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 20.6d
+		}
+		{
+			icon: {
+				id: "cookscollection:chocolate_muffin"
+			}
+			id: "1C9C6F7C638168E2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "45685366B53A27CE"
+				item: { count: 1, id: "cookscollection:chocolate_muffin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "cookscollection:lemon_muffin"
+			}
+			id: "13C1A9412EAF9FD2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5E66239FD1516D63"
+				item: { count: 1, id: "cookscollection:lemon_muffin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "create:bar_of_chocolate"
+			}
+			id: "54AA77BFF2492CC3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "0C0F81D82310AF42"
+				item: { count: 1, id: "create:bar_of_chocolate" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "create:chocolate_glazed_berries"
+			}
+			id: "5C751581CFAC8FD5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "13C4E23CCE6433C7"
+				item: { count: 1, id: "create:chocolate_glazed_berries" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "create:honeyed_apple"
+			}
+			id: "5F63FDEE673342B2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "260E442DD4621794"
+				item: { count: 1, id: "create:honeyed_apple" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.9d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "create:sweet_roll"
+			}
+			id: "4FFA29A8D6598855"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6871BB322DA6800B"
+				item: { count: 1, id: "create:sweet_roll" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 14.2d
+			y: 18.45d
+		}
+		{
+			icon: {
+				id: "createaddition:chocolate_cake"
+			}
+			id: "29121002634BAB73"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3FCFA59933685BB2"
+				item: { count: 1, id: "createaddition:chocolate_cake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.8d
+		}
+		{
+			icon: {
+				id: "createaddition:honey_cake"
+			}
+			id: "4249091C0B6204B6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "32FFFE51478821A2"
+				item: { count: 1, id: "createaddition:honey_cake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 22.8d
+		}
+		{
+			icon: {
+				id: "spawn:date_cookie"
+			}
+			id: "2C67C726EAC70120"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6594C89E1F0F4B40"
+				item: { count: 1, id: "spawn:date_cookie" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.3d
+			y: 22.8d
+		}
+		{
+			icon: {
+				id: "primal:apple_fritter"
+			}
+			id: "507D067DB84EF674"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "5227FFC48949C1ED"
+				item: { count: 1, id: "primal:apple_fritter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 20.6d
+			y: 24.95d
+		}
+		{
+			icon: {
+				id: "primal:enchanted_golden_apple_fritter"
+			}
+			id: "13FBED32F4C8F740"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "2493EA76D9C3F824"
+				item: { count: 1, id: "primal:enchanted_golden_apple_fritter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 21.9d
+			y: 24.95d
+		}
+		{
+			icon: {
+				id: "primal:golden_apple_fritter"
+			}
+			id: "2CEFDF96BFC50527"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "6C58866C06AD15BB"
+				item: { count: 1, id: "primal:golden_apple_fritter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 23.2d
+			y: 24.95d
+		}
+		{
+			icon: {
+				id: "supplementaries:candy"
+			}
+			id: "109780C030733683"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "005E8FA66E382A14"
+				item: { count: 1, id: "supplementaries:candy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.15d
+		}
+		{
+			icon: {
+				id: "supplementaries:pancake"
+			}
+			id: "5CCD60EC1740B430"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "1E4896AC81ABA936"
+				item: { count: 1, id: "supplementaries:pancake" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.3d
+			y: 27.15d
+		}
+		{
+			icon: {
+				id: "expandeddelight:cranberry_cobbler"
+			}
+			id: "413A70B8B70F2BFB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "364E2683053F7391"
+				item: { count: 1, id: "expandeddelight:cranberry_cobbler" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 25.8d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "expandeddelight:cranberry_cobbler_slice"
+			}
+			id: "01FCEC9E1E82C104"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				consume_items: false
+				id: "3E0D0BA321261AB9"
+				item: { count: 1, id: "expandeddelight:cranberry_cobbler_slice" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 27.1d
+			y: 18.0d
+		}
+	]
+}

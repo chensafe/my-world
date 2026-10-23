@@ -1,0 +1,81 @@
+#Annihilation Affiliated Config
+[obliterator_config]
+	#Damage reduction percent per level of Annihilation effect. e.g. 20 = 20% per level.
+	# Default: 20
+	# Range: 0 ~ 100
+	annihilationDamageReductionPercentPerLevel = 20
+	#Disable Legendary Monsters boss dynamic damage reduction. Default: true
+	disableBossDynamicDamageReduction = true
+	#Enable Arm Block skill in phases 1-2. Default: false
+	enableArmBlockFix = false
+	#Enable Parry skill from phase 3+. Default: true
+	enableParryFix = true
+	#Enable +2 armor toughness in phase 2+. Default: true
+	enablePhase2ArmorToughness = true
+	#Bosses immune to sourceless damage (fall, suffocation, etc). Default: true
+	enableSourcelessDamageImmunity = true
+	#Annihilation effect blocks Ender Pearl teleportation. Default: true
+	annihilationBlocksEnderPearl = true
+	#Bosses and mini-bosses ignore damage when their target is at least 4 blocks above or below them (height difference protection). Default: true
+	bossElevationProtection = true
+
+#DPS Damage Bucket Config
+[dps_cap]
+	#The Obliterator max DPS. 0 = disabled. Default: 12
+	# Default: 12.0
+	# Range: 0.0 ~ 100000.0
+	obliteratorDpsCap = 12.0
+	#The Obliterator DPS recovery divider.
+	# Default: 20.0
+	# Range: 1.0 ~ 1000.0
+	obliteratorDpsDivider = 20.0
+	#Possessed Paladin max DPS. 0 = disabled. Default: 14
+	# Default: 14.0
+	# Range: 0.0 ~ 100000.0
+	paladinDpsCap = 14.0
+	#Possessed Paladin DPS recovery divider.
+	# Default: 20.0
+	# Range: 1.0 ~ 1000.0
+	paladinDpsDivider = 20.0
+	#Cloud Golem max DPS. 0 = disabled. Default: 12
+	# Default: 12.0
+	# Range: 0.0 ~ 100000.0
+	cloudGolemDpsCap = 12.0
+	#Cloud Golem DPS recovery divider.
+	# Default: 20.0
+	# Range: 1.0 ~ 1000.0
+	cloudGolemDpsDivider = 20.0
+
+#Soul Great Sword Enhancement Config
+[soul_great_sword]
+	#Parry window duration in ticks. Vanilla: 3. Default: 10
+	# Default: 10
+	# Range: 1 ~ 60
+	parryWindowTicks = 10
+	#Parry success cooldown in ticks. Vanilla: 70. Default: 60
+	# Default: 60
+	# Range: 0 ~ 200
+	parrySuccessCooldownTicks = 60
+	#Parry failure cooldown in ticks. Vanilla: 20. Default: 20
+	# Default: 20
+	# Range: 0 ~ 200
+	parryFailureCooldownTicks = 20
+	#Phantom dagger skill cooldown in ticks. Vanilla: 120. Default: 70
+	# Default: 70
+	# Range: 0 ~ 600
+	daggerCooldownTicks = 70
+	#Phantom dagger trace distance in blocks. Vanilla: 15. Default: 30
+	# Default: 30
+	# Range: 15 ~ 64
+	daggerTraceDistance = 30
+	#Grant Soul Rage while holding the Soul Great Sword. Default: false
+	soulRageEnabled = false
+
+#The Tesseract Enhancement Config
+[tesseract]
+	#Damage from The Tesseract bypasses armor. Default: true
+	bypassArmor = true
+	#Bonus portal damage as percentage of target max HP. e.g. 0.05 = 5%. Default: 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	portalMaxHealthBonus = 0.05

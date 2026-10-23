@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "rusticdelight:config_boolean",
+      "settingId": "generate_random_loot"
+    },
+    {
+      "type": "rusticdelight:config_boolean",
+      "settingId": "enable_cotton"
+    }
+  ],
+  "type": "farmersdelight:replace_item",
+  "added_item": "rusticdelight:cotton_seeds",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_snowy_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/8157043aaf73c06d"
+        }
+      ]
+    }
+  ],
+  "removed_item": "minecraft:beetroot_seeds"
+}

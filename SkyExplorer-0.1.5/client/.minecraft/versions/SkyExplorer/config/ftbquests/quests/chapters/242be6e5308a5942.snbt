@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "242be6e5308a5942"
+	group: "55D826581438AB52"
+	icon: {
+		id: "piq_fc_arcade:famicom_console"
+	}
+	id: "242BE6E5308A5942"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			icon: {
+				id: "piq_fc_arcade:famicom_console"
+			}
+			id: "0464DD20438E9921"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					auto: "disabled"
+					id: "4989FA437731FEED"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:famicom_console"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "480385847C622CB2"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:retro_tv"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "56E323F51AB80826"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:av_cable"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "4B98C037B8DE97C2"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:cartridge_computer"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "4183BE66B1A873ED"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:fc_cartridge"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4D45CC263788FB5E"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0464DD20438E9921"]
+			icon: {
+				id: "piq_fc_arcade:av_cable"
+			}
+			id: "25F018407C5F673E"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "77FCECA7A2005F25"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0464DD20438E9921"]
+			icon: {
+				id: "piq_fc_arcade:fc_cartridge"
+			}
+			id: "078634965B04C69D"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "4E13EFE13A65FE35"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"25F018407C5F673E"
+				"078634965B04C69D"
+			]
+			icon: {
+				id: "piq_fc_arcade:famicom_console"
+			}
+			id: "7DD38800B92EFAE3"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "54672487C0569461"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7DD38800B92EFAE3"]
+			icon: {
+				id: "piq_fc_arcade:fc_controller"
+			}
+			id: "1D792B3A6B0421C4"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "38FB0349D4324B2B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D792B3A6B0421C4"]
+			icon: {
+				id: "piq_fc_arcade:fc_cartridge"
+			}
+			id: "4DC312D08539E102"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "044B55E14FECF223"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC312D08539E102"]
+			icon: {
+				id: "piq_fc_arcade:fc_cartridge"
+			}
+			id: "799AC3E5DFFE6BE0"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "7D97E10BFAEA8639"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D792B3A6B0421C4"]
+			icon: {
+				id: "piq_fc_arcade:fc_controller"
+			}
+			id: "7658D347C3D3F903"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "358E5BA5B57B9175"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["1D792B3A6B0421C4"]
+			icon: {
+				id: "piq_fc_arcade:fc_zapper"
+			}
+			id: "52EA07F02607BC3E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					auto: "disabled"
+					id: "6418D2145DEE07EE"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:fc_zapper"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "114AD7C7FF1954EA"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:zapper_stand"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "3F72B41671A7FF59"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:zapper_stand_cable"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "48F89F3D52C2ABAA"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52EA07F02607BC3E"]
+			icon: {
+				id: "piq_fc_arcade:fc_zapper"
+			}
+			id: "70F5B06530303127"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "49303BC69177C4D7"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["1D792B3A6B0421C4"]
+			icon: {
+				id: "piq_fc_arcade:legacy_fc_arcade"
+			}
+			id: "4503F25D6791C87D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					auto: "disabled"
+					id: "5610A9E11847B413"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:legacy_fc_arcade"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 8
+					id: "52EFF93F7A219E3B"
+					item: {
+						count: 1
+						id: "piq_fc_arcade:arcade_coin"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "2E5765742AB48948"
+				item: { count: 1, id: "minecraft:emerald" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4503F25D6791C87D"]
+			icon: {
+				id: "piq_fc_arcade:arcade_coin"
+			}
+			id: "4C3258AB9553C822"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "4C4A64C0F3EBDF3D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["078634965B04C69D"]
+			id: "7AC419EC251265F8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2EB6A603F36F9EFF"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+	]
+}

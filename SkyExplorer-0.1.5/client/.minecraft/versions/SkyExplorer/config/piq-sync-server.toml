@@ -1,0 +1,16 @@
+#Opt in to server-side emulation. Requires installed server runtimes; never downloads executable files.
+serverHosting = false
+#Allow a player to host cabinet audio/video.
+allowPlayerHosting = true
+#Allow verified cabinet input synchronization.
+allowLocalSync = true
+#Maximum active server-hosted sessions, including closing workers.
+# Default: 2
+# Range: 1 ~ 4
+maxHostedRooms = 2
+#Hosted participant audio/video upload budget in bytes per second, including each recipient copy. Spectators also retain the separate watch budget.
+# Default: 2097152
+# Range: 262144 ~ 16777216
+hostedBytesPerSecond = 2097152
+#Server-hosted VIDEO delivery cap: 20, 30 or 60. Default 20. Does not change emulation speed or audio; bandwidth/CPU limits still apply. Shared by FC, SFC and cabinets.
+hostedVideoFps = 20

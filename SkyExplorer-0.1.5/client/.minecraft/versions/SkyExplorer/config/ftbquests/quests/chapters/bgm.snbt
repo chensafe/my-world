@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bgm"
+	group: "55D826581438AB52"
+	icon: {
+		id: "netmusic:music_player"
+	}
+	id: "290A0AA3F1F2CE29"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "49969EFDC6D4CF5C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "233C948A2AA51C7F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3B01271F9217E08B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "65F02DE72570F7C4"
+				item: { count: 1, id: "netmusic:music_player" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "2B0150FC6829256F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3044EE6C376E5B0B"
+				item: { count: 1, id: "netmusic:cd_burner" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "63DBB67E8B21171F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "089033BB0DAB6490"
+				item: { count: 1, id: "netmusic:big_megaphone" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "05B79FC4E7B237D1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7338B9DAF364B07B"
+				item: { count: 1, id: "netmusic:computer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "24173F001F5D68BB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C5B9E51CE9F0854"
+				item: { count: 1, id: "netmusic:music_cd" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "6DF882CD8E6AB161"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "682368DC371D8486"
+				item: { components: { "net_music_list:ringer_id": [I; 1193603513, 676744644, -1377194146, -1759600719 ] }, count: 1, id: "net_music_list:music_player" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "02963A9E4EE261AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5500854E5049437D"
+				item: { count: 1, id: "netmusic:music_player_backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+}

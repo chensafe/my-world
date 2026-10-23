@@ -1,0 +1,322 @@
+{
+	autofocus_id: "4E5E4343B9D056F5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10e7af7f911378de"
+	group: "47B8506CDC91D25A"
+	icon: {
+		id: "kubejs:tongbox"
+	}
+	id: "10E7AF7F911378DE"
+	images: [
+		{
+			height: 4.5d
+			id: "3D1D8481469E7AA5"
+			image: "quest_enhance:textures/ftb/chapter_accent_10e7af7f911378de_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -5.1d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 3.0d
+			id: "1C494E21B870BA02"
+			image: "quest_enhance:textures/ftb/node_detail_steam_v1.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.3d
+			y: -4.0d
+		}
+		{
+			height: 2.5993d
+			id: "2F259FED9E1E28AA"
+			image: "quest_enhance:textures/ftb/unique_node_v1_steam_logo.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 6.5d
+			x: 6.0d
+			y: -7.5d
+		}
+	]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E5E4343B9D056F5"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "091880E3BE5AF416"
+				item: { count: 1, id: "kubejs:tongbox" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74A73E9DB365CE0A"]
+			id: "0C530637B0610076"
+			quest_enhance_disable_scroll_paging: false
+			size: 2.0d
+			tasks: [{
+				id: "4F91812171E52606"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1850A900FF52ACF5"]
+			id: "105E92AAF9E000F0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "21F8912082F65F0C"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105E92AAF9E000F0"]
+			id: "74A73E9DB365CE0A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "32D77E17AA7082FF"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "1850A900FF52ACF5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1F689E00AEE4C91F"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C530637B0610076"]
+			id: "04EE488F7A045913"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0378C65FDDE7FA17"
+				item: { count: 1, id: "supplementaries:faucet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74A73E9DB365CE0A"]
+			id: "26B41915651446AF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7CCE013E4B96CD80"
+				item: { count: 1, id: "create:mechanical_pump" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26B41915651446AF"]
+			id: "18E31B32AFBC7C98"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1E4457927B5FAF35"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E31B32AFBC7C98"]
+			id: "7EE2696C5483407C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "765864F1887768A2"
+				item: { count: 1, id: "quark:grate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C530637B0610076"]
+			id: "6B7342A0039B6730"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3DF6DFE9BAE0646D"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74A73E9DB365CE0A"]
+			id: "2E60B75B5D4B3C24"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "624ECA122A431988"
+				item: { count: 1, id: "create:cart_assembler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"04EE488F7A045913"
+				"6B7342A0039B6730"
+			]
+			id: "58119BC8581FE351"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.5d
+			tasks: [{
+				id: "75F2A7BE899E42F2"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04EE488F7A045913"]
+			id: "354A3B0D7A0CAB40"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2B89CBEF8487392D"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "39143C0152C16F2C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "02D85807B92BF94F"
+				item: { count: 1, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "3D0AAED480A9D31E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "096EACE9CAF433AD"
+				item: { count: 1, id: "create:mechanical_pump" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "084CE179E7BF61C5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4007AA99D7306C8F"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "506BD589CB82EC9A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4B6C5119849F5A51"
+				item: { count: 1, id: "create:item_drain" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "257C76355003BB34"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "06E68FF986C18C89"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "449C36097220ED7F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "633C30A991D3D380"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "2A9CB254B94FDFDF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "72DCE689A50010D5"
+				item: { count: 1, id: "create:copper_valve_handle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "57953D047166994D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5DE9C776F049EBE5"
+				item: { count: 1, id: "create:portable_fluid_interface" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E5E4343B9D056F5"]
+			id: "520F4CD4F7B2C6AB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "25C812684B20602C"
+				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+}
