@@ -1,0 +1,1225 @@
+[dye_leather]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 90
+	# Range: > 1
+	behavior_cooldown_max = 90
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[cut_stone]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[smoke_meat]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[fishing]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 10
+	# Range: > 1
+	behavior_cooldown_min = 10
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_max = 20
+	#Horizontal range (in blocks) to scan for nearby water.
+	# Default: 16
+	# Range: 5 ~ 64
+	scan_range_horizontal = 16
+	#Vertical range (in blocks) to scan for nearby water.
+	# Default: 4
+	# Range: 1 ~ 16
+	scan_range_vertical = 4
+	#Minimum depth (in blocks, including the candidate block itself) a water body must have to be considered fishable.
+	# Default: 1
+	# Range: 1 ~ 8
+	min_pond_depth = 1
+	#Minimum number (out of 8) of water source blocks at radius 2 around a candidate water block required to consider it part of a real pond or lake, rather than a narrow channel.
+	# Default: 4
+	# Range: 0 ~ 8
+	min_pond_ring_water_count = 4
+	#Minimum time (in seconds) to wait for a fish to bite.
+	# Default: 5
+	# Range: 1 ~ 60
+	min_wait_time_seconds = 5
+	#Maximum time (in seconds) to wait for a fish to bite. For reference, vanilla fishing takes around 5–30s.
+	# Default: 15
+	# Range: 10 ~ 120
+	max_wait_time_seconds = 15
+	#Scale factor for fishing wait time per expertise level. Lower = faster fishing. (Format: key1=value1,key2=value2)
+	expertise_wait_time_scale = "{'expert':'0.8','journeyman':'0.9','apprentice':'0.95','novice':'1.0','master':'0.7'}"
+	#Chance for a hooked bite to produce an actual catch per expertise level. Lower values mean more empty catches. (Format: key1=value1,key2=value2)
+	expertise_catch_rate = "{'expert':'0.90','journeyman':'0.75','apprentice':'0.50','novice':'0.40','master':'1.0'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[harvest_melon]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[trading]
+	#Seconds between expensive initiator precondition scans.
+	# Default: 10
+	# Range: > 1
+	initiate_precondition_cooldown_seconds = 10
+	#Minimum initiator behavior cooldown in seconds.
+	# Default: 5
+	# Range: > 1
+	initiate_behavior_cooldown_seconds_min = 5
+	#Maximum initiator behavior cooldown in seconds.
+	# Default: 15
+	# Range: > 1
+	initiate_behavior_cooldown_seconds_max = 15
+	#Seconds between responder invite checks.
+	# Default: 2
+	# Range: > 1
+	accept_precondition_cooldown_seconds = 2
+	#Minimum responder behavior cooldown in seconds.
+	# Default: 5
+	# Range: > 1
+	accept_behavior_cooldown_seconds_min = 5
+	#Maximum responder behavior cooldown in seconds.
+	# Default: 15
+	# Range: > 1
+	accept_behavior_cooldown_seconds_max = 15
+	#Maximum number of negotiation rounds before villagers walk away.
+	# Default: 10
+	# Range: > 1
+	max_negotiation_rounds = 10
+	#Seconds before an unanswered trade invite expires.
+	# Default: 10
+	# Range: > 1
+	invite_timeout_seconds = 10
+	#Seconds spent on each negotiation round.
+	# Default: 5
+	# Range: > 1
+	negotiation_round_duration_seconds = 5
+	#Seconds spent presenting the opening offer.
+	# Default: 2
+	# Range: > 1
+	opening_offer_duration_seconds = 2
+	#Seconds spent on the deal phase before the session closes.
+	# Default: 1
+	# Range: > 1
+	deal_duration_seconds = 1
+	#Seconds spent on the walk-away phase before the session closes.
+	# Default: 1
+	# Range: > 1
+	walkaway_duration_seconds = 1
+
+[donate_emeralds]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_min = 60
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Emerald balance below which a villager is considered destitute and eligible to receive a donation
+	# Default: 50
+	# Range: > 1
+	floor = 50
+	#Minimum number of emeralds worth giving in a single donation
+	# Default: 4
+	# Range: > 1
+	min_donation = 4
+	#Baseline emerald cushion a donor keeps before donating, before genetics adjustment
+	# Default: 64
+	# Range: > 0
+	base_comfort = 64
+	#How strongly CHARISMA lowers the donor's comfort cushion (0-1); higher CHARISMA gives sooner
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	comfort_impact = 0.4
+	#Baseline probability (0-1) that an eligible donor actually donates on a given check
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	base_chance = 0.5
+	#How strongly CHARISMA raises the donation chance (0-1); higher CHARISMA donates more often
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	chance_impact = 0.6
+
+[throw_eggs]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 5
+	# Range: > 1
+	precondition_check_cooldown_min = 5
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_max = 10
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 90
+	# Range: > 1
+	behavior_cooldown_max = 90
+
+[wash_wolf]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_min = 60
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Horizontal range (in blocks) to scan for owned dirty wolves
+	# Default: 32
+	# Range: 5 ~ 128
+	scan_range_horizontal = 32
+	#Vertical range (in blocks) to scan for owned dirty wolves
+	# Default: 12
+	# Range: 1 ~ 16
+	scan_range_vertical = 12
+
+[ring_bell]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 15
+	# Range: > 1
+	precondition_check_cooldown_min = 15
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 30
+	# Range: > 1
+	precondition_check_cooldown_max = 30
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_min = 120
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 360
+	# Range: > 1
+	behavior_cooldown_max = 360
+	#Horizontal range (in blocks) to scan for nearby bells.
+	# Default: 16
+	# Range: 5 ~ 64
+	scan_range_horizontal = 16
+	#Vertical range (in blocks) to scan for nearby bells.
+	# Default: 4
+	# Range: 1 ~ 16
+	scan_range_vertical = 4
+
+[harvest_nether_wart]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 3
+	# Range: > 0
+	experience_reward = 3
+
+[courtship_initiate]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 15
+	# Range: > 1
+	precondition_check_cooldown_max = 15
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_min = 120
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 240
+	# Range: > 1
+	behavior_cooldown_max = 240
+	#Percent chance (0-100) that a successful courtship produces twins.
+	# Default: 3
+	# Range: 0 ~ 100
+	twins_chance_percent = 3
+	#Percent chance (0-100) that a completed courtship produces a child. On failure the pair still had a successful date and both go on breed cooldown.
+	# Default: 70
+	# Range: 0 ~ 100
+	conception_chance_percent = 70
+	#Seconds both parents are placed on breed cooldown after every completed courtship, whether it produced a child or ended as a date.
+	# Default: 300
+	# Range: 1 ~ 3600
+	breed_cooldown_seconds = 300
+
+[throw_potions]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 5
+	# Range: > 1
+	precondition_check_cooldown_min = 5
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_max = 10
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Minimum reputation level required to throw a potion at a player
+	# Default: 20
+	# Range: -100 ~ 100
+	minimum_player_reputation = 20
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[chase_chickens]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_min = 20
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 30
+	# Range: > 1
+	precondition_check_cooldown_max = 30
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Chance (0-1) for a bullied chicken to summon a Cucco revenge swarm (Zelda easter egg)
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	revenge_swarm_chance = 0.03
+
+[excavate_substrate]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 90
+	# Range: > 1
+	behavior_cooldown_max = 90
+	#Map of villager expertise level to the maximum number of loose-ground shovel digs in one session. (Format: key1=value1,key2=value2)
+	expertise_harvest_limit = "{'expert':'3','journeyman':'3','apprentice':'2','novice':'2','master':'4'}"
+	#Chance per dig of finding a single iron nugget by hand when no iron shovel is held.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	bare_handed_nugget_chance = 0.75
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[collect_honey]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 5
+	# Range: > 1
+	precondition_check_cooldown_min = 5
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 15
+	# Range: > 1
+	precondition_check_cooldown_max = 15
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Map of villager expertise level to the maximum number of honey harvests in one session. (Format: key1=value1,key2=value2)
+	expertise_harvest_limit = "{'expert':'8','journeyman':'6','apprentice':'4','novice':'2','master':'10'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[manage_chests]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_min = 20
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 60
+	# Range: > 1
+	precondition_check_cooldown_max = 60
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+
+[forge_tool]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[craft_goods]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[repair_iron_golem]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Map of villager expertise level to the maximum number of iron golem repair attempts in one session. (Format: key1=value1,key2=value2)
+	expertise_repair_limit = "{'expert':'3','journeyman':'2','apprentice':'2','novice':'1','master':'5'}"
+	#Health percentage threshold to consider the iron golem as damaged
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	repair_hp_percentage = 0.9
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 3
+	# Range: > 0
+	experience_reward = 3
+
+[scavenge]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Map of villager expertise level to the number of distinct flora clumps foraged per activation. (Format: key1=value1,key2=value2)
+	expertise_forage_budget = "{'expert':'5','journeyman':'4','apprentice':'4','novice':'3','master':'6'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[harvest_sweet_berries]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[harvest_ripe_crops]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[hunger]
+	#How often hunger drains in seconds.
+	# Default: 30
+	# Range: 1 ~ 3600
+	tick_interval_seconds = 30
+	#Baseline hunger drained each hunger interval.
+	# Default: 0.003000000026077032
+	# Range: 0.0 ~ 1.0
+	drain_per_interval = 0.003000000026077032
+	#Multiplier applied while the villager is sleeping.
+	# Default: 0.15000000596046448
+	# Range: 0.0 ~ 10.0
+	sleeping_drain_multiplier = 0.15000000596046448
+	#Hunger threshold at or above which villagers receive a cooldown bonus.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	hunger_bonus_threshold = 0.75
+	#Cooldown multiplier applied when the villager is well-fed.
+	# Default: 0.800000011920929
+	# Range: 0.0 ~ 10.0
+	cooldown_bonus_multiplier = 0.800000011920929
+	#Hunger threshold where cooldown penalties begin scaling up.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	cooldown_scale_start_threshold = 0.5
+	#Maximum cooldown multiplier applied at zero hunger.
+	# Default: 3.0
+	# Range: 1.0 ~ 10.0
+	max_cooldown_multiplier = 3.0
+	#Hunger threshold where weakness and slowness begin to apply.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 1.0
+	effect_start_threshold = 0.30000001192092896
+	#Hunger below which a meal consumes food and grants regeneration.
+	# Default: 0.699999988079071
+	# Range: 0.0 ~ 1.0
+	eat_priority_threshold = 0.699999988079071
+
+[feed_wolf]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Horizontal range (in blocks) to scan for owned hurt wolves
+	# Default: 32
+	# Range: 5 ~ 128
+	scan_range_horizontal = 32
+	#Vertical range (in blocks) to scan for owned hurt wolves
+	# Default: 12
+	# Range: 1 ~ 16
+	scan_range_vertical = 12
+	#HP to restore to the wolf when fed
+	# Default: 4.0
+	# Range: 0.5 ~ 20.0
+	heal_amount = 4.0
+
+[survey_landscape]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_min = 20
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 40
+	# Range: > 1
+	precondition_check_cooldown_max = 40
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Number of distant points the cartographer surveys per behavior run, by expertise level. (Format: key1=value1,key2=value2)
+	expertise_survey_point_count = "{'expert':'5','journeyman':'4','apprentice':'4','novice':'3','master':'6'}"
+	#Minimum horizontal distance (in blocks) from the villager's start position to a valid survey point.
+	# Default: 30
+	# Range: 10 ~ 256
+	min_point_distance = 30
+	#Maximum horizontal distance (in blocks) from the villager's start position to a valid survey point.
+	# Default: 256
+	# Range: 20 ~ 512
+	max_point_distance = 256
+	#Minimum distance (in blocks) between sampled survey points to avoid clustering.
+	# Default: 15
+	# Range: 5 ~ 128
+	min_point_separation = 15
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[butcher_livestock]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_min = 20
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 40
+	# Range: > 1
+	precondition_check_cooldown_max = 40
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_max = 30
+	#Horizontal range (in blocks) to scan for nearby livestock to butcher.
+	# Default: 32
+	# Range: 5 ~ 128
+	scan_range_horizontal = 32
+	#Vertical range (in blocks) to scan for nearby livestock to butcher.
+	# Default: 12
+	# Range: 1 ~ 16
+	scan_range_vertical = 12
+	#Whether only village-owned animals can be butchered.
+	require_village_owned_tag = false
+	#Map of villager expertise level to the maximum number of animals they can butcher in one session. (Format: key1=value1,key2=value2)
+	expertise_butcher_limit = "{'expert':'12','journeyman':'8','apprentice':'5','novice':'3','master':'20'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[blast_ore]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+	#Probability (0-1) that a completed blast misfires into a cosmetic soot puff
+	# Default: 0.05000000074505806
+	# Range: 0.0 ~ 1.0
+	explosion_chance = 0.05000000074505806
+	#How long the villager stays dazed after a misfire (in seconds)
+	# Default: 5
+	# Range: > 1
+	daze_duration_seconds = 5
+
+[dye_sheep]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_max = 30
+	#Map of villager expertise level to the maximum number of sheep they can dye in one session. (Format: key1=value1,key2=value2)
+	expertise_dye_limit = "{'expert':'2','journeyman':'2','apprentice':'1','novice':'1','master':'3'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[wash_leather]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[shear_sheep]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_max = 30
+	#Map of villager expertise level to the maximum number of sheep they can shear in one session. (Format: key1=value1,key2=value2)
+	expertise_shear_limit = "{'expert':'7','journeyman':'5','apprentice':'3','novice':'2','master':'10'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[harvest_ore]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Map of villager expertise level to the maximum number of ore harvests in one session. (Format: key1=value1,key2=value2)
+	expertise_harvest_limit = "{'expert':'10','journeyman':'7','apprentice':'5','novice':'4','master':'15'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[pet_animal]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 10
+	# Range: > 1
+	behavior_cooldown_min = 10
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_max = 30
+	#Horizontal radius (in blocks) within which the villager will look for a pettable animal
+	# Default: 16
+	# Range: 5 ~ 64
+	horizontal_scan_range = 16
+	#Vertical radius (in blocks) within which the villager will look for a pettable animal
+	# Default: 4
+	# Range: 1 ~ 16
+	vertical_scan_range = 4
+	#Number of times to pet the animal in one visit, spaced roughly a second apart
+	# Default: 3
+	# Range: 1 ~ 10
+	pet_count = 3
+
+[tame_wolf]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_min = 60
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Map of expertise to the maximum number of wolves a villager can own (Format: key1=value1,key2=value2)
+	expertise_wolf_limit = "{'expert':'2','journeyman':'2','apprentice':'1','novice':'1','master':'3'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[wolf_walk]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 1
+	# Range: > 1
+	precondition_check_cooldown_min = 1
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 3
+	# Range: > 1
+	precondition_check_cooldown_max = 3
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Maximum duration of a single wolf-led walk (in seconds)
+	# Default: 60
+	# Range: 10 ~ 300
+	walk_duration_seconds = 60
+	#Radius (in blocks) for sniffable entity targets during a walk
+	# Default: 12
+	# Range: 3 ~ 32
+	entity_target_scan_range = 12
+	#Horizontal radius (in blocks) for random block targets during a walk
+	# Default: 12
+	# Range: 3 ~ 32
+	block_target_horizontal_range = 12
+	#Vertical radius (in blocks) for random block targets during a walk
+	# Default: 6
+	# Range: 1 ~ 16
+	block_target_vertical_range = 6
+	#Minimum time a wolf spends sniffing a target (in seconds)
+	# Default: 2
+	# Range: 1 ~ 10
+	sniff_duration_min_seconds = 2
+	#Maximum time a wolf spends sniffing a target (in seconds)
+	# Default: 5
+	# Range: 1 ~ 15
+	sniff_duration_max_seconds = 5
+	#Minimum time a wolf spends digging at a block target (in seconds)
+	# Default: 2
+	# Range: 1 ~ 10
+	dig_duration_min_seconds = 2
+	#Maximum time a wolf spends digging at a block target (in seconds)
+	# Default: 5
+	# Range: 1 ~ 15
+	dig_duration_max_seconds = 5
+
+[enchant_item]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 1
+	# Range: > 1
+	precondition_check_cooldown_min = 1
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_max = 10
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_min = 60
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Horizontal range (in blocks) to scan for nearby enchanting tables.
+	# Default: 16
+	# Range: 5 ~ 64
+	scan_range_horizontal = 16
+	#Vertical range (in blocks) to scan for nearby enchanting tables.
+	# Default: 4
+	# Range: 1 ~ 16
+	scan_range_vertical = 4
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 4
+	# Range: > 0
+	experience_reward = 4
+
+[collect_demanded_item]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+
+[breed_animals]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 30
+	# Range: > 1
+	precondition_check_cooldown_min = 30
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 60
+	# Range: > 1
+	precondition_check_cooldown_max = 60
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Horizontal range (in blocks) to scan for animals to breed
+	# Default: 32
+	# Range: 5 ~ 128
+	scan_range_horizontal = 32
+	#Vertical range (in blocks) to scan for animals to breed
+	# Default: 16
+	# Range: 1 ~ 16
+	scan_range_vertical = 16
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[harvest_pumpkin]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[cultivate_plot]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_min = 120
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 360
+	# Range: > 1
+	behavior_cooldown_max = 360
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 3
+	# Range: > 0
+	experience_reward = 3
+
+[harvest_honeycomb]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 5
+	# Range: > 1
+	precondition_check_cooldown_min = 5
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 15
+	# Range: > 1
+	precondition_check_cooldown_max = 15
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Map of villager expertise level to the maximum number of honeycomb harvests in one session. (Format: key1=value1,key2=value2)
+	expertise_harvest_limit = "{'expert':'8','journeyman':'6','apprentice':'4','novice':'2','master':'10'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2
+
+[walk_dog]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 15
+	# Range: > 1
+	precondition_check_cooldown_min = 15
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 30
+	# Range: > 1
+	precondition_check_cooldown_max = 30
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 30
+	# Range: > 1
+	behavior_cooldown_min = 30
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Maximum duration of a single dog walk, in seconds. Used by both villager and wolf sides.
+	# Default: 60
+	# Range: 10 ~ 300
+	walk_duration_seconds = 60
+	#Horizontal radius (in blocks) within which the villager will look for one of their owned wolves
+	# Default: 16
+	# Range: 5 ~ 64
+	horizontal_scan_range = 16
+	#Vertical radius (in blocks) within which the villager will look for one of their owned wolves
+	# Default: 4
+	# Range: 1 ~ 16
+	vertical_scan_range = 4
+
+[milk_cow]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 1
+	# Range: > 1
+	precondition_check_cooldown_min = 1
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_max = 10
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_max = 60
+	#Map of villager expertise level to the maximum number of milk buckets produced in one session. (Format: key1=value1,key2=value2)
+	expertise_milk_limit = "{'expert':'2','journeyman':'2','apprentice':'1','novice':'1','master':'3'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[harvest_sugar_cane]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 20
+	# Range: > 1
+	behavior_cooldown_min = 20
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 40
+	# Range: > 1
+	behavior_cooldown_max = 40
+	#Maximum sugar cane blocks to directly harvest from a single column
+	# Default: 10
+	# Range: 1 ~ 64
+	max_harvest_blocks = 10
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 1
+	# Range: > 0
+	experience_reward = 1
+
+[tame_cat]
+	#Minimum interval (in seconds) between precondition checks
+	# Default: 10
+	# Range: > 1
+	precondition_check_cooldown_min = 10
+	#Maximum interval (in seconds) between precondition checks
+	# Default: 20
+	# Range: > 1
+	precondition_check_cooldown_max = 20
+	#Minimum behavior cooldown time (in seconds)
+	# Default: 60
+	# Range: > 1
+	behavior_cooldown_min = 60
+	#Maximum behavior cooldown time (in seconds)
+	# Default: 120
+	# Range: > 1
+	behavior_cooldown_max = 120
+	#Map of expertise to the maximum number of cats a villager can own (Format: key1=value1,key2=value2)
+	expertise_cat_limit = "{'expert':'1','journeyman':'1','apprentice':'1','novice':'1','master':'2'}"
+	#Villager experience awarded when the behavior completes successfully
+	# Default: 2
+	# Range: > 0
+	experience_reward = 2

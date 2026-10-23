@@ -1,0 +1,71 @@
+#Ranged weapons can use arrows and other ammo stored in equipped backpack.
+checkBackpackForProjectiles = true
+#Toolbox integration, allowing items to be transferred directly from equipped backpack.
+checkBackpackForToolboxItems = true
+
+#Feeder Upgrade
+[feeder_upgrade]
+	#Feeder Upgrade activates when health percentage falls below this value, regardless of Hunger Level.
+	# Default: 80
+	# Range: 1 ~ 100
+	feederHealthThreshold = 80
+	#Feeder Upgrade activates when hunger falls below this value. One point = half a drumstick
+	# Default: 18
+	# Range: 1 ~ 20
+	feederHungerLevel = 18
+
+#Jetpack Upgrade
+[jetpack_upgrade]
+	#Hover behavior for the Jetpack Upgrade.
+	#ORIGINAL = hover locks to a fixed altitude,
+	#ALTERNATE = ascend (jump) / descend (sneak) freely while hovering, within flight range.
+	#Allowed Values: ORIGINAL, ALTERNATE
+	jetpackHoverMode = "ORIGINAL"
+
+#Jukebox Upgrade
+[jukebox_upgrade]
+	#Enable the music note particles on the PLAYER to be displayed when a music disc is playing.
+	jukeboxNotesEnabled = true
+
+#Refill Upgrade
+[refill_upgrade]
+	#Blocks in this list will be ignored by the Refill Upgrade. A wildcard (*) can be used to blacklist all blocks within a namespace. (e.g. minecraft:*)
+	refillBlacklist = []
+
+#Tool Swap Upgrade
+[tool_swap_upgrade]
+	#When breaking a block from this list, the Tool Swap upgrade will prefer a Silk Touch tool if available.
+	prefersSilkTouchList = ["minecraft:grass_block", "minecraft:mycelium", "minecraft:podzol", "minecraft:clay", "minecraft:gravel", "minecraft:snow", "minecraft:glowstone", "minecraft:stone", "minecraft:sea_lantern", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "minecraft:gilded_blackstone", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore"]
+
+#Torch Deployer Upgrade
+[torch_deployer_upgrade]
+	#Delay between each torch placement attempt (in ticks). 20 ticks = 1 second.
+	# Default: 20
+	# Range: > 0
+	torchDeployerCooldown = 20
+	#Deploys a torch when light level is at or below this level. 0 = very dark, 15 = daylight
+	# Default: 2
+	# Range: 0 ~ 15
+	torchDeployerLightLevel = 2
+	#Choose the light source to check when determining block light levels.
+	#Allowed Values: BLOCK_LIGHT, SKY_LIGHT
+	torchDeployerLightSource = "BLOCK_LIGHT"
+
+#Workshop Upgrade
+[workshop_upgrade]
+	#Render the spinning flywheels on the backpack (worn and placed) when the Workshop Upgrade is installed.
+	workshopFlywheelVisuals = true
+	#Play the press/deployer sounds when the Workshop Upgrade processes items.
+	workshopSounds = true
+
+#Simple Storage Box
+[simple_storage_box]
+	#Display goggle overlay for items with tag data in Simple Storage Boxes. (e.g. enchanted items, potions, tipped arrows or trimmed armor)
+	#Allowed Values: OFF, ONLY_TAGGED, ALL_ITEMS
+	simpleStorageBoxGoggleInfo = "ONLY_TAGGED"
+	#Create-style connected textures for the casing faces of Simple Storage Boxes.
+	#OFF = no connected textures,
+	#BOXES_ONLY = connect adjacent same-wood boxes,
+	#BOXES_AND_TRIM = also connect to adjacent same-wood Storage Trim.
+	#Allowed Values: OFF, BOXES_ONLY, BOXES_AND_TRIM
+	simpleStorageBoxConnectedTextures = "OFF"

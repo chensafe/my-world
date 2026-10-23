@@ -1,0 +1,748 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Absinthe",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 8454016,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 300
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 300
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Vodka",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 16770782,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 1,
+                      "duration": 300
+                    },
+                    {
+                      "id": "minecraft:saturation",
+                      "amplifier": 0,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 600
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Gin",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 2,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 300
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Fernet",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 8405056,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Cider",
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water",
+                  "custom_color": 16744512,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 2,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 0,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:0,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:1,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:2,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:3,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:4,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:5,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:6,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:7,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:8,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:9,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:10,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:11,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:12,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:13,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:14,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brainlayers:bead_bag",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{BeadDataVersion:2,BeadColor:15,BeadCount:64}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fire_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:fall_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:drown_protect_bauble",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "touhou_little_maid:projectile_protect_bauble",
+          "weight": 60
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ]
+    }
+  ]
+}

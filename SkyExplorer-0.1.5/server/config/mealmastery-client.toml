@@ -1,0 +1,84 @@
+# Meal Mastery - client settings
+#
+# Presentation only. Everything here is also reachable in game, from
+# the settings button on the journal screen.
+
+# The journal screen, opened with the keybind (J by default).
+[journal]
+# 0 follows the game's GUI scale. Range 0 - 6.
+scale = 0
+# How an undiscovered dish is shown.
+# HIDDEN, SILHOUETTE, NAME_ONLY, INGREDIENT_HINTS or FULL_RECIPE.
+unknownDisplay = "SILHOUETTE"
+# Hides percentages, XP numbers and leaderboards without changing the data.
+cozyMode = false
+# Surfaces missing dishes, per-mod completion and checklists.
+completionistMode = false
+# Which page the journal opens on.
+defaultPage = "overview"
+favoriteSort = "alphabetical"
+# Lines of recent activity on the overview. Range 0 - 32.
+recentActivityLines = 6
+showNewIndicator = true
+# Star rating under food names. The bonuses apply either way.
+showStars = true
+# The compact stats panel docked beside a cooking screen.
+# CULINARY shows it beside cooking stations only, ALWAYS beside every
+# container, OFF never. It never appears beside the inventory or the
+# creative tabs whichever is set.
+sidePanel = "CULINARY"
+
+# The on-screen level bar. Off by default.
+[hud]
+# Off by default: the HUD must not be permanently cluttered.
+enabled = false
+# Show the bar only briefly after XP is gained.
+onlyWhileActive = true
+# How long it stays up, in ticks. Range 20 - 1200.
+visibleTicks = 60
+# TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT or BOTTOM_RIGHT.
+anchor = "TOP_LEFT"
+# Pixels from that corner. Range -512 - 512.
+offsetX = 4
+offsetY = 4
+# Range 0.5 - 3.0.
+scale = 1.0
+showPinnedRecipes = true
+
+# Toasts and popups. Each type is individually suppressible.
+[notifications]
+discoveries = true
+masteryRanks = true
+levelUps = true
+challenges = true
+milestones = true
+xpPopups = true
+# Rapid gains are summed into one popup rather than spamming.
+xpPopupAggregationTicks = 30
+# Uses existing vanilla sounds; this mod adds none.
+playSounds = true
+# Toasts per second before further ones are dropped.
+maxToastsPerSecond = 2
+
+# What Meal Mastery adds to a food item's tooltip.
+[tooltips]
+enabled = true
+# Show full detail only while the modifier below is held.
+requireModifier = true
+# SHIFT, CONTROL, ALT or NONE.
+modifier = "SHIFT"
+showMastery = true
+showPreparedCount = true
+# Off by default so AppleSkin and the nutrition mods keep ownership
+# of that tooltip section. Forced off while one is installed.
+showNutrition = false
+
+# Accessibility.
+[accessibility]
+# Disables every journal transition.
+reducedMotion = false
+# Range 0.1 - 3.0.
+animationSpeed = 1.0
+# Draws rank as text as well as shapes, so rank is never colour-only.
+alwaysShowRankText = true
+highContrast = false

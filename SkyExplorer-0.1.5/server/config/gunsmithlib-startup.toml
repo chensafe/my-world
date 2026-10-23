@@ -1,0 +1,7 @@
+#Fully disable TaCZ Pack Upgrader.
+#Note: This will also disable TaCZ Pack Upgrader that was installed independently.
+#You should use another Minecraft client to run the pack upgrader to get upgraded packs.
+#
+#1.21.1 Only
+#Added in version 5.1.7
+disable_pack_upgrader = false

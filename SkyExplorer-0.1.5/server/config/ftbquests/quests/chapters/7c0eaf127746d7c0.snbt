@@ -1,0 +1,349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7c0eaf127746d7c0"
+	group: "547988EB708FD599"
+	icon: {
+		id: "cataclysm:flame_eye"
+	}
+	id: "7C0EAF127746D7C0"
+	images: [
+		{
+			height: 4.0d
+			id: "771967ECD64C59D8"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_cataclysm.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: -2.9d
+		}
+		{
+			height: 4.5d
+			id: "019E696D1EBA9D6A"
+			image: "quest_enhance:textures/ftb/chapter_accent_7c0eaf127746d7c0_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: -9.0d
+			y: 1.0d
+		}
+	]
+	order_index: 13
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "6F5F450C7D2006B1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0AC48B1E12518CCF"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:essence_of_the_storm"
+			}
+			id: "00DDA4BB913E304B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "70CEA4BE5DA209AA"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F8EBCF49E399D8"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "37E41E2EA2F562A1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0786EEB338922E4E"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E7E7FF8992E88D8"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "517797F6CB35C33E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4DCEEDBA24E6B2DA"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B507116724A1355"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:remnant_skull"
+			}
+			id: "41FE02B9773AB047"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1381AC338F02F003"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "782C0D4EE24D2160"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "73915BCAC532776E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "69FFD8DCB0D28D8E"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24FE0238633800CC"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "051F90BE62403C77"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "434342A099222177"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0679422E57753C11"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:monstrous_horn"
+			}
+			id: "78AD2DDE0AA0892D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2DF46C32E1108B77"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E6AB5DC6B8862DD"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:abyssal_egg"
+			}
+			id: "49C94592143F6A5D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "621AC76EF1AFC801"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B1815CC3529F5DC"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:ancient_metal_ingot"
+			}
+			id: "55E67A3A36AA40BB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75BCC2F05EBD90A7"
+				structure: "cataclysm:desert_temple"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:ancient_metal_nugget"
+			}
+			id: "4E57BCF60451594A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3F70C217698F75FB"
+				structure: "cataclysm:desert_occupied_village"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:black_steel_ingot"
+			}
+			id: "4936F3417D9CFD9B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "04E97BAF0F819FD1"
+				structure: "cataclysm:abandoned_temple"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:black_steel_nugget"
+			}
+			id: "5E9CD0C018C81B12"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "30AC045DDEE80098"
+				structure: "cataclysm:abandoned_village"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:ancient_spear"
+			}
+			id: "3DF1B3278769B15E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3859743431EFA08D"
+				structure: "cataclysm:desert_site"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:strange_key"
+			}
+			id: "719F3E71B90324D0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1EFBE3B31F925394"
+				structure: "dungeons_arise:abandoned_temple"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:black_steel_block"
+			}
+			id: "71B61A41DB70AC32"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "16128595404BCB4C"
+				structure: "cataclysm:abandoned_spire"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:amethyst_crab_shell"
+			}
+			id: "6A4540F07B7E42AB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "138AF25F999A26ED"
+				item: {
+					count: 1
+					id: "kubejs:aerocoin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FB5B51EF9DC828B"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+	]
+}

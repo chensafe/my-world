@@ -1,0 +1,539 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2bba269d2fb12f99"
+	group: "547988EB708FD599"
+	icon: {
+		id: "minecraft:zombie_head"
+	}
+	id: "2BBA269D2FB12F99"
+	images: [
+		{
+			height: 13.7d
+			id: "6C4F0DA97B8FBD0E"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_invasion.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "4F981CA74D04BB47"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_invasion.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 4.5d
+			id: "48562546CA3A944A"
+			image: "quest_enhance:textures/ftb/chapter_accent_2bba269d2fb12f99_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:jungle_log"
+			}
+			id: "2980F4379A988B09"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "563DFB60CD65AFEC"
+				item: {
+					count: 1
+					id: "dungeonsdelight:rubaboo"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "107C2B81CF2BBD8D"
+				structure: "dungeons_arise:jungle_tree_house"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "54B2A9A5691C4BE9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "465EF7815774838D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "619AE9A78B01EEAE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "4A13100015AF1E2F"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "6788BF5CA3819821"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:luck_of_the_sea": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "21383C7A5FC94FF5"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:lure": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F83FB0AB5925F39"
+				structure: "dungeons_arise:fishing_hut"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:red_mushroom"
+			}
+			id: "482CF936B4CDB27E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3FA75FF3AFCCB9CE"
+				item: {
+					count: 1
+					id: "expandeddelight:asparagus_mushroom_pasta"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02E11FFE02BC0162"
+				structure: "dungeons_arise:mushroom_house"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:mushroom_stew"
+			}
+			id: "4576672C2B9DAD45"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "751F60108D31637C"
+				item: {
+					count: 1
+					id: "minecraft:golden_helmet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "270DA5F9986BBBBD"
+				structure: "dungeons_arise:mushroom_village"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "6D47008B166B9700"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "218D99FC36A8C335"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_slowness"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB5F8ED0625FB83"
+				structure: "trek:overworld/medium/cold_hideout"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "7B042311FA6F334A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 16
+					id: "2608E7CA733470F3"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp"
+					}
+					type: "item"
+				}
+				{
+					id: "6B95F1DD650DD2C8"
+					item: {
+						count: 1
+						id: "farmersdelight:kelp_roll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62CACDEBA1FD3CA0"
+				structure: "dungeons_arise:bandit_village"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "64655724AB1684E1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 8
+				id: "1E76C2915D704E2D"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_invisibility"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "238AFCCE10930456"
+				structure: "dungeons_arise:bathhouse"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "664DA73F03C63D47"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "1A8DFC2129A8FEA0"
+				item: {
+					count: 1
+					id: "minecraft:phantom_membrane"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F79E913A8EBF85E"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "73105AB4B9D466D6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 16
+					id: "705769D53388FE99"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "494F0FA0B0108E3B"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5792988714E88DFE"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "248CB1562133EA91"
+				structure: "dungeons_arise:plague_asylum"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "6CD95F2062D74A08"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2D3DFBE41B2B6C43"
+				item: {
+					count: 1
+					id: "vinery:eiswein"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6095DE6491A0A029"
+				structure: "trek:overworld/medium/ice_fort"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "645F2E651316C044"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "7143347EB52EE3F3"
+				item: {
+					count: 1
+					id: "cobblestone_generator:emerald_cobblegen"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D09BCE8EE18485A"
+				structure: "trek:overworld/medium/tour"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cut_sandstone"
+			}
+			id: "3D5E59FD1FFC87BA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6AD252E407B4F1B4"
+				structure: "trek:overworld/medium/tour_desert"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ice"
+			}
+			id: "3706DF02F9FFC1A1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "1748C55B85738BA8"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_slowness"
+						}
+					}
+					count: 1
+					id: "minecraft:tipped_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "001AC5908CA701F2"
+				structure: "trek:overworld/medium/tower_of_ice"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:brown_mushroom"
+			}
+			id: "23807481047D4156"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "687BC22A2CAE1823"
+				item: {
+					count: 1
+					id: "rusticdelight:fried_mushrooms"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DE2436687DA54BE"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "3A39E5A07307172F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "0A13248AE5673058"
+				item: {
+					count: 1
+					id: "netherexp:roasted_bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "093FC9BBFCE39DCA"
+				structure: "dungeons_arise:undead_pirate_ship"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "2E44C46350897223"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "262F94356F5D251C"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4541B025BC97D3F7"
+				structure: "dungeons_arise:heavenly_challenger"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "0E04BA53B9D18706"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "249EEAAF443393E2"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DD7A9829F2F8F0"
+				structure: "dungeons_arise:heavenly_conqueror"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "250FEEEB9C7DB848"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "3F30DDCAEC8AE886"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C21A3DEFED08656"
+				structure: "dungeons_arise:heavenly_rider"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

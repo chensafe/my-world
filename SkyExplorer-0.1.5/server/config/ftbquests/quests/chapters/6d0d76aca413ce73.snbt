@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6d0d76aca413ce73"
+	group: "547988EB708FD599"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "6D0D76ACA413CE73"
+	images: [
+		{
+			click_action: "none:"
+			height: 10.7d
+			id: "20BF0E208B909724"
+			image: "quest_enhance:textures/ftb/journey_frame_v1_voyage.png"
+			order: -20
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.2d
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "436068059AD04956"
+			image: "quest_enhance:textures/ftb/journey_heading_v1_voyage.png"
+			order: -5
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 4.5d
+			id: "72484AF0E5ED4147"
+			image: "quest_enhance:textures/ftb/chapter_accent_6d0d76aca413ce73_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1A7B9E471D5F165D"
+			image: "quest_enhance:textures/ftb/unique_node_v1_voyage_salvage.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: 2.0d
+		}
+	]
+	order_index: 9
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "1B06F5B017ACD16F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7D769E4D9DE511B5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone_lamp"
+			}
+			id: "6899A09162B36168"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "36F0ED8F021E3A3A"
+				item: {
+					count: 1
+					id: "minecraft:redstone_lamp"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AA725CCC6FE3891"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:orange_wool"
+			}
+			id: "590BFAF84A32B3C6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "3B68F0483A4BAF8E"
+				item: {
+					count: 1
+					id: "aeronautics:white_envelope"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DF2FC91809C9F6A"
+				structure: "dungeons_arise:small_blimp"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "0BA941D00790BCD7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "39F243D358518DD9"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13444A2240EEE40D"
+				structure: "minecraft:buried_treasure"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:prismarine_bricks"
+			}
+			id: "6F1F84DF66EC95D2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "49B7A877656CD734"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:gravel"
+			}
+			id: "18E14612D401F605"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "72BBF3B20F954BB9"
+				structure: "minecraft:ocean_ruin_cold"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "4F9EC26B6E54EC43"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "38FDFC25543F9663"
+				structure: "minecraft:ocean_ruin_warm"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "0DFF06003055C214"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "20C77DEC45658160"
+				item: {
+					count: 1
+					id: "vinery:apple_cider"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B94860DBC508440"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_chest_boat"
+			}
+			id: "472D3D8675AB35DE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "30B2F1676358E1D3"
+				item: {
+					count: 1
+					id: "vinery:apple_wine"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E2C664D84EED42"
+				structure: "minecraft:shipwreck_beached"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "58AA06C72F56739F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "68D218F59586EEA2"
+				structure: "trek:overworld/medium/underwater_sword"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+	]
+}

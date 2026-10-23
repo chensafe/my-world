@@ -1,0 +1,7 @@
+[
+  {
+    "mod": "legendary_monsters",
+    "healthmultiply": 8.0,
+    "when": "onjoin"
+  }
+]

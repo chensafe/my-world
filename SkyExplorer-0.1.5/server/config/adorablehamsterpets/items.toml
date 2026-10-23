@@ -1,0 +1,185 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Case-insensitive key words matched against a music disc's name, description, translation key or lore. If a keyword from a song appears in both of these lists, this list takes priority over the 'bouncing' list.
+slowDancingMusicDiscStrings = [
+    "low-fi",
+    "zampoña"
+]
+# Case-insensitive key words matched against a music disc's name, description, translation key or lore. If a keyword from a song appears in both of these lists, the 'swaying' list takes priority over this list.
+dancingMusicDiscStrings = [
+    "hamtaro",
+    "hamster",
+    "hampter"
+]
+# A specific list of items and tags that are allowed in the hamster's cheek pouch. You can add things to this list to bypass the default 'no tools or big blocks' rule, since this overrides the 'disallowed' settings.
+pouchAllowedItems = [
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates",
+    "minecraft:wheat_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:pitcher_pod",
+    "minecraft:torchflower_seeds",
+    "#c:seeds",
+    "#forge:seeds"
+]
+# A list of specific item IDs that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. Mostly stuff that's too big, too pointy, or just plain illogical. Lol.
+pouchDisallowedItems = [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident",
+    "minecraft:fishing_rod",
+    "minecraft:shield",
+    "minecraft:elytra",
+    "minecraft:turtle_helmet",
+    "minecraft:carved_pumpkin",
+    "minecraft:player_head",
+    "minecraft:zombie_head",
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:creeper_head",
+    "minecraft:dragon_head",
+    "minecraft:piglin_head",
+    "minecraft:minecart",
+    "minecraft:chest_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:saddle",
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:powder_snow_bucket",
+    "minecraft:axolotl_bucket",
+    "minecraft:tadpole_bucket",
+    "minecraft:cod_bucket",
+    "minecraft:pufferfish_bucket",
+    "minecraft:salmon_bucket",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:painting",
+    "minecraft:armor_stand",
+    "minecraft:end_crystal",
+    "minecraft:spyglass",
+    "minecraft:nether_star",
+    "minecraft:dragon_egg",
+    "minecraft:bundle"
+]
+# A list of item tags that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. A broad-spectrum approach to preventing your hamster from swallowing an entire sword.
+pouchDisallowedTags = [
+    "#minecraft:axes",
+    "#minecraft:hoes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:swords",
+    "#minecraft:trimmable_armor",
+    "#minecraft:beds",
+    "#minecraft:banners",
+    "#minecraft:doors",
+    "#minecraft:boats"
+]
+# The official list of bribes for convincing wild fluffballs to join your cause. By default, it's just sliced cucumbers. Feel free to add 'minecraft:nether_star' if you enjoy making poor life choices. Compatible with Cultural Delights by default!
+tamingFoods = [
+    "adorablehamsterpets:sliced_cucumber",
+    "culturaldelights:cut_cucumber"
+]
+# The hamster's everyday menu. These items will heal them or, if they're at full health, might give them... ideas about starting a family. Don't make it weird.
+standardDiet = [
+    "#adorablehamsterpets:seeds",
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:green_beans",
+    "adorablehamsterpets:cucumber",
+    "farmersdelight:cabbage_leaf",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:pumpkin_slice",
+    "culturaldelights:cut_cucumber",
+    "culturaldelights:corn_kernels"
+]
+# The list of items a hamster might try to... 'borrow' if you leave them on the ground. A chase will ensue. You have been warned.
+stealableItems = [
+    "minecraft:diamond"
+]
+# Items the hamster views as gifts or toys to bring back to you. Picking these up triggers Delivery Mode. Default: Acorns.
+retrievableItems = [
+    "adorablehamsterpets:acorn"
+]
+# The list of dropped items a hamster may hunt down and stuff in its cheeks. Accepts item IDs (e.g. 'minecraft:wheat') or tags (e.g. '#adorablehamsterpets:seeds'). Note that this is my own custom union tag which points to Fabric's Convention tag on 1.21 like 'c:seeds' and Forge tags on 1.20 like 'forge:seeds.'
+snackableItems = [
+    "#adorablehamsterpets:seeds",
+    "#adorablehamsterpets:crop_items"
+]
+# Items or tags that hamsters are NOT allowed to hunt down and stuff in their cheeks. Overrides the 'Stuffable Items' list.
+snackableItemsBlacklist = [  ]
+# The list of crop blocks a hamster may decide to harvest and replant. Accepts specific block IDs (e.g. 'minecraft:wheat') or tags (e.g. '#adorablehamsterpets:crops'). Note that this is my own custom union tag which points to Fabric's Convention tag on 1.21 like 'c:crops' and Forge tags on 1.20 like 'forge:crops.'
+snackableCrops = [
+    "#adorablehamsterpets:crops"
+]
+# Crop blocks or tags that hamsters are NOT allowed to harvest. Overrides the 'Delicious Crop Blocks' list.
+snackableCropsBlacklist = [  ]
+# The list of questionable substances that grant your hamster temporary superpowers. By default, it's just steamed green beans.
+buffFoods = [
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific items that convince a tamed hamster your shoulder is the best seat in the house. Also acts as a bribe to lure them into their linked bed. Defaults to cheese, because of course it does.
+lureItems = [
+    "adorablehamsterpets:cheese"
+]
+# The list of specific items that, when used on a Hamster Bed, will set 'Wander Mode Settings > Allow Sleeping in Bed' to false. For when you need your hamster to stay awake and wander around for... reasons. This can be reversed by using a lure item (cheese by default) on the bed. Sneaking before right-clicking with this item will unlink the bed entirely.
+bedAvoidanceFoods = [
+    "minecraft:rotten_flesh"
+]
+# The one-time offering required to earn a hamster's ultimate trust, unlocking their cheek inventory. Make it something special. Or don't. See if I care.
+pouchUnlockFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# Items on this list are so delicious, your hamster will never refuse them, even if you feed it to them twice. For the truly spoiled rodent.
+repeatableFoods = [
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific items a hamster will eat directly from its cheek pouch to heal itself when injured. Keep it exclusive, or let them feast on enchanted apples. Your call.
+autoHealFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# Healing amount from Hamster Food Mix. The good stuff.
+hamsterFoodMixHealing = 4.0
+# Healing from basic seeds/crops. Better than nothing… probably.
+standardFoodHealing = 2.0
+# If true, baby hamsters lose their refined palates and will eagerly gorge themselves on the same seeds repeatedly, in case you want to grow them up faster.
+disableBabyFoodRefusal = false
+# How many little hunger shanks the cheese restores. Vanilla cooked steak is 8. I know you're thinking of moving it to 20, you monster.
+cheeseNutrition = 8
+# How long the hunger effect lasts. Cooked steak is 0.8. Don't get too crazy. Or do. I'm not your conscience.
+cheeseSaturation = 0.8
+# Vanilla dried kelp is 1 (0.5 hearts).
+slicedCucumberNutrition = 1
+# Dried kelp is 0.3.
+slicedCucumberSaturation = 0.3
+cucumberNutrition = 2
+cucumberSaturation = 0.3
+greenBeansNutrition = 2
+greenBeansSaturation = 0.3
+steamedGreenBeansNutrition = 3
+steamedGreenBeansSaturation = 0.6
+hamsterFoodMixNutrition = 4
+hamsterFoodMixSaturation = 0.4
+# Steamed beans: power that fades faster than their attention span. (20 ticks = 1 second)
+greenBeanBuffDuration = 3600
+# Because someone gotta go fast.
+greenBeanBuffAmplifierSpeed = 1
+# Slightly mightier nibbles.
+greenBeanBuffAmplifierStrength = 1
+# Extra fluff padding for those daring dives.
+greenBeanBuffAmplifierAbsorption = 1
+# Heals minor paper-cuts (and fragile egos).
+greenBeanBuffAmplifierRegen = 1

@@ -1,0 +1,1787 @@
+{
+	autofocus_id: "113D6CBB71E0F586"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "48d682f06a5edb4d"
+	group: "47B8506CDC91D25A"
+	icon: {
+		id: "kubejs:huangtongbox"
+	}
+	id: "48D682F06A5EDB4D"
+	images: [
+		{
+			click_action: "none:"
+			height: 5.1d
+			id: "0E443B3B5DEC5268"
+			image: "lesiry:textures/gui/food_journal/v3/logos/rainbowcompound.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.0d
+			x: -0.5d
+			y: 30.0d
+		}
+		{
+			height: 4.5d
+			id: "7DA4F37B1FA1BB0A"
+			image: "quest_enhance:textures/ftb/chapter_accent_48d682f06a5edb4d_v1.png"
+			order: -10
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 4.5d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			height: 2.6d
+			id: "3E931D9F2ECD6DF6"
+			image: "quest_enhance:textures/ftb/unique_node_v1_brass_chorus.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.6d
+			x: -7.0d
+			y: 22.5d
+		}
+		{
+			height: 2.7d
+			id: "0CC113CDB5F313A9"
+			image: "quest_enhance:textures/ftb/unique_node_v1_brass_navigation.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 2.7d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.8d
+			id: "0F3B052F369FDA69"
+			image: "quest_enhance:textures/ftb/unique_node_v1_precision_logo.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 10.5d
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			height: 3.5d
+			id: "68A7D0E69D7E8553"
+			image: "quest_enhance:textures/ftb/unique_node_v1_brass_richsoil.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.5d
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			height: 3.3d
+			id: "224C7E9B7182420A"
+			image: "quest_enhance:textures/ftb/unique_node_v1_brass_cooling.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 3.3d
+			x: 5.0d
+			y: 26.5d
+		}
+		{
+			alpha: 100
+			click_action: "none:"
+			height: 42.5d
+			id: "53E17AF5C2968D01"
+			image: "quest_enhance:textures/ftb/brass_tower_crane_v1.png"
+			order: -100
+			position_locked: 1b
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 70.8d
+			x: 16.0d
+			y: 12.32d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "2952D0B5386776CC"
+			image: "quest_enhance:textures/ftb/expansion_v2_cataclysm_armory.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 6.0d
+			x: 32.5d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "21B361542738D25E"
+			image: "quest_enhance:textures/ftb/expansion_v2_cataclysm_armory_logo.png"
+			order: -9
+			quest_enhance_exclude_from_box_selection: 0b
+			rotation: 0.0d
+			width: 15.0d
+			x: 41.0d
+			y: 5.5d
+		}
+	]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			id: "113D6CBB71E0F586"
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "78D64CD95554D0F7"
+				item: { count: 1, id: "kubejs:huangtongbox" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["113D6CBB71E0F586"]
+			id: "2B2CB646BBC5B8B1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "525AE9E981453D30"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"78E99FD00D891C13"
+				"1FE3C357634CBB4F"
+				"45312B44DF30221F"
+			]
+			id: "2823B9B08282E524"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "103B487CDE88141D"
+				item: { count: 1, id: "mod_46a42a0b:crop_amplifier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["225178591500841F"]
+			id: "78E99FD00D891C13"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "633765507DA38EDD"
+				item: { count: 1, id: "legendary_monsters:totem_of_moss" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"225178591500841F"
+				"43D4AF3753DE9C68"
+			]
+			id: "45312B44DF30221F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "425460E4288D19F7"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B2CB646BBC5B8B1"]
+			id: "0185D0C492D39C45"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "543B128F89589D90"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["140D9744D724C93F"]
+			id: "60DD84106589E967"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6A502CCB07C63173"
+				item: { count: 1, id: "minecraft:gunpowder" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["225178591500841F"]
+			id: "1FE3C357634CBB4F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56223D26948F1D07"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B2CB646BBC5B8B1"]
+			id: "225178591500841F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "66CDB945D364673B"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B2CB646BBC5B8B1"]
+			id: "43D4AF3753DE9C68"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "62D89795E90A64D7"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CB41D5FED135E13"]
+			id: "0BA1F7BA68288BE6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "09E3F67DCC0FD0FA"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["113D6CBB71E0F586"]
+			id: "5CB41D5FED135E13"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "740CAFA258333119"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BA1F7BA68288BE6"]
+			id: "4FD1ECE5006C16D0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3D10461F3640542D"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4FD1ECE5006C16D0"]
+			id: "34A65ECFF25CFA14"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0E511A7BB6BD48DE"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FD1ECE5006C16D0"]
+			id: "03A3BF7610EF0F49"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7BAE21A51FE134FA"
+				item: { count: 1, id: "aeronautics:smart_propeller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FD1ECE5006C16D0"]
+			id: "6A9E91820FB5197D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3E690E94FDE0D89D"
+				item: { count: 1, id: "simulated:gimbal_sensor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FD1ECE5006C16D0"]
+			id: "1BB016CE8A8DCF44"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7491C5CCC2596519"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0185D0C492D39C45"]
+			id: "034A2E551971123A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7E285D868003D5D6"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["034A2E551971123A"]
+			id: "0C89EEFF460CD106"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "758B179F64689001"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "7B1ED5128677660E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "20B14153A4AA9AEA"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B1ED5128677660E"]
+			id: "4FC6725A15AF531F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "676AAC6699956C9E"
+				item: { count: 1, id: "kubejs:beet_juice_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FC6725A15AF531F"
+				"0C89EEFF460CD106"
+			]
+			id: "4D461111220DBACC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "78E163A1689FC8B6"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D461111220DBACC"]
+			id: "2CEC7B6E42F57726"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4B2928F0F6335DB2"
+				item: { count: 1, id: "kubejs:hongshibox" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0185D0C492D39C45"
+				"43D4AF3753DE9C68"
+			]
+			id: "7347EA6164AEBF36"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4C9DA3D987F77921"
+				item: { count: 1, id: "mynethersdelight:powder_cannon" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D2D2FBB0ACED2E9"]
+			id: "75B43A566CA7A3FA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1F574F5F27801A31"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["75B43A566CA7A3FA"]
+			id: "33ACA24B29DE0360"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6C476AEEE69BE869"
+				item: { count: 1, id: "supplementaries:planter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7917191E1089F0A2"
+				"1F8B0A0A0B32CEAC"
+			]
+			id: "6D2D2FBB0ACED2E9"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1334A0D9613917C8"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2823B9B08282E524"]
+			id: "7917191E1089F0A2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3B73A4F9F5730549"
+				item: { count: 1, id: "adorablehamsterpets:sunflower_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2823B9B08282E524"]
+			id: "1F8B0A0A0B32CEAC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0AEED8BC62170487"
+				item: { count: 1, id: "spawn:shell_fragments" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6D2D2FBB0ACED2E9"]
+			id: "586A6D8547C35F6A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5CDA796CE3940B7B"
+				item: { count: 1, id: "legendary_monsters:air_rune" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "5E155C1BF03B8075"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1AD2C9AF7E45A029"
+				item: { count: 1, id: "createbigcannons:gunpowder_pinch" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E155C1BF03B8075"]
+			id: "4D6CC77E18146C41"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1F411AB29088073F"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:gas_pistol_ammo" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "3A29478C1CCD91E4"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "31F7FD73120D03F7"
+				item: { count: 1, id: "kubejs:40mmshell_casing" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "146D050E6C84AA0B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0724BEFFDE4BE734"
+				item: { count: 1, id: "kubejs:piercing_shell" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "12A5708493B95FC5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "23CB6808F6FF3582"
+				item: { count: 1, id: "kubejs:shell_casing" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "70A4D84C50E4357C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6BBE6F55759421A3"
+				item: { count: 1, id: "kubejs:grenade_shell" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["146D050E6C84AA0B"]
+			id: "17305F4E7682A97D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "29F0F4AF44151FF4"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:rbapb" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A29478C1CCD91E4"]
+			id: "419D5A101CC11865"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6CF754E8DD78602D"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:40mmhe" }, "minecraft:max_stack_size": 12 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12A5708493B95FC5"]
+			id: "5B4A3FEEC91C5705"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "252153BE94ABA8DA"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:slap" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70A4D84C50E4357C"]
+			id: "12019AE6D7013AC7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "32E7EA149E14CCD6"
+				item: { components: { "minecraft:custom_data": { AmmoId: "create_armorer:gernade" }, "minecraft:max_stack_size": 32 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B2CB646BBC5B8B1"]
+			id: "37FD649794ECC397"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1B3E54810F50499F"
+				item: { count: 1, id: "legendary_monsters:anchor_handle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60DD84106589E967"]
+			id: "6F94B433D61679F7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "72F9E53FEBBF585A"
+				item: { components: { "minecraft:custom_data": { AmmoId: "tacz:12g" }, "minecraft:max_stack_size": 36 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33ACA24B29DE0360"]
+			id: "22AAF194ABD47F6B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0AE88FD65E708B46"
+				item: { count: 1, id: "primal:starfruit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["33ACA24B29DE0360"]
+			id: "7292C90B86115650"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "63919EA05AF1A948"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			id: "4B205817ABED8EC1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "05143B98199FB18D"
+				item: { count: 1, id: "legendary_monsters:corrupted_soul" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 23.5d
+		}
+		{
+			id: "7B024BD6CA246E37"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54D7F5AC5C0DF208"
+				item: { count: 1, id: "legendary_monsters:frozen_rune" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			id: "381AAE750E6D7CA5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5B027B0D08FA24FD"
+				item: { count: 1, id: "legendary_monsters:chorus_crystal" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.5d
+		}
+		{
+			id: "23B0F3A0BB70BF64"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "15DB6F5F8842E34F"
+				item: { count: 1, id: "legendary_monsters:large_shulker_shell" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["22AAF194ABD47F6B"]
+			id: "75380D15208F8739"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "49A61CA8B813F9A1"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7292C90B86115650"]
+			id: "24C82AAECF0F0203"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "033F77E68CB99B13"
+				item: { count: 1, id: "kubejs:cabbage_juice_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["75380D15208F8739"]
+			id: "411443FED4D2447A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "33C6BCC87289B6EC"
+				item: { count: 1, id: "rainbowcompound:glowstoneite_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["22AFB5E8BB7A123D"]
+			id: "10A06D78A0C84359"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "79F4BA10161B440E"
+				item: { count: 1, id: "rainbowcompound:slimeite_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["24C82AAECF0F0203"]
+			id: "22AFB5E8BB7A123D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "28B659349F1C9683"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4B205817ABED8EC1"]
+			id: "1F87EC625F4BBAB5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4E23910BB2367B2D"
+				item: { count: 1, id: "rainbowcompound:warpedite_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7B024BD6CA246E37"]
+			id: "4A0AB1187F373422"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "41BBAD129E99AA36"
+				item: { count: 1, id: "rainbowcompound:frostite_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["381AAE750E6D7CA5"]
+			id: "6768BB466261D3C6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "558E73CE0E57F723"
+				item: { count: 1, id: "rainbowcompound:chorusite_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["23B0F3A0BB70BF64"]
+			id: "076141B1D6676248"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1CEFAFFFC16CD1FF"
+				item: { count: 1, id: "rainbowcompound:obsidianite_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.5d
+		}
+		{
+			id: "514842C8B4A6A5C3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "044243BB0F23236E"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["514842C8B4A6A5C3"]
+			id: "4C34658E9BBD3BE1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "09F248F9D04B9016"
+				item: { count: 1, id: "rainbowcompound:netherwartite_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3694C5433B75BC24"]
+			id: "614DC00CC2078DEA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1564B79FB11ECA01"
+				item: { count: 1, id: "rainbowcompound:blazeite_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 25.0d
+		}
+		{
+			id: "3694C5433B75BC24"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "73AB249786C60C79"
+				item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 27.0d
+		}
+		{
+			id: "4528044E4A7BC831"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "343A44BE2BB9076F"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4528044E4A7BC831"]
+			id: "1770BEB6DC79046C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4E45747CC40B151F"
+				item: { count: 1, id: "rainbowcompound:enderite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"411443FED4D2447A"
+				"1770BEB6DC79046C"
+				"4C34658E9BBD3BE1"
+				"4A0AB1187F373422"
+				"10A06D78A0C84359"
+				"6768BB466261D3C6"
+				"1F87EC625F4BBAB5"
+				"614DC00CC2078DEA"
+				"076141B1D6676248"
+			]
+			id: "3415A21B0B0B24DD"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.5d
+			tasks: [{
+				id: "64AA7B277FB4CFB8"
+				item: { count: 1, id: "rainbowcompound:strange_colored_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"6B73E82415A226A5"
+				"5EF5D50D81D48ADA"
+			]
+			id: "7AAFEA2D58DE3C30"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "34D67A76E3C26CCC"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 2, GunFireMode: "SEMI", GunId: "create_armorer:shotgun_db_stone", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37FD649794ECC397"]
+			id: "6B73E82415A226A5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6B8830F1F6F55104"
+				item: { count: 1, id: "kubejs:gun_basic_trigger" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "5EF5D50D81D48ADA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "15EE82E878252518"
+				item: { count: 1, id: "kubejs:gun_standard_barrel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "767598D08079FF16"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4049CA8A7CE51444"
+				item: { count: 1, id: "kubejs:gun_basic_receiver" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6B73E82415A226A5"
+				"5EF5D50D81D48ADA"
+				"767598D08079FF16"
+			]
+			id: "7D8A8B127C085FC0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "10E4DABFBB7CC74A"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 30, GunFireMode: "AUTO", GunId: "create_armorer:smg_auto_crank", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0747DB6951D58570"]
+			id: "140D9744D724C93F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56B6187F261877E6"
+				item: { count: 1, id: "legendary_monsters:withered_bone" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7347EA6164AEBF36"]
+			id: "0747DB6951D58570"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6FED1FEEA2356E1D"
+				item: { count: 1, id: "kubejs:powder_juice_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B73E82415A226A5"]
+			id: "483F8CE580624C0F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "461A131728A68492"
+				item: { count: 1, id: "legendary_monsters:frozen_rune" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["483F8CE580624C0F"]
+			id: "40C9F356F1603C47"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "49C0AF1E9C7ACDE5"
+				item: { count: 1, id: "kubejs:gun_runic_cooling_manifold" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"40C9F356F1603C47"
+				"767598D08079FF16"
+				"5774984958AA0800"
+			]
+			id: "1A14614A30851D1C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "00182AF9BFDD0DEF"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 9, GunFireMode: "AUTO", GunId: "create_armorer:rifle_assult_roller", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40C9F356F1603C47"
+				"5774984958AA0800"
+				"0B5A420BDA9C5342"
+			]
+			id: "7C02FE2E2662E7DD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2A2B989DB18A5052"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 8, GunFireMode: "SEMI", GunId: "create_armorer:sniper_semi_m1", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40C9F356F1603C47"
+				"767598D08079FF16"
+				"5774984958AA0800"
+			]
+			id: "18E0B4B0B4DAF8F0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "28133055B81A9F71"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 4, GunFireMode: "SEMI", GunId: "create_armorer:shotgun_pump_bearing", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EF5D50D81D48ADA"]
+			id: "5774984958AA0800"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6E9714D749D6A0A1"
+				item: { count: 1, id: "kubejs:gun_precision_barrel" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["767598D08079FF16"]
+			id: "0B5A420BDA9C5342"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "356F79D359A481A1"
+				item: { count: 1, id: "kubejs:gun_reinforced_receiver" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40C9F356F1603C47"]
+			id: "56153CD95744EBE0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "479925A465BE7E64"
+				item: { count: 1, id: "legendary_monsters:corrupted_soul" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56153CD95744EBE0"]
+			id: "45AF0253310DA31D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "277FC36E4DECD71E"
+				item: { count: 1, id: "kubejs:gun_precision_trigger" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"45AF0253310DA31D"
+				"144FAEC3D538A312"
+				"0B5A420BDA9C5342"
+			]
+			id: "340885DFC8B3A362"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "506BDDB24D10578E"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 0, GunFireMode: "SEMI", GunId: "create_armorer:pistol_revolver_torque", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45AF0253310DA31D"
+				"144FAEC3D538A312"
+				"0B5A420BDA9C5342"
+			]
+			id: "1F7D5DD365073EA6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "19F67BE08FF47EFA"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 10, GunFireMode: "AUTO", GunId: "create_armorer:rifle_assult_crane", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45AF0253310DA31D"
+				"144FAEC3D538A312"
+				"70C5285006BE4CC1"
+			]
+			id: "5807DE05A52F4F95"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0427955627B053CE"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 8, GunFireMode: "SEMI", GunId: "create_armorer:sniper_semi_clockwork", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"45AF0253310DA31D"
+				"144FAEC3D538A312"
+				"70C5285006BE4CC1"
+			]
+			id: "61DEB0EA2BEEE9BE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0E713A9C7FAE52D0"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 50, GunFireMode: "AUTO", GunId: "create_armorer:mg_platemag_flywheel", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"722ED42041550AF3"
+				"003D3B18E2154C3A"
+			]
+			id: "144FAEC3D538A312"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7F9A0314422AF684"
+				item: { count: 1, id: "kubejs:gun_heat_resistant_precision_barrel" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5774984958AA0800"]
+			id: "722ED42041550AF3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "21B2EE8BF61325FA"
+				item: { count: 1, id: "legendary_monsters:lava_eaters_skin" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5774984958AA0800"]
+			id: "003D3B18E2154C3A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6A1F631FA858314F"
+				item: { count: 1, id: "legendary_monsters:metal_debris" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D29DDCF902C0F9E"]
+			id: "70C5285006BE4CC1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0143999920329226"
+				item: { count: 1, id: "kubejs:gun_armored_receiver" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["113D6CBB71E0F586"]
+			id: "4BC84FE24E0A0DD7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "40B4751018E028E4"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC84FE24E0A0DD7"]
+			id: "5ACEAB1894332C4F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3EA69203145A04F3"
+				item: { count: 1, id: "createaddition:copper_wire" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BC84FE24E0A0DD7"]
+			id: "5C82A0D2F82CA498"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7EA6C7BC2A1ADC73"
+				item: { count: 1, id: "createaddition:iron_wire" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BC84FE24E0A0DD7"]
+			id: "4E6DA92E5041534D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6C9C4F705C58ADC7"
+				item: { count: 1, id: "createaddition:gold_wire" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BC84FE24E0A0DD7"]
+			id: "6151CD4F3D84ECDC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7251C7065F8D3F5B"
+				item: { count: 1, id: "createaddition:electrum_wire" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45AF0253310DA31D"]
+			id: "270D213A5EEFA9F0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "78DC97147B4C7C3C"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"70C5285006BE4CC1"
+				"0F7AA4B0C2F536A6"
+				"026E63EF6CC85066"
+			]
+			id: "60A1668AFEB2E648"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2B10886A0B2C9B32"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 8, GunFireMode: "SEMI", GunId: "create_armorer:gl_revolver_devastator", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70C5285006BE4CC1"
+				"0F7AA4B0C2F536A6"
+				"026E63EF6CC85066"
+			]
+			id: "3B012688E50DAA79"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0CBC982B72C287D1"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 1, GunFireMode: "SEMI", GunId: "create_armorer:cannon_40mm_salamander", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D75906EAB919C8"]
+			id: "100FB548AD90E7EF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "053854479926B3B2"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 6, GunFireMode: "SEMI", GunId: "cataclysm_guns:arson", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "5A796D1C2CC4A411"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "369D584329D8938F"
+				item: { count: 1, id: "cataclysm:monstrous_horn" }
+				type: "item"
+			}]
+			x: 43.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "0A1782E3274FE358"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4E77BF4C54CC0417"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "2A65EB4DEABACE31"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				icon: {
+					id: "cataclysm:sandstorm_in_a_bottle"
+				}
+				id: "5F913569631DBADD"
+				item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "3EF8DF358A11DFA6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "55FBD9AA0D025EC6"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "0AAC7D1CDDB2AA87"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "690DF00E4BC9D85E"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "4003823BC90FB33E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2151CD0AD8D7F114"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: 49.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "4EE53D5A7489DF01"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B040EBCE9B47BB2"
+				item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["270D213A5EEFA9F0"]
+			id: "0F7AA4B0C2F536A6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0DB69DBBCA4495F4"
+				item: { count: 1, id: "kubejs:gun_ignitium_trigger" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B5A420BDA9C5342"]
+			icon: {
+				id: "createbigcannons:nethersteel_ingot"
+			}
+			id: "4D29DDCF902C0F9E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0212EA407A519274"
+				item: { count: 1, id: "createbigcannons:nethersteel_ingot" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A1782E3274FE358"]
+			id: "77BA17E7B1AE67F3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3AB16EF60073D32D"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 30, GunFireMode: "AUTO", GunId: "cataclysm_guns:sawblade_launcher", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B52F0DD6BF31C9A"]
+			id: "026E63EF6CC85066"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4068F5B87CF45BA8"
+				item: { count: 1, id: "kubejs:gun_heavy_barrel" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["144FAEC3D538A312"]
+			id: "4B52F0DD6BF31C9A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6350B590E9EEF1AC"
+				item: { count: 1, id: "createbigcannons:nethersteel_block" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AAC7D1CDDB2AA87"]
+			id: "0E6ACB3FEF24ABE0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "03E8146A2346C740"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 50, GunFireMode: "BURST", GunId: "cataclysm_guns:ghost", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A65EB4DEABACE31"]
+			id: "53D9D19448A7ADA2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "77A0D44599F219FB"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 4, GunFireMode: "SEMI", GunId: "cataclysm_guns:remnant", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A796D1C2CC4A411"]
+			id: "1E8B480BEF1DE2CC"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75888E651D5B486C"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 5, GunFireMode: "SEMI", GunId: "cataclysm_guns:rocket", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 43.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EF8DF358A11DFA6"]
+			id: "7B6D6EF3CFF78855"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "363B637AF88E3D85"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 16, GunFireMode: "AUTO", GunId: "cataclysm_guns:void", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4003823BC90FB33E"]
+			id: "076A3936030F7D93"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "324C2373727D0C84"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 45, GunFireMode: "AUTO", GunId: "cataclysm_guns:abyss", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 49.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4EE53D5A7489DF01"]
+			id: "429768723DD4D39B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "04A6B3465A58543C"
+				item: { components: { "minecraft:custom_data": { GunCurrentAmmoCount: 1, GunFireMode: "AUTO", GunId: "cataclysm_guns:storm", HasBulletInBarrel: 1b } }, count: 1, id: "tacz:modern_kinetic_gun" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["270D213A5EEFA9F0"]
+			id: "79A8D1E4289B8637"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "569501265F06EE33"
+				item: { count: 1, id: "cataclysm:blazing_grips" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1D45B35BEE0BC402"
+				"58ECA9212AF02542"
+				"0CFBD38786D0B39D"
+			]
+			id: "05D75906EAB919C8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "12FF1A3DA361C70C"
+				item: { count: 1, id: "kubejs:gun_ignitium_trigger" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "1D45B35BEE0BC402"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "21816D0584A9BD05"
+				item: { count: 1, id: "kubejs:gun_ignitium_trigger" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0CFBD38786D0B39D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "566563AFE779E8C4"
+				item: { count: 1, id: "kubejs:gun_armored_receiver" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "58ECA9212AF02542"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "37BD2F3B544FDDFC"
+				item: { count: 1, id: "kubejs:gun_heavy_barrel" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["100FB548AD90E7EF"]
+			id: "6926F7CFF9A482FF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1A3EC376940C2149"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:arson_bullet" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77BA17E7B1AE67F3"]
+			id: "637C1BB9E45981F3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3EC8F96CA35A1C55"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:sawblade_bullet" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E6ACB3FEF24ABE0"]
+			id: "7FF8F81A9E14CADA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "37FA260699463D12"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:ghost_bullet" }, "minecraft:max_stack_size": 5 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53D9D19448A7ADA2"]
+			id: "5CA987967E78A944"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7A775410BDE55591"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:remnant_bullet" }, "minecraft:max_stack_size": 30 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E8B480BEF1DE2CC"]
+			id: "73E67B237950C47A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "098EA7325FC95588"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:rocket_bullet" }, "minecraft:max_stack_size": 30 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 43.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B6D6EF3CFF78855"]
+			id: "1F9758FD6BE22933"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "56DB16D82037E8CD"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:void_bullet" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["076A3936030F7D93"]
+			id: "6D06CAAB6FB3337E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4CEE941CD714FE6F"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:abyss_bullet" }, "minecraft:max_stack_size": 60 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 49.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["429768723DD4D39B"]
+			id: "6505254D336320D2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6B4FED13D7764A5C"
+				item: { components: { "minecraft:custom_data": { AmmoId: "cataclysm_guns:storm_bullet" }, "minecraft:max_stack_size": 30 }, count: 1, id: "tacz:ammo" }
+				type: "item"
+			}]
+			x: 52.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3415A21B0B0B24DD"]
+			id: "72650E15D0095130"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.5d
+			tasks: [{
+				id: "785C78CEDECA1D7E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+	]
+}

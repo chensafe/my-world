@@ -1,0 +1,16 @@
+{
+  "enabled": false,
+  "webEnabled": false,
+  "webBind": "0.0.0.0",
+  "webPort": 25580,
+  "apiBind": "0.0.0.0",
+  "apiPort": 25581,
+  "token": "",
+  "recycleMaxFiles": 500,
+  "serverName": "",
+  "protectBlocks": 20,
+  "protectBlockTypes": 4,
+  "protectBlockEntities": 3,
+  "voidBelowY": -64,
+  "skyAboveY": 1000
+}

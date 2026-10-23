@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4bb958ab5f98025e"
+	group: "5EC52CF4B56035D7"
+	icon: {
+		id: "create_hand_made:pointer"
+	}
+	id: "4BB958AB5F98025E"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "4461FC9D010AC785"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6503EF34B47BC07F"
+				item: { count: 1, id: "create_hand_made:press_hammer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "564DC21B5941A270"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "07CA8C82FE623771"
+				item: { count: 1, id: "create_hand_made:mortar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "56EF8244F7995BFE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "790089379A487366"
+				item: { count: 1, id: "create_hand_made:crusher_mortar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "2A967FE5A09761B5"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3B99A498B81A19F8"
+				item: { count: 1, id: "create_hand_made:pointer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "445091E7C0445559"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "230155E48441CC37"
+				item: { count: 1, id: "create_hand_made:stirring_staff" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "6FEA396F706D2885"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "55B2467CD37568A0"
+				item: { count: 1, id: "create_hand_made:infusion_gun" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "065C388FAE5CD493"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4579BCF2005F7686"
+				item: { count: 1, id: "create_hand_made:bellows" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1553FCFD240A4F64"]
+			id: "658E2D758208D710"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "37005A2A284DA4C1"
+				item: { count: 1, id: "create_hand_made:hand_saw" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1553FCFD240A4F64"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0466AFFBB4FA5643"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

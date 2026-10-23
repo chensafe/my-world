@@ -1,0 +1,278 @@
+{
+	chapter.2034E516CC1B37E4.title: "乐趣拼豆"
+	chapter.242BE6E5308A5942.title: "方块电玩"
+	chapter.67F180F6AA32CF84.title: "同行！车万女仆！"
+	chapter.6C228E82951234D5.title: "种子商店"
+	chapter_group.55D826581438AB52.title: "娱乐项目"
+	quest.00807A26CDAF94BB.title: "暗色甜椒种子"
+	quest.00948EFA2E746626.quest_desc: ["抵御药水伤害"]
+	quest.00948EFA2E746626.title: "药水保护饰品"
+	quest.00C29C860CFEDA81.title: "甜椒种子"
+	quest.02686EA80A362EA7.title: "红葡萄种子"
+	quest.0464DD20438E9921.quest_desc: ["提交16颗绿宝石，兑换FC、复古彩电、视频线、老式卡带电脑和空白FC卡带各1个。"]
+	quest.0464DD20438E9921.title: "电玩入门套件"
+	quest.04D2AB91768F066C.title: "番茄种子"
+	quest.063DCBBE188E94E8.quest_desc: [
+		"女仆死亡后会留下记录她的胶片"
+		"保管好胶片 按JEI里的祭坛配方可以复活原来的女仆"
+		"了解复活方法后勾选 不需要为了任务让她死亡"
+	]
+	quest.063DCBBE188E94E8.title: "万一她倒下了"
+	quest.078634965B04C69D.quest_desc: ["手持完整FC卡带右键老式卡带电脑，选择已有游戏库里的游戏并保存。"]
+	quest.078634965B04C69D.title: "给卡带写个游戏！"
+	quest.078D740D7242562A.quest_desc: [
+		"把可以食用的食物放进女仆主手或副手"
+		"女仆可以在工作或受伤时进食"
+	]
+	quest.078D740D7242562A.title: "别让她饿着肚子工作"
+	quest.07F9662283C7A5A8.quest_desc: ["女仆厨房的饰品 可以防止烹饪时被烫伤"]
+	quest.07F9662283C7A5A8.title: "燃着保护饰品"
+	quest.0814EB728B77E48C.quest_desc: [
+		"女仆厨房添加了使用模组厨具的烹饪工作"
+		"准备好厨具和热源 在女仆背包放入食材 选择对应的烹饪任务"
+		"确认她完成一道料理后勾选"
+	]
+	quest.0814EB728B77E48C.title: "今天请你来做饭"
+	quest.094DF0AD4E9584B1.title: "拼豆板（16×16）"
+	quest.0DD842F610E3C7EC.title: "大背包"
+	quest.0E43F7EAD90C709E.quest_desc: ["拼豆盒最多存放24种颜色。"]
+	quest.0E43F7EAD90C709E.title: "拼豆盒"
+	quest.1015CA2DB4C84042.quest_desc: ["抵御火焰伤害"]
+	quest.1015CA2DB4C84042.title: "火焰保护饰品"
+	quest.108C4E9A6D7BD50E.title: "丛林白葡萄种子"
+	quest.109B24E104B9CDC8.title: "青豆种子"
+	quest.115CD342CDD4AA4A.title: "荔枝种子"
+	quest.1292D0DE2FE73AA3.title: "向日葵种子"
+	quest.14C2F013ACBB153F.quest_desc: ["可以抵消六次女仆的死亡 次数用完需要补充"]
+	quest.14C2F013ACBB153F.title: "绀珠之药"
+	quest.16C94F5543E186AE.title: "葵花籽"
+	quest.18CE32831B5A7A30.quest_desc: [
+		"装入食物并右击地面 放成野餐垫"
+		"空闲日程下女仆会来进食"
+	]
+	quest.18CE32831B5A7A30.title: "野餐篮"
+	quest.1A584E4767D86111.title: "工作台背包"
+	quest.1B85D9B45CD912D1.title: "黄瓜种子"
+	quest.1B9450D458AE97C8.quest_desc: [
+		"这些是女仆使用的饰品 要放在女仆界面的饰品栏里"
+		"部分栏位需要提高好感度后才会解锁 按界面提示查看"
+		"获取任务不消耗饰品 可以按需要选择制作"
+	]
+	quest.1B9450D458AE97C8.title: "给她准备一些饰品"
+	quest.1C8CCF0CAEDD21E9.quest_desc: [
+		"选择甘蔗工作模式 在她的工作范围里准备甘蔗种植区"
+		"确认她能够完成种植或收获后勾选"
+	]
+	quest.1C8CCF0CAEDD21E9.title: "甘蔗也能帮忙收"
+	quest.1CC64E8ABB8E2A18.quest_desc: ["让女仆保持安静"]
+	quest.1CC64E8ABB8E2A18.title: "禁言饰品"
+	quest.1D792B3A6B0421C4.quest_desc: ["默认方向键或WASD控制；X/K是A，Z/J是B，Enter开始。按键可在控制设置的方块电玩分类里修改。"]
+	quest.1D792B3A6B0421C4.title: "先玩一局！"
+	quest.1DDBD19C214879CF.quest_desc: ["扩大女仆拾取物品 箭 经验球和P点的范围"]
+	quest.1DDBD19C214879CF.title: "物品磁铁"
+	quest.1E023FECEDA6CB3F.quest_desc: ["两块32×32拼豆板可以合成。"]
+	quest.1E023FECEDA6CB3F.title: "拼豆板（64×64）"
+	quest.1FD14D42938EC7C3.title: "芦笋种子"
+	quest.1FED71CEB5F9C377.quest_desc: [
+		"选择农场模式 备好作物和种植需要的工具"
+		"让女仆完成一次种植或收获"
+	]
+	quest.1FED71CEB5F9C377.title: "这片田交给你了"
+	quest.20945EE4AF50485D.quest_desc: ["镊子拖放单颗拼豆，豆针笔按住放置；右键擦除，滚轮缩放，中键拖动画布。工具都在界面里。"]
+	quest.20945EE4AF50485D.title: "先拼个小图案吧！"
+	quest.221919362ACB1573.quest_desc: [
+		"选择火把工作模式 并在女仆背包里备好火把"
+		"看到她在暗处放置火把后勾选"
+	]
+	quest.221919362ACB1573.title: "把附近照亮一点"
+	quest.225F5B65AF4DE1DD.title: "脑心菜种子"
+	quest.226479263979F74E.quest_desc: ["纸和蜜脾可以合成助烫油纸。"]
+	quest.226479263979F74E.title: "熨斗与油纸"
+	quest.227EE85FA7D13861.title: "别把她落在路上"
+	quest.22D58C5EA424F908.title: "黄瓜种子"
+	quest.22D6F0A9EEA6C7D2.quest_desc: [
+		"在希望她工作的地方开启Home模式 她会记录这里的位置"
+		"Home模式下会在设定范围内活动 出发前记得按需要切回跟随"
+	]
+	quest.22D6F0A9EEA6C7D2.title: "给她划出工作范围"
+	quest.243EDC20DC1A4FD0.quest_desc: ["右键打开，选择作品并设置替换文字，再保存启用。聊天中输入[对应文字]就能显示图案。"]
+	quest.243EDC20DC1A4FD0.title: "拼豆喇叭"
+	quest.25F018407C5F673E.quest_desc: ["放下FC和复古彩电，手持视频线依次右键两者，距离不超过8格。"]
+	quest.25F018407C5F673E.title: "接好主机和电视！"
+	quest.26B25B3D4E863BC1.title: "茄子种子"
+	quest.270779B72219F8F5.quest_desc: [
+		"女仆会在空闲日程里使用附近的娱乐家具"
+		"把它们放在她能走到的位置"
+	]
+	quest.270779B72219F8F5.title: "飞艇上也要有休息区"
+	quest.28CA2C379C1D48FE.title: "热带草原白葡萄种子"
+	quest.2988B00DC9342592.quest_desc: ["抵御摔落伤害"]
+	quest.2988B00DC9342592.title: "摔落保护饰品"
+	quest.2ADD7C4ED8C20359.quest_desc: ["抵御弹射物伤害"]
+	quest.2ADD7C4ED8C20359.title: "弹射物保护饰品"
+	quest.2C3C883491165558.quest_desc: ["神龛也有女仆复活功能 使用前查看对应配方和模组手册"]
+	quest.2C3C883491165558.title: "神龛"
+	quest.2D00CDF7F95798E2.title: "淡色甜椒种子"
+	quest.303A16661BA0D36A.title: "咖啡豆"
+	quest.33D4CBBBBC4730F6.title: "杨桃种子"
+	quest.367AD72BE418210C.title: "火把花种子"
+	quest.3737845AEDDCA488.title: "玉米粒"
+	quest.38264A6E923BEBC4.quest_desc: [
+		"手持仆人铃右击自己的女仆进行绑定"
+		"它可以召回对应女仆 也能提示未加载区块里的女仆位置"
+	]
+	quest.38264A6E923BEBC4.title: "仆人铃"
+	quest.385AFDD2F14D74A5.quest_desc: [
+		"手持背包右击女仆装备 用剪刀右击可以移除"
+		"背包等级越高 能携带的物品越多"
+	]
+	quest.385AFDD2F14D74A5.title: "小背包"
+	quest.38DA55689D4D0230.title: "电脑"
+	quest.3975EC7DD806729B.quest_desc: ["选择繁殖动物模式 并在女仆背包里放入对应的繁殖食物"]
+	quest.3975EC7DD806729B.title: "帮我照顾这些动物"
+	quest.3C7AA564835D4A06.title: "棉花种子"
+	quest.3CC17AE5CBF74796.title: "刺角瓜种子"
+	quest.3D4A3E360F3B42B6.title: "白葡萄种子"
+	quest.3DA56EC50A33C717.title: "黄瓜种子"
+	quest.3F239CB4B7F71CB5.title: "亚麻种子"
+	quest.4008875B0677A33D.quest_desc: [
+		"在女仆界面选择工作模式 工作时需要相应的工具或材料"
+		"用Home模式安排固定的工作区域"
+	]
+	quest.4008875B0677A33D.title: "给她安排工作！"
+	quest.42AD3CF441EE3126.quest_desc: [
+		"手持包含女仆的照片 对着方块右击释放"
+		"完成一次释放后勾选"
+	]
+	quest.42AD3CF441EE3126.title: "到地方再放她出来"
+	quest.42EA3BF1C2B58610.quest_desc: ["把床放在她能到达的位置 睡觉日程里她会寻找床"]
+	quest.42EA3BF1C2B58610.title: "女仆床"
+	quest.448639B607B9373F.title: "一起吃一顿饭"
+	quest.44FDD335CD534989.quest_desc: ["绘制后拿普通纸右键桌子保存图案。记录纸右键同尺寸桌子显示参考图，Shift＋右键收回。"]
+	quest.44FDD335CD534989.title: "拼豆记录纸"
+	quest.4503F25D6791C87D.quest_desc: ["提交24颗绿宝石，兑换单人街机1台和银色游戏币8枚。"]
+	quest.4503F25D6791C87D.title: "搬台街机！"
+	quest.471327D09CE252D0.title: "南瓜种子"
+	quest.49D2B7159916B9B6.quest_desc: [
+		"用相机对着自己的女仆拍摄 可以把她收进照片"
+		"适合远距离或跨维度携带"
+	]
+	quest.49D2B7159916B9B6.title: "文文的相机"
+	quest.4A5E176AF9A266F3.title: "电子琴"
+	quest.4A7995AC918348D7.quest_desc: [
+		"选择牛奶工作模式 在女仆背包里放入铁桶"
+		"让她能接近牛并完成一次挤奶后勾选"
+	]
+	quest.4A7995AC918348D7.title: "今天的牛奶有了"
+	quest.4ABA69C8D148A6D3.quest_desc: ["两块16×16拼豆板可以合成。"]
+	quest.4ABA69C8D148A6D3.title: "拼豆板（32×32）"
+	quest.4C1F8815A796F2D1.title: "丛林红葡萄种子"
+	quest.4C3258AB9553C822.quest_desc: ["街机配置好游戏后，右键加入；需要投币的机台，手持银色游戏币右键正面投币口，每次一枚。"]
+	quest.4C3258AB9553C822.title: "投币开玩！"
+	quest.4CE83291C79256FD.title: "把旅伴装进照片"
+	quest.4D05A1F1A59E8868.quest_desc: [
+		"女仆摇曲柄附属添加了对应的工作模式"
+		"把曲柄放在她能操作的工作范围内 选好模式 确认转动后勾选"
+	]
+	quest.4D05A1F1A59E8868.title: "摇曲柄也能请她帮忙"
+	quest.4D07CD21C2240B28.title: "瓶子草荚果"
+	quest.4DC312D08539E102.quest_desc: ["退出时选择保存并退出；下次选相同存档继续。"]
+	quest.4DC312D08539E102.title: "保存后再走！"
+	quest.4F834081CE6E159F.quest_desc: ["潜行右击箱子绑定 右击空气设置存取方向与过滤 放入饰品栏后生效"]
+	quest.4F834081CE6E159F.title: "隙间"
+	quest.5065808DA1ADA720.quest_desc: [
+		"右击打开界面选择绑定类型 潜行右击箱子绑定 再次操作可以取消"
+		"放入女仆背包第一行第五格 可以连接食材和成品箱"
+	]
+	quest.5065808DA1ADA720.title: "烹饪中枢"
+	quest.5128A4692D2B0DD3.title: "脑心菜种子"
+	quest.52EA07F02607BC3E.quest_desc: ["提交8颗绿宝石，兑换光枪、光枪支架和支架数据线各1个。"]
+	quest.52EA07F02607BC3E.title: "光枪套件"
+	quest.5389FFD17BE749B9.quest_desc: [
+		"默认状态下女仆会跟随主人"
+		"潜行并空手右击女仆 可以切换待命状态"
+	]
+	quest.5389FFD17BE749B9.title: "跟紧我 或者在这里等我"
+	quest.545E2CB52F5D0F86.quest_desc: [
+		"在女仆主界面调整拾物模式"
+		"女仆可以拾取物品 箭 经验球和P点 确认她开始拾取后勾选"
+	]
+	quest.545E2CB52F5D0F86.title: "这些掉落物也拜托你了"
+	quest.54C6C576E4A0FCA1.title: "稻米"
+	quest.584899B9A0DBB0A0.quest_desc: ["通过传送躲避来袭的弹射物"]
+	quest.584899B9A0DBB0A0.title: "闪避布"
+	quest.58636E1A800C8225.quest_desc: [
+		"让女仆主手拿着钓鱼竿 选择钓鱼模式"
+		"在水边放好她能使用的椅子"
+	]
+	quest.58636E1A800C8225.title: "坐下来钓会儿鱼"
+	quest.58984653F764767F.quest_desc: ["两块64×64拼豆板可以合成。更大的画布也会增加渲染开销。"]
+	quest.58984653F764767F.title: "拼豆板（128×128）"
+	quest.5C09804569D3A0D4.title: "辣椒种子"
+	quest.5C89F4B12B71AFEC.quest_desc: [
+		"吃饭 睡觉和娱乐可以提高好感度"
+		"好感度还会增加女仆的生命值和攻击力"
+	]
+	quest.5C89F4B12B71AFEC.title: "照顾好你的旅伴"
+	quest.5C8F4ADA632373B3.title: "甜菜种子"
+	quest.5EE74B47C4AADCBB.quest_desc: ["抵御爆炸伤害"]
+	quest.5EE74B47C4AADCBB.title: "爆炸保护饰品"
+	quest.5FBFFA20264912E1.quest_desc: ["选择游戏工作模式后 女仆会寻找附近的棋盘"]
+	quest.5FBFFA20264912E1.title: "五子棋"
+	quest.608EBE41AB197D6F.title: "末影箱背包"
+	quest.60F4EAF7E458D54D.quest_desc: [
+		"在烹饪任务设置里切换白名单 并选好要制作的食物"
+		"黑名单则会排除选中的配方 按需要选择"
+	]
+	quest.60F4EAF7E458D54D.title: "只做今天需要的菜"
+	quest.63EC449EE8039B09.quest_desc: ["抵御溺水伤害"]
+	quest.63EC449EE8039B09.title: "溺水保护饰品"
+	quest.64BE6BCC6AAF1F5D.title: "杨桃种子"
+	quest.65BF97D1F019F393.title: "椰枣种子"
+	quest.685A4FE6BA47B87E.quest_desc: ["手持助烫油纸右键铺好，关闭界面，再拿熨斗对着桌面长按右键3秒。"]
+	quest.685A4FE6BA47B87E.title: "我的第一幅拼豆！"
+	quest.6889ACB231355C7B.title: "中背包"
+	quest.68C3BB48F1410C0C.quest_desc: [
+		"在主手放入武器 选择攻击模式 并给她配好护甲"
+		"让她击败一只怪物"
+	]
+	quest.68C3BB48F1410C0C.title: "一起对付路上的怪物"
+	quest.68E6699F905B49FA.title: "卷心菜种子"
+	quest.6909796BA17ED4CB.quest_desc: ["先右键装入拼豆板，再装拼豆盒；手持拼豆袋右键补充颜色。空手右键打开绘制界面。"]
+	quest.6909796BA17ED4CB.title: "装好拼豆桌！"
+	quest.6B23147FA33A35BD.quest_desc: [
+		"给女仆主手装备枪械 背包里放入匹配的弹药"
+		"选择枪械工作模式 确认她能够开火后勾选"
+	]
+	quest.6B23147FA33A35BD.title: "她也可以使用枪械！"
+	quest.6C6DBBA9ED181F83.title: "西瓜种子"
+	quest.6D1C62AAF01C8A9D.quest_desc: ["放下拼豆桌，后面的拼豆操作都在这里进行。"]
+	quest.6D1C62AAF01C8A9D.title: "拼豆桌"
+	quest.6F227FA8DB59F451.title: "今天先休息吧"
+	quest.706BCDACFB5BB2BB.title: "零食柜"
+	quest.70809F3298414C3A.quest_desc: ["在锻造台依次放入铁链、拴绳或线，装备和拼豆作品；调整位置与角度后取出结果。"]
+	quest.70809F3298414C3A.title: "挂在装备上！"
+	quest.70F5B06530303127.quest_desc: ["关机后把光枪放进支架，用数据线先点支架，再点16格内FC。选择支持光枪的游戏，开机取枪，用左键射击电视画面。"]
+	quest.70F5B06530303127.title: "瞄准屏幕！"
+	quest.724311BA2BCE8B13.title: "熔炉背包"
+	quest.742F4E42C82AF272.title: "针叶林红葡萄种子"
+	quest.7658D347C3D3F903.quest_desc: ["使用支持双人的游戏和双人存档，另一位玩家领取P2手柄并申请加入。"]
+	quest.7658D347C3D3F903.title: "P2也来！"
+	quest.781AB38C21455C65.quest_desc: ["探索战利品箱可以找到拼豆袋；也可以用拼豆桌让村民成为拼豆师，交易购买。"]
+	quest.781AB38C21455C65.title: "拼豆袋"
+	quest.7827EB3AC9887179.title: "小麦种子"
+	quest.799AC3E5DFFE6BE0.quest_desc: ["空手Shift＋右键主机取卡，更换另一张写有游戏的卡带，再开机。"]
+	quest.799AC3E5DFFE6BE0.title: "换张卡带！"
+	quest.7D0D2AB5D67BFFF2.quest_desc: ["空拼豆袋加钻石可以合成。与任意拼豆袋一起合成可复制原色号与数量，每次损耗1点耐久。"]
+	quest.7D0D2AB5D67BFFF2.title: "非寻常袋"
+	quest.7D0EB14B806B79E6.title: "针叶林白葡萄种子"
+	quest.7D999D6FF04D9480.title: "西瓜种子"
+	quest.7DC4784C109DDB84.title: "书架"
+	quest.7DD38800B92EFAE3.quest_desc: ["卡带右键插入FC，先开启电视，再按主机电源。选择存档后，右键主机上的手柄领取控制。"]
+	quest.7DD38800B92EFAE3.title: "开机！"
+	quest.7E161CFB680E74F2.title: "热带草原红葡萄种子"
+	quest.7E619BC33F4DE14A.title: "储罐背包"
+	quest.7FB79BBFE739B97D.quest_desc: ["不死图腾也可以作为女仆饰品 抵消一次死亡"]
+	quest.7FB79BBFE739B97D.title: "不死图腾"
+	reward_table.FFFFFFFFFFFFFFFF.title: "Internal"
+}

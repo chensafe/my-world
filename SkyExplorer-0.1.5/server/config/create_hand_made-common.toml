@@ -1,0 +1,4 @@
+#Allow the Hand Saw to fell the entire tree when breaking a log.
+#When false, breaking a log breaks only that single block (vanilla behaviour).
+#This only affects the chain-felling; cutting recipes and stripping are unaffected.
+enable_tree_felling = true

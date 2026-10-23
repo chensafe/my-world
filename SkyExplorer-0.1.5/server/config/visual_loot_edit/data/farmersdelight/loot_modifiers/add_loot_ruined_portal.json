@@ -1,0 +1,27 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ruined_portal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:variants/695bd7871ac87e23"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/7e4803d1c69a3412"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "lesiry_exploration:rich_v2/structures/c5b1cf3a117a9ecf"
+        }
+      ]
+    }
+  ],
+  "table": "farmersdelight:chests/fd_ruined_portal"
+}
