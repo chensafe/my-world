@@ -1,4 +1,0 @@
-#Automatically reload datapacks after saving loot table edits.
-autoReload = true
-#Create a backup of the previous loot table before overwriting.
-enableBackup = true

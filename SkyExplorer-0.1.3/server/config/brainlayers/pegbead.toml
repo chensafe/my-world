@@ -1,4 +1,0 @@
-#Extra item IDs allowed as smithing bases for bead artwork. Existing tool/armor/backpack support remains enabled.
-#Example: ["minecraft:apple", "othermod:custom_item"]. Unknown but valid IDs are ignored until that mod is installed.
-#Server-authoritative. Re-enter the world / restart the server after changes.
-additional_decoratable_items = ["tacz:modern_kinetic_gun"]

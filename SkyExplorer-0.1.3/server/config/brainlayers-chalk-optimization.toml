@@ -1,3 +1,0 @@
-#EVENT: event-driven checks of ready chunks; DISABLED: prevent new chalk drawings and all automatic chalk checks. Existing saved drawings are retained.
-#Allowed Values: EVENT, DISABLED
-mode = "EVENT"
