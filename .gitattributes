@@ -1,0 +1,2 @@
+# Preserve the packaged 0.1.5 tree byte-for-byte.
+SkyExplorer-0.1.5/** -text
