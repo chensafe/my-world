@@ -14,3 +14,7 @@
 - 记录整合包的原始状态，便于回溯
 - 对配置、模组和脚本进行修改与调优
 - 通过版本提交跟踪每次改进
+
+## 原整合包视频
+
+原整合包介绍视频（Bilibili）：[BV1Rspg6LEtW](https://www.bilibili.com/video/BV1Rspg6LEtW/)
