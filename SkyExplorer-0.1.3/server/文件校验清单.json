@@ -15065,6 +15065,26 @@
     "sha256": "fe246d086dcb87c7d2163fbbff09fd7e164f206238e52700fe0b3e34fb343432"
   },
   {
+    "path": "mods/[合成树] ae2ct-1.21.1-1.1.1.jar",
+    "size": 437906,
+    "sha256": "70a704742cf8bc13778a201a2338d0f4108dc0700bca47ed265aba02180f6777"
+  },
+  {
+    "path": "mods/[应用能源2] appliedenergistics2-19.2.18.jar",
+    "size": 8236552,
+    "sha256": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39"
+  },
+  {
+    "path": "mods/[是，史蒂夫模型] ysm-2.6.5-neoforge+mc1.21.1-release.jar",
+    "size": 63463229,
+    "sha256": "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb"
+  },
+  {
+    "path": "mods/guideme-21.1.19.jar",
+    "size": 9311992,
+    "sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a"
+  },
+  {
     "path": "piq-fc/roms/desktop.ini",
     "size": 176,
     "sha256": "e418b2506228010960d0b585a823b7bd7e60e447fa6c9782834d4a1de08853f5"
